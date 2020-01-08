@@ -1,0 +1,139 @@
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 10, ptr = 0
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 19, ptr = 23bd08
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 1b, ptr = 8
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 1a, ptr = 23bd10
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 1c, ptr = 38
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 6ffffef5, ptr = 2b0
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 5, ptr = 358
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 6, ptr = 2e0
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = a, ptr = 28
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = b, ptr = 18
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 15, ptr = 0
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 7, ptr = 3c8
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 8, ptr = 2988
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 9, ptr = 18
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 6ffffffc, ptr = 390
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 6ffffffd, ptr = 2
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 6ffffff0, ptr = 380
+[parse_dyn /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:151] dynamic tag = 6ffffff9, ptr = 1bb
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [1] .interp: sh_addr = 270, sh_size = 1c, sh_offset = 270, sh_name = 1b
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [2] .note.gnu.build-id: sh_addr = 28c, sh_size = 24, sh_offset = 28c, sh_name = 23
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [3] .gnu.hash: sh_addr = 2b0, sh_size = 30, sh_offset = 2b0, sh_name = 36
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [4] .dynsym: sh_addr = 2e0, sh_size = 78, sh_offset = 2e0, sh_name = 40
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [1] .interp: sh_addr = 270, sh_size = 1c, sh_offset = 270, sh_name = 1b
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [2] .note.gnu.build-id: sh_addr = 28c, sh_size = 24, sh_offset = 28c, sh_name = 23
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [3] .gnu.hash: sh_addr = 2b0, sh_size = 30, sh_offset = 2b0, sh_name = 36
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [4] .dynsym: sh_addr = 2e0, sh_size = 78, sh_offset = 2e0, sh_name = 40
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [5] .dynstr: sh_addr = 358, sh_size = 28, sh_offset = 358, sh_name = 48
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [1] .interp: sh_addr = 270, sh_size = 1c, sh_offset = 270, sh_name = 1b
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [2] .note.gnu.build-id: sh_addr = 28c, sh_size = 24, sh_offset = 28c, sh_name = 23
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [3] .gnu.hash: sh_addr = 2b0, sh_size = 30, sh_offset = 2b0, sh_name = 36
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [4] .dynsym: sh_addr = 2e0, sh_size = 78, sh_offset = 2e0, sh_name = 40
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [5] .dynstr: sh_addr = 358, sh_size = 28, sh_offset = 358, sh_name = 48
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [6] .gnu.version: sh_addr = 380, sh_size = a, sh_offset = 380, sh_name = 50
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [7] .gnu.version_d: sh_addr = 390, sh_size = 38, sh_offset = 390, sh_name = 5d
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [8] .rela.dyn: sh_addr = 3c8, sh_size = 2988, sh_offset = 3c8, sh_name = 6c
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [1] .interp: sh_addr = 270, sh_size = 1c, sh_offset = 270, sh_name = 1b
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [2] .note.gnu.build-id: sh_addr = 28c, sh_size = 24, sh_offset = 28c, sh_name = 23
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [3] .gnu.hash: sh_addr = 2b0, sh_size = 30, sh_offset = 2b0, sh_name = 36
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [4] .dynsym: sh_addr = 2e0, sh_size = 78, sh_offset = 2e0, sh_name = 40
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [5] .dynstr: sh_addr = 358, sh_size = 28, sh_offset = 358, sh_name = 48
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [6] .gnu.version: sh_addr = 380, sh_size = a, sh_offset = 380, sh_name = 50
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [7] .gnu.version_d: sh_addr = 390, sh_size = 38, sh_offset = 390, sh_name = 5d
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [8] .rela.dyn: sh_addr = 3c8, sh_size = 2988, sh_offset = 3c8, sh_name = 6c
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [9] .text: sh_addr = 2d50, sh_size = 2e5dc, sh_offset = 2d50, sh_name = 76
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [10] .rodata: sh_addr = 32000, sh_size = 282a, sh_offset = 32000, sh_name = 7c
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [11] .eh_frame_hdr: sh_addr = 3482c, sh_size = 1684, sh_offset = 3482c, sh_name = 84
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [12] .eh_frame: sh_addr = 35eb0, sh_size = 5598, sh_offset = 35eb0, sh_name = 92
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [13] .gcc_except_table: sh_addr = 3b448, sh_size = 174, sh_offset = 3b448, sh_name = 9c
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [14] .init_array: sh_addr = 23bd08, sh_size = 8, sh_offset = 3bd08, sh_name = ae
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [15] .fini_array: sh_addr = 23bd10, sh_size = 38, sh_offset = 3bd10, sh_name = ba
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [16] .data.rel.ro: sh_addr = 23bd60, sh_size = 1128, sh_offset = 3bd60, sh_name = c6
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [17] .dynamic: sh_addr = 23ce88, sh_size = 170, sh_offset = 3ce88, sh_name = d3
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [18] .got.plt: sh_addr = 23d000, sh_size = 18, sh_offset = 3d000, sh_name = dc
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [19] .data: sh_addr = 23d020, sh_size = 4d8, sh_offset = 3d020, sh_name = e5
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [20] .bss: sh_addr = 23d500, sh_size = 14960, sh_offset = 3d4f8, sh_name = eb
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [21] .comment: sh_addr = 0, sh_size = 2b, sh_offset = 2100000, sh_name = f0
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [22] .note.sgxmeta: sh_addr = 0, sh_size = 101c, sh_offset = 210002c, sh_name = f9
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [23] .debug_aranges: sh_addr = 0, sh_size = 22f0, sh_offset = 2101050, sh_name = 107
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [24] .debug_info: sh_addr = 0, sh_size = 21680, sh_offset = 2103340, sh_name = 116
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [25] .debug_abbrev: sh_addr = 0, sh_size = 4879, sh_offset = 21249c0, sh_name = 122
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [26] .debug_line: sh_addr = 0, sh_size = b3f3, sh_offset = 2129239, sh_name = 130
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [27] .debug_str: sh_addr = 0, sh_size = d803, sh_offset = 213462c, sh_name = 13c
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [28] .debug_ranges: sh_addr = 0, sh_size = 2140, sh_offset = 2141e2f, sh_name = 147
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [29] .sgx.bin: sh_addr = 651e60, sh_size = 145dc, sh_offset = 51e60, sh_name = 155
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [30] .sgx.code: sh_addr = 700000, sh_size = 2000000, sh_offset = 100000, sh_name = 15e
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [31] .shstrtab: sh_addr = 0, sh_size = 168, sh_offset = 2143f6f, sh_name = 11
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [32] .symtab: sh_addr = 0, sh_size = 79b0, sh_offset = 2144958, sh_name = 1
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [33] .strtab: sh_addr = 0, sh_size = 7ab4, sh_offset = 214c308, sh_name = 9
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [1] .interp: sh_addr = 270, sh_size = 1c, sh_offset = 270, sh_name = 1b
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [2] .note.gnu.build-id: sh_addr = 28c, sh_size = 24, sh_offset = 28c, sh_name = 23
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [3] .gnu.hash: sh_addr = 2b0, sh_size = 30, sh_offset = 2b0, sh_name = 36
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [4] .dynsym: sh_addr = 2e0, sh_size = 78, sh_offset = 2e0, sh_name = 40
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [5] .dynstr: sh_addr = 358, sh_size = 28, sh_offset = 358, sh_name = 48
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [6] .gnu.version: sh_addr = 380, sh_size = a, sh_offset = 380, sh_name = 50
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [7] .gnu.version_d: sh_addr = 390, sh_size = 38, sh_offset = 390, sh_name = 5d
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [8] .rela.dyn: sh_addr = 3c8, sh_size = 2988, sh_offset = 3c8, sh_name = 6c
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [9] .text: sh_addr = 2d50, sh_size = 2e5dc, sh_offset = 2d50, sh_name = 76
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [10] .rodata: sh_addr = 32000, sh_size = 282a, sh_offset = 32000, sh_name = 7c
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [11] .eh_frame_hdr: sh_addr = 3482c, sh_size = 1684, sh_offset = 3482c, sh_name = 84
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [12] .eh_frame: sh_addr = 35eb0, sh_size = 5598, sh_offset = 35eb0, sh_name = 92
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [13] .gcc_except_table: sh_addr = 3b448, sh_size = 174, sh_offset = 3b448, sh_name = 9c
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [14] .init_array: sh_addr = 23bd08, sh_size = 8, sh_offset = 3bd08, sh_name = ae
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [15] .fini_array: sh_addr = 23bd10, sh_size = 38, sh_offset = 3bd10, sh_name = ba
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [16] .data.rel.ro: sh_addr = 23bd60, sh_size = 1128, sh_offset = 3bd60, sh_name = c6
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [17] .dynamic: sh_addr = 23ce88, sh_size = 170, sh_offset = 3ce88, sh_name = d3
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [18] .got.plt: sh_addr = 23d000, sh_size = 18, sh_offset = 3d000, sh_name = dc
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [19] .data: sh_addr = 23d020, sh_size = 4d8, sh_offset = 3d020, sh_name = e5
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [20] .bss: sh_addr = 23d500, sh_size = 14960, sh_offset = 3d4f8, sh_name = eb
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [21] .comment: sh_addr = 0, sh_size = 2b, sh_offset = 2100000, sh_name = f0
+[get_section /home/alax/SGX/linux-sgx/psw/urts/parser/elfparser.cpp:79] section [22] .note.sgxmeta: sh_addr = 0, sh_size = 101c, sh_offset = 210002c, sh_name = f9
+[create_enclave enclave_creator_hw.cpp:126] 
+ secs.attibutes.flags = 6, secs.attributes.xfrm = 7 
+[reg_sig_handler sig_handler.cpp:190] signal handler is registered
+[__create_enclave /home/alax/SGX/linux-sgx/psw/urts/urts_com.h:174] add tcs 0x36762000
+[set_extra_debug_info /home/alax/SGX/linux-sgx/psw/urts/enclave.cpp:269] Symbol 'g_peak_heap_used' is not found
+[__create_enclave /home/alax/SGX/linux-sgx/psw/urts/urts_com.h:201] Debug enclave. Checking if VTune is profiling
+[__create_enclave /home/alax/SGX/linux-sgx/psw/urts/urts_com.h:242] VTune is not profiling. Debug OPTIN bit not set and API to do module mapping not invoked
+[sig_handler sig_handler.cpp:94] signal handler is triggered
+[CEnclavePool /home/alax/SGX/linux-sgx/psw/urts/enclave.cpp:301] enter CEnclavePool constructor
+[build_secs /home/alax/SGX/linux-sgx/psw/urts/loader.cpp:368] enclave start address = 0x34000000, size = 4000000
+textSection start: 0x34700120
+rodataSection start: 0x3470a940,sectionSize: 0xd0c
+.data.rel.ro start: 0x3490bf20
+.got start: 0x3490bff8
+.got.plt start: 0x3490c000
+dataSection start: 0x3490c020
+------------------st_shndx = 1-------------------
+do_sgx_ocall index:1cf address:0x40404c
+ocall_table address:0x3423d060
+do_sgx_ocall index:1cf address:0x3470404c
+------------------st_shndx = 2-------------------
+------------------st_shndx = 3-------------------
+------------------st_shndx = 4-------------------
+------------------st_shndx = 5-------------------
+------------------st_shndx = 6-------------------
+------------------st_shndx = 7-------------------
+_heap_chk 0x60c2f0
+_heap_chk 0x90c2f0
+_heap_chk 0xc0c2f0
+------------------st_shndx = 8-------------------
+------------------st_shndx = 65521-------------------
+heap[0]:0x60c2f0,size:0x3ff000
+heap->transfer:0x3490d000
+heap[1]:0x90c2f0,size:0x3ff000
+heap->transfer:0x34c0d000
+heap[2]:0xc0c2f0,size:0x3ff000
+heap->transfer:0x34f0d000
+sgx_stack start: 0x36700000
+34c0a030, 34c0a030
+
+34f08030, 34f08030
+
+[sig_handler sig_handler.cpp:112] exception on ERESUME

@@ -1,0 +1,13 @@
+diff --git a/sgx_main.c b/sgx_main.c
+index 5db23c6..87f3ccb 100644
+--- a/sgx_main.c
++++ b/sgx_main.c
+@@ -139,6 +139,8 @@ static unsigned long sgx_get_unmapped_area(struct file *file,
+ 		return -EINVAL;
+ #endif
+ 
++    addr = 0x30000000;
++
+ 	addr = current->mm->get_unmapped_area(file, addr, 2 * len, pgoff,
+ 					      flags);
+ 	if (IS_ERR_VALUE(addr))

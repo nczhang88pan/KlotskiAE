@@ -1,0 +1,2689 @@
+make  all-am
+make[1]: Entering directory `/home/alax/SGXTestProgram/libjpeg'
+  CC       jaricom.lo
+  CC       jcapimin.lo
+1201-----jpeg_suppress_tables- functions--13
+jpeg_CreateCompress===
+jpeg_destroy_compress===
+jpeg_abort_compress===
+jpeg_suppress_tables===
+jpeg_finish_compress===
+jpeg_write_marker===
+jpeg_write_m_header===
+jpeg_write_m_byte===
+jpeg_write_tables===
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+jpeg_CreateCompress ::::0
+remain Size: to jpeg_CreateCompress 1241
+jpeg_destroy_compress ::::816
+remain Size: to jpeg_destroy_compress 1200
+jpeg_abort_compress ::::864
+remain Size: to jpeg_abort_compress 1159
+jpeg_suppress_tables ::::912
+remain Size: to jpeg_suppress_tables 646
+TailJMP :jpeg_finish_compress
+jpeg_finish_compress ::::1440
+---------------------- page index: 0
+jpeg_CreateCompress
+jpeg_destroy_compress
+jpeg_abort_compress
+jpeg_suppress_tables
+----------------------page end;
+jpeg_write_marker ::::2656
+remain Size: to jpeg_write_marker 309
+TailJMP :jpeg_write_m_header
+jpeg_write_m_header ::::3200
+---------------------- page index: 1
+jpeg_finish_compress
+jpeg_write_marker
+----------------------page end;
+jpeg_write_m_byte ::::3568
+remain Size: to jpeg_write_m_byte 1605
+TailJMP :jpeg_write_tables
+jpeg_write_tables ::::3664
+remain Size: to jpeg_write_tables 1022
+  CC       jcapistd.lo
+jpeg_start_compress===
+jpeg_write_scanlines===
+jpeg_write_raw_data===
+jpeg_start_compress ::::0
+remain Size: to jpeg_start_compress 1387
+jpeg_write_scanlines ::::672
+remain Size: to jpeg_write_scanlines 642
+jpeg_write_raw_data ::::1424
+---------------------- page index: 0
+jpeg_start_compress
+jpeg_write_scanlines
+----------------------page end;
+  CC       jcarith.lo
+jinit_arith_encoder===
+start_pass===
+finish_pass===
+encode_mcu_DC_first===
+encode_mcu_AC_first===
+encode_mcu_DC_refine===
+encode_mcu_AC_refine===
+encode_mcu===
+emit_restart===
+arith_encode===
+emit_byte===
+jinit_arith_encoder ::::0
+remain Size: to jinit_arith_encoder 1622
+start_pass ::::432
+remain Size: to start_pass 309
+TailJMP :finish_pass
+finish_pass ::::1760
+---------------------- page index: 0
+jinit_arith_encoder
+start_pass
+----------------------page end;
+encode_mcu_DC_first ::::3216
+I am here, not find start
+---------------------- page index: 1
+finish_pass
+----------------------page end;
+encode_mcu_AC_first ::::4720
+I am here, not find start
+---------------------- page index: 2
+encode_mcu_DC_first
+----------------------page end;
+encode_mcu_DC_refine ::::6480
+---------------------- page index: 3
+encode_mcu_AC_first
+----------------------page end;
+encode_mcu_AC_refine ::::7040
+---------------------- page index: 4
+encode_mcu_DC_refine
+----------------------page end;
+encode_mcu ::::8864
+I am here, not find start
+---------------------- page index: 5
+encode_mcu_AC_refine
+----------------------page end;
+emit_restart ::::11696
+---------------------- page index: 6
+encode_mcu
+----------------------page end;
+arith_encode ::::12368
+I am here, not find start
+---------------------- page index: 7
+emit_restart
+----------------------page end;
+TailJMP :emit_byte
+emit_byte ::::13888
+remain Size: to emit_byte 166
+  CC       jccoefct.lo
+1201-----start_iMCU_row- functions--5
+jinit_c_coef_controller===
+start_pass_coef===
+start_iMCU_row===
+compress_data===
+compress_first_pass===
+compress_output===
+jinit_c_coef_controller ::::0
+remain Size: to jinit_c_coef_controller 1102
+TailJMP :start_pass_coef
+start_pass_coef ::::960
+remain Size: to start_pass_coef 392
+start_iMCU_row ::::1680
+remain Size: to start_iMCU_row 226
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+compress_data ::::1856
+---------------------- page index: 0
+jinit_c_coef_controller
+start_pass_coef
+start_iMCU_row
+----------------------page end;
+TailJMP :compress_first_pass
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+compress_first_pass ::::3600
+---------------------- page index: 1
+compress_data
+----------------------page end;
+compress_output ::::5424
+---------------------- page index: 2
+compress_first_pass
+----------------------page end;
+  CC       jccolor.lo
+1201-----null_method- functions--1
+1201-----grayscale_convert- functions--6
+1201-----rgb_gray_convert- functions--6
+1201-----rgb_convert- functions--6
+1201-----rgb_rgb1_convert- functions--6
+1201-----rgb_ycc_convert- functions--6
+1201-----null_convert- functions--10
+1201-----cmyk_ycck_convert- functions--6
+jinit_color_converter===
+null_method===
+grayscale_convert===
+rgb_ycc_start===
+rgb_gray_convert===
+rgb_convert===
+rgb_rgb1_convert===
+rgb_ycc_convert===
+null_convert===
+cmyk_ycck_convert===
+TailJMP :jinit_color_converter
+jinit_color_converter ::::0
+---------------------- page index: 0
+----------------------page end;
+null_method ::::2608
+---------------------- page index: 1
+jinit_color_converter
+----------------------page end;
+grayscale_convert ::::2656
+remain Size: to grayscale_convert 1573
+rgb_ycc_start ::::3104
+remain Size: to rgb_ycc_start 1155
+rgb_gray_convert ::::3536
+remain Size: to rgb_gray_convert 840
+rgb_convert ::::3856
+remain Size: to rgb_convert 391
+rgb_rgb1_convert ::::4320
+---------------------- page index: 2
+null_method
+grayscale_convert
+rgb_ycc_start
+rgb_gray_convert
+rgb_convert
+----------------------page end;
+rgb_ycc_convert ::::4832
+remain Size: to rgb_ycc_convert 987
+null_convert ::::5392
+remain Size: to null_convert 516
+cmyk_ycck_convert ::::5872
+---------------------- page index: 3
+rgb_rgb1_convert
+rgb_ycc_convert
+null_convert
+----------------------page end;
+  CC       jcdctmgr.lo
+jinit_forward_dct===
+start_pass_fdctmgr===
+forward_DCT===
+forward_DCT_float===
+jinit_forward_dct ::::0
+remain Size: to jinit_forward_dct 1610
+start_pass_fdctmgr ::::448
+---------------------- page index: 0
+jinit_forward_dct
+----------------------page end;
+%EAX<def> = MOV32rm %RSP, 1, %noreg, 368, %noreg; mem:LD4[FixedStack-1](align=16)
+forward_DCT ::::3616
+---------------------- page index: 1
+start_pass_fdctmgr
+----------------------page end;
+%EAX<def> = MOV32rm %RSP, 1, %noreg, 384, %noreg; mem:LD4[FixedStack-1](align=16)
+forward_DCT_float ::::4160
+remain Size: to forward_DCT_float 872
+  CC       jchuff.lo
+jinit_huff_encoder===
+start_pass_huff===
+finish_pass_gather===
+finish_pass_huff===
+encode_mcu_DC_first===
+encode_mcu_AC_first===
+encode_mcu_DC_refine===
+encode_mcu_AC_refine===
+encode_mcu_gather===
+encode_mcu_huff===
+jpeg_make_c_derived_tbl===
+emit_eobrun===
+jpeg_gen_optimal_table===
+emit_ac_symbol===
+emit_bits_e===
+emit_buffered_bits===
+dump_buffer_e===
+flush_bits_e===
+flush_bits_s===
+emit_bits_s===
+dump_buffer_s===
+emit_restart_e===
+emit_dc_symbol===
+htest_one_block===
+emit_restart_s===
+encode_one_block===
+jinit_huff_encoder ::::0
+remain Size: to jinit_huff_encoder 1717
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+start_pass_huff ::::336
+remain Size: to start_pass_huff 216
+finish_pass_gather ::::1840
+---------------------- page index: 0
+jinit_huff_encoder
+start_pass_huff
+----------------------page end;
+finish_pass_huff ::::2704
+remain Size: to finish_pass_huff 402
+encode_mcu_DC_first ::::3504
+---------------------- page index: 1
+finish_pass_gather
+finish_pass_huff
+----------------------page end;
+encode_mcu_AC_first ::::4592
+---------------------- page index: 2
+encode_mcu_DC_first
+----------------------page end;
+encode_mcu_DC_refine ::::6016
+---------------------- page index: 3
+encode_mcu_AC_first
+----------------------page end;
+encode_mcu_AC_refine ::::6784
+I am here, not find start
+---------------------- page index: 4
+encode_mcu_DC_refine
+----------------------page end;
+encode_mcu_gather ::::8768
+---------------------- page index: 5
+encode_mcu_AC_refine
+----------------------page end;
+encode_mcu_huff ::::9344
+remain Size: to encode_mcu_huff 628
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+jpeg_make_c_derived_tbl ::::10208
+---------------------- page index: 6
+encode_mcu_gather
+encode_mcu_huff
+----------------------page end;
+emit_eobrun ::::11856
+---------------------- page index: 7
+jpeg_make_c_derived_tbl
+----------------------page end;
+INC8m %RSP, 1, %RDI, -1, %noreg, %EFLAGS<imp-def,dead>; mem:ST1[%sunkaddr327](tbaa=!5) LD1[%sunkaddr327](tbaa=!5)
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+jpeg_gen_optimal_table ::::12448
+remain Size: to jpeg_gen_optimal_table 420
+emit_ac_symbol ::::13504
+remain Size: to emit_ac_symbol 237
+emit_bits_e ::::13696
+---------------------- page index: 8
+emit_eobrun
+jpeg_gen_optimal_table
+emit_ac_symbol
+----------------------page end;
+emit_buffered_bits ::::14448
+remain Size: to emit_buffered_bits 1040
+dump_buffer_e ::::14720
+remain Size: to dump_buffer_e 595
+flush_bits_e ::::15168
+remain Size: to flush_bits_e 395
+flush_bits_s ::::15376
+remain Size: to flush_bits_s 130
+emit_bits_s ::::15648
+---------------------- page index: 9
+emit_bits_e
+emit_buffered_bits
+dump_buffer_e
+flush_bits_e
+flush_bits_s
+----------------------page end;
+dump_buffer_s ::::16288
+remain Size: to dump_buffer_s 1131
+emit_restart_e ::::16576
+remain Size: to emit_restart_e 557
+emit_dc_symbol ::::17152
+remain Size: to emit_dc_symbol 374
+htest_one_block ::::17344
+---------------------- page index: 10
+emit_bits_s
+dump_buffer_s
+emit_restart_e
+emit_dc_symbol
+----------------------page end;
+emit_restart_s ::::18064
+remain Size: to emit_restart_s 867
+encode_one_block ::::18528
+---------------------- page index: 11
+htest_one_block
+emit_restart_s
+----------------------page end;
+  CC       jcinit.lo
+jinit_compress_master===
+TailJMP :jinit_compress_master
+jinit_compress_master ::::0
+remain Size: to jinit_compress_master 981
+  CC       jcmainct.lo
+jinit_c_main_controller===
+start_pass_main===
+process_data_simple_main===
+TailJMP :jinit_c_main_controller
+jinit_c_main_controller ::::0
+remain Size: to jinit_c_main_controller 1390
+start_pass_main ::::672
+remain Size: to start_pass_main 1147
+process_data_simple_main ::::928
+remain Size: to process_data_simple_main 570
+  CC       jcmarker.lo
+jinit_marker_writer===
+write_file_header===
+write_frame_header===
+write_scan_header===
+write_file_trailer===
+write_tables_only===
+write_marker_header===
+write_marker_byte===
+emit_marker===
+emit_jfif_app0===
+emit_adobe_app14===
+emit_byte===
+emit_2bytes===
+emit_dqt===
+emit_sof===
+emit_lse_ict===
+emit_pseudo_sos===
+emit_dac===
+emit_dht===
+emit_dri===
+emit_sos===
+jinit_marker_writer ::::0
+remain Size: to jinit_marker_writer 1702
+TailJMP :write_file_header
+write_file_header ::::352
+remain Size: to write_file_header 1330
+TailJMP :write_frame_header
+write_frame_header ::::736
+remain Size: to write_frame_header 118
+TailJMP :write_scan_header
+write_scan_header ::::1952
+---------------------- page index: 0
+jinit_marker_writer
+write_file_header
+write_frame_header
+----------------------page end;
+write_file_trailer ::::2544
+remain Size: to write_file_trailer 1418
+TailJMP :write_tables_only
+write_tables_only ::::2592
+remain Size: to write_tables_only 567
+TailJMP :write_marker_header
+write_marker_header ::::3456
+remain Size: to write_marker_header 258
+write_marker_byte ::::3776
+remain Size: to write_marker_byte 217
+TailJMP :emit_marker
+emit_marker ::::3824
+remain Size: to emit_marker 30
+TailJMP :emit_jfif_app0
+emit_jfif_app0 ::::4016
+---------------------- page index: 1
+write_scan_header
+write_file_trailer
+write_tables_only
+write_marker_header
+write_marker_byte
+emit_marker
+----------------------page end;
+TailJMP :emit_adobe_app14
+emit_adobe_app14 ::::4736
+remain Size: to emit_adobe_app14 724
+TailJMP :emit_byte
+emit_byte ::::5344
+remain Size: to emit_byte 348
+TailJMP :emit_2bytes
+emit_2bytes ::::5728
+remain Size: to emit_2bytes 164
+emit_dqt ::::5920
+---------------------- page index: 2
+emit_jfif_app0
+emit_adobe_app14
+emit_byte
+emit_2bytes
+----------------------page end;
+emit_sof ::::6864
+remain Size: to emit_sof 223
+TailJMP :emit_lse_ict
+emit_lse_ict ::::7760
+---------------------- page index: 3
+emit_dqt
+emit_sof
+----------------------page end;
+TailJMP :emit_pseudo_sos
+emit_pseudo_sos ::::8752
+remain Size: to emit_pseudo_sos 716
+emit_dac ::::9104
+I am here, not find start
+---------------------- page index: 4
+emit_lse_ict
+emit_pseudo_sos
+----------------------page end;
+emit_dht ::::10256
+---------------------- page index: 5
+emit_dac
+----------------------page end;
+TailJMP :emit_dri
+emit_dri ::::11520
+remain Size: to emit_dri 548
+TailJMP :emit_sos
+emit_sos ::::11776
+---------------------- page index: 6
+emit_dht
+emit_dri
+----------------------page end;
+  CC       jcmaster.lo
+1201-----reduce_script- functions--10
+jpeg_calc_jpeg_dimensions===
+jinit_c_master_control===
+prepare_for_pass===
+pass_startup===
+finish_pass_master===
+initial_setup===
+validate_script===
+reduce_script===
+select_scan_parameters===
+per_scan_setup===
+jpeg_calc_trans_dimensions===
+jpeg_calc_jpeg_dimensions ::::0
+---------------------- page index: 0
+----------------------page end;
+jinit_c_master_control ::::3056
+---------------------- page index: 1
+jpeg_calc_jpeg_dimensions
+----------------------page end;
+prepare_for_pass ::::3776
+---------------------- page index: 2
+jinit_c_master_control
+----------------------page end;
+TailJMP :pass_startup
+pass_startup ::::5680
+---------------------- page index: 3
+prepare_for_pass
+----------------------page end;
+finish_pass_master ::::5984
+remain Size: to finish_pass_master 1421
+initial_setup ::::6320
+---------------------- page index: 4
+pass_startup
+finish_pass_master
+----------------------page end;
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+validate_script ::::9264
+---------------------- page index: 5
+initial_setup
+----------------------page end;
+reduce_script ::::12384
+---------------------- page index: 6
+validate_script
+----------------------page end;
+select_scan_parameters ::::12656
+remain Size: to select_scan_parameters 1224
+per_scan_setup ::::13232
+remain Size: to per_scan_setup 219
+jpeg_calc_trans_dimensions ::::14240
+---------------------- page index: 7
+reduce_script
+select_scan_parameters
+per_scan_setup
+----------------------page end;
+  CC       jcomapi.lo
+jpeg_abort===
+jpeg_destroy===
+jpeg_alloc_quant_table===
+jpeg_alloc_huff_table===
+jpeg_abort ::::0
+I am here, not find start
+remain Size: to jpeg_abort 1734
+jpeg_destroy ::::320
+remain Size: to jpeg_destroy 1521
+jpeg_alloc_quant_table ::::544
+remain Size: to jpeg_alloc_quant_table 1294
+jpeg_alloc_huff_table ::::784
+remain Size: to jpeg_alloc_huff_table 1067
+  CC       jcparam.lo
+1201-----jpeg_quality_scaling- functions--4
+1201-----fill_a_scan- functions--1
+1201-----fill_scans- functions--4
+jpeg_add_quant_table===
+jpeg_default_qtables===
+jpeg_set_linear_quality===
+jpeg_quality_scaling===
+jpeg_set_quality===
+jpeg_set_defaults===
+std_huff_tables===
+jpeg_default_colorspace===
+jpeg_set_colorspace===
+jpeg_simple_progression===
+fill_dc_scans===
+fill_a_scan===
+fill_scans===
+add_huff_table===
+jpeg_add_quant_table ::::0
+remain Size: to jpeg_add_quant_table 1328
+TailJMP :jpeg_default_qtables
+jpeg_default_qtables ::::720
+remain Size: to jpeg_default_qtables 1064
+TailJMP :jpeg_set_linear_quality
+jpeg_set_linear_quality ::::992
+remain Size: to jpeg_set_linear_quality 848
+jpeg_quality_scaling ::::1216
+remain Size: to jpeg_quality_scaling 729
+TailJMP :jpeg_set_quality
+jpeg_set_quality ::::1344
+remain Size: to jpeg_set_quality 545
+TailJMP :jpeg_set_defaults
+jpeg_set_defaults ::::1536
+---------------------- page index: 0
+jpeg_add_quant_table
+jpeg_default_qtables
+jpeg_set_linear_quality
+jpeg_quality_scaling
+jpeg_set_quality
+----------------------page end;
+TailJMP :std_huff_tables
+std_huff_tables ::::2432
+remain Size: to std_huff_tables 859
+jpeg_default_colorspace ::::2752
+remain Size: to jpeg_default_colorspace 373
+TailJMP :jpeg_set_colorspace
+jpeg_set_colorspace ::::3248
+---------------------- page index: 1
+jpeg_set_defaults
+std_huff_tables
+jpeg_default_colorspace
+----------------------page end;
+TailJMP :jpeg_simple_progression
+jpeg_simple_progression ::::5584
+---------------------- page index: 2
+jpeg_set_colorspace
+----------------------page end;
+BB#0: derived from LLVM BB %entry
+    Live Ins: %ECX %EDX %ESI %RDI
+	%R9D<def> = MOV32rr %ECX
+	%R8D<def> = MOV32rr %EDX
+	%ESI<def> = KILL %ESI, %RSI<imp-def>
+	INLINEASM <es:rorx $$0xb,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x35,%r14,$0> [attdialect], $0:[regdef:GR64], %R11<def>, $1:[reguse:GR64], %RDI, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	CMP32ri8 %ESI, 4, %EFLAGS<imp-def>
+	JG_1 <BB#11>, %EFLAGS<imp-use,kill>
+    Successors according to CFG: BB#1(0x40000000 / 0x80000000 = 50.00%) BB#11(0x40000000 / 0x80000000 = 50.00%)
+fill_dc_scans stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+fill_dc_scans ::::6960
+remain Size: to fill_dc_scans 201
+fill_a_scan ::::7440
+remain Size: to fill_a_scan 113
+BB#0: derived from LLVM BB %entry
+    Live Ins: %ECX %EDX %ESI %RDI %R8D %R9D %RBX %RBP
+	%ESI<def> = KILL %ESI, %RSI<imp-def>
+	INLINEASM <es:rorx $$0xb,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x35,%r14,$0> [attdialect], $0:[regdef:GR64], %RAX<def>, $1:[reguse:GR64], %RDI, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	TEST32rr %ESI, %ESI, %EFLAGS<imp-def>
+	JLE_1 <BB#8>, %EFLAGS<imp-use>
+    Successors according to CFG: BB#1(0x50000000 / 0x80000000 = 62.50%) BB#8(0x30000000 / 0x80000000 = 37.50%)
+fill_scans stack size does not suit for stackSize
+realStackSize: 0 stackSize: 16
+fill_scans ::::7536
+---------------------- page index: 3
+jpeg_simple_progression
+fill_dc_scans
+fill_a_scan
+----------------------page end;
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+add_huff_table ::::7760
+remain Size: to add_huff_table 1193
+  CC       jcprepct.lo
+jinit_c_prep_controller===
+start_pass_prep===
+pre_process_context===
+create_context_buffer===
+pre_process_data===
+expand_bottom_edge===
+TailJMP :jinit_c_prep_controller
+jinit_c_prep_controller ::::0
+remain Size: to jinit_c_prep_controller 1276
+start_pass_prep ::::784
+remain Size: to start_pass_prep 984
+%EAX<def> = MOV32rm %RSP, 1, %noreg, 192, %noreg; mem:LD4[FixedStack-1](align=16)
+%EAX<def> = MOV32rm %RSP, 1, %noreg, 192, %noreg; mem:LD4[FixedStack-1](align=16)
+pre_process_context ::::1088
+---------------------- page index: 0
+jinit_c_prep_controller
+start_pass_prep
+----------------------page end;
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+create_context_buffer ::::2576
+---------------------- page index: 1
+pre_process_context
+----------------------page end;
+%EBX<def> = MOV32rm %RSP, 1, %noreg, 176, %noreg; mem:LD4[FixedStack-1](align=16)
+%EBX<def> = MOV32rm %RSP, 1, %noreg, 176, %noreg; mem:LD4[FixedStack-1](align=16)
+%EBX<def> = MOV32rm %RSP, 1, %noreg, 176, %noreg; mem:LD4[FixedStack-1](align=16)
+pre_process_data ::::4032
+---------------------- page index: 2
+create_context_buffer
+----------------------page end;
+expand_bottom_edge ::::5392
+remain Size: to expand_bottom_edge 466
+  CC       jcsample.lo
+1201-----start_pass_downsample- functions--1
+1201-----expand_right_edge- functions--8
+jinit_downsampler===
+start_pass_downsample===
+sep_downsample===
+fullsize_smooth_downsample===
+fullsize_downsample===
+h2v1_downsample===
+h2v2_smooth_downsample===
+h2v2_downsample===
+int_downsample===
+expand_right_edge===
+TailJMP :jinit_downsampler
+jinit_downsampler ::::0
+remain Size: to jinit_downsampler 947
+start_pass_downsample ::::1104
+remain Size: to start_pass_downsample 908
+sep_downsample ::::1152
+remain Size: to sep_downsample 512
+fullsize_smooth_downsample ::::1552
+---------------------- page index: 0
+jinit_downsampler
+start_pass_downsample
+sep_downsample
+----------------------page end;
+TailJMP :fullsize_downsample
+fullsize_downsample ::::2400
+remain Size: to fullsize_downsample 889
+h2v1_downsample ::::2736
+remain Size: to h2v1_downsample 410
+h2v2_smooth_downsample ::::3216
+---------------------- page index: 1
+fullsize_smooth_downsample
+fullsize_downsample
+h2v1_downsample
+----------------------page end;
+h2v2_downsample ::::4304
+remain Size: to h2v2_downsample 449
+int_downsample ::::4832
+---------------------- page index: 2
+h2v2_smooth_downsample
+h2v2_downsample
+----------------------page end;
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+expand_right_edge ::::5648
+remain Size: to expand_right_edge 943
+  CC       jctrans.lo
+1201-----start_iMCU_row- functions--5
+jpeg_write_coefficients===
+transencode_master_selection===
+jpeg_copy_critical_parameters===
+transencode_coef_controller===
+start_pass_coef===
+compress_output===
+start_iMCU_row===
+jpeg_write_coefficients ::::0
+remain Size: to jpeg_write_coefficients 1484
+TailJMP :transencode_master_selection
+transencode_master_selection ::::576
+remain Size: to transencode_master_selection 1016
+jpeg_copy_critical_parameters ::::1056
+---------------------- page index: 0
+jpeg_write_coefficients
+transencode_master_selection
+----------------------page end;
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use,kill>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+transencode_coef_controller ::::3776
+---------------------- page index: 1
+jpeg_copy_critical_parameters
+----------------------page end;
+TailJMP :start_pass_coef
+start_pass_coef ::::4480
+remain Size: to start_pass_coef 1064
+compress_output ::::4784
+---------------------- page index: 2
+transencode_coef_controller
+start_pass_coef
+----------------------page end;
+start_iMCU_row ::::6304
+remain Size: to start_iMCU_row 372
+  CC       jdapimin.lo
+jpeg_CreateDecompress===
+jpeg_destroy_decompress===
+jpeg_abort_decompress===
+jpeg_read_header===
+jpeg_consume_input===
+default_decompress_parms===
+jpeg_input_complete===
+jpeg_has_multiple_scans===
+jpeg_finish_decompress===
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+jpeg_CreateDecompress ::::0
+remain Size: to jpeg_CreateDecompress 1234
+jpeg_destroy_decompress ::::816
+remain Size: to jpeg_destroy_decompress 1193
+jpeg_abort_decompress ::::864
+remain Size: to jpeg_abort_decompress 1152
+jpeg_read_header ::::912
+remain Size: to jpeg_read_header 670
+TailJMP :jpeg_consume_input
+jpeg_consume_input ::::1408
+---------------------- page index: 0
+jpeg_CreateDecompress
+jpeg_destroy_decompress
+jpeg_abort_decompress
+jpeg_read_header
+----------------------page end;
+default_decompress_parms ::::2160
+remain Size: to default_decompress_parms 378
+jpeg_input_complete ::::3088
+remain Size: to jpeg_input_complete 62
+jpeg_has_multiple_scans ::::3408
+---------------------- page index: 1
+jpeg_consume_input
+default_decompress_parms
+jpeg_input_complete
+----------------------page end;
+jpeg_finish_decompress ::::3728
+remain Size: to jpeg_finish_decompress 1032
+  CC       jdapistd.lo
+jpeg_start_decompress===
+output_pass_setup===
+jpeg_read_scanlines===
+jpeg_read_raw_data===
+jpeg_start_output===
+jpeg_finish_output===
+TailJMP :jpeg_start_decompress
+jpeg_start_decompress ::::0
+remain Size: to jpeg_start_decompress 1208
+output_pass_setup ::::848
+remain Size: to output_pass_setup 268
+jpeg_read_scanlines ::::1792
+---------------------- page index: 0
+jpeg_start_decompress
+output_pass_setup
+----------------------page end;
+jpeg_read_raw_data ::::2480
+remain Size: to jpeg_read_raw_data 606
+TailJMP :jpeg_start_output
+jpeg_start_output ::::3248
+remain Size: to jpeg_start_output 241
+jpeg_finish_output ::::3616
+I am here, not find start
+---------------------- page index: 1
+jpeg_read_scanlines
+jpeg_read_raw_data
+jpeg_start_output
+----------------------page end;
+  CC       jdarith.lo
+1201-----finish_pass- functions--1
+jinit_arith_decoder===
+start_pass===
+finish_pass===
+decode_mcu_DC_first===
+decode_mcu_AC_first===
+decode_mcu_DC_refine===
+decode_mcu_AC_refine===
+decode_mcu===
+process_restart===
+arith_decode===
+get_byte===
+jinit_arith_decoder ::::0
+remain Size: to jinit_arith_decoder 1288
+start_pass ::::768
+---------------------- page index: 0
+jinit_arith_decoder
+----------------------page end;
+finish_pass ::::3312
+---------------------- page index: 1
+start_pass
+----------------------page end;
+decode_mcu_DC_first ::::3360
+I am here, not find start
+I am here, not find start
+remain Size: to decode_mcu_DC_first 592
+decode_mcu_AC_first ::::4784
+I am here, not find start
+---------------------- page index: 2
+finish_pass
+decode_mcu_DC_first
+----------------------page end;
+decode_mcu_DC_refine ::::6208
+remain Size: to decode_mcu_DC_refine 196
+decode_mcu_AC_refine ::::6640
+---------------------- page index: 3
+decode_mcu_AC_first
+decode_mcu_DC_refine
+----------------------page end;
+decode_mcu ::::7808
+I am here, not find start
+I am here, not find start
+---------------------- page index: 4
+decode_mcu_AC_refine
+----------------------page end;
+process_restart ::::10480
+---------------------- page index: 5
+decode_mcu
+----------------------page end;
+arith_decode ::::11184
+remain Size: to arith_decode 567
+get_byte ::::11968
+remain Size: to get_byte 220
+  CC       jdatadst.lo
+1201-----init_mem_destination- functions--1
+1201-----term_mem_destination- functions--1
+jpeg_stdio_dest===
+init_destination===
+empty_output_buffer===
+term_destination===
+jpeg_mem_dest===
+init_mem_destination===
+empty_mem_output_buffer===
+term_mem_destination===
+jpeg_stdio_dest ::::0
+remain Size: to jpeg_stdio_dest 1744
+init_destination ::::304
+remain Size: to init_destination 1504
+empty_output_buffer ::::544
+remain Size: to empty_output_buffer 1099
+TailJMP :term_destination
+term_destination ::::960
+remain Size: to term_destination 542
+jpeg_mem_dest ::::1520
+---------------------- page index: 0
+jpeg_stdio_dest
+init_destination
+empty_output_buffer
+term_destination
+----------------------page end;
+init_mem_destination ::::2416
+remain Size: to init_mem_destination 1116
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+empty_mem_output_buffer ::::2464
+remain Size: to empty_mem_output_buffer 520
+term_mem_destination ::::3072
+remain Size: to term_mem_destination 373
+  CC       jdatasrc.lo
+1201-----init_source- functions--1
+1201-----term_source- functions--1
+1201-----init_mem_source- functions--1
+jpeg_stdio_src===
+init_source===
+fill_input_buffer===
+skip_input_data===
+term_source===
+jpeg_mem_src===
+init_mem_source===
+fill_mem_input_buffer===
+jpeg_stdio_src ::::0
+remain Size: to jpeg_stdio_src 1561
+init_source ::::496
+remain Size: to init_source 1472
+fill_input_buffer ::::592
+remain Size: to fill_input_buffer 851
+skip_input_data ::::1216
+remain Size: to skip_input_data 598
+term_source ::::1472
+remain Size: to term_source 559
+jpeg_mem_src ::::1520
+remain Size: to jpeg_mem_src 78
+init_mem_source ::::2016
+remain Size: to init_mem_source 39
+fill_mem_input_buffer ::::2064
+---------------------- page index: 0
+jpeg_stdio_src
+init_source
+fill_input_buffer
+skip_input_data
+term_source
+jpeg_mem_src
+init_mem_source
+----------------------page end;
+  CC       jdcoefct.lo
+1201-----dummy_consume_data- functions--1
+1201-----start_iMCU_row- functions--6
+jinit_d_coef_controller===
+start_input_pass===
+start_output_pass===
+consume_data===
+decompress_data===
+dummy_consume_data===
+decompress_onepass===
+start_iMCU_row===
+smoothing_ok===
+decompress_smooth_data===
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+jinit_d_coef_controller ::::0
+I am here, not find start
+I am here, not find start
+remain Size: to jinit_d_coef_controller 866
+start_input_pass ::::1184
+remain Size: to start_input_pass 795
+start_output_pass ::::1264
+remain Size: to start_output_pass 540
+consume_data ::::1520
+---------------------- page index: 0
+jinit_d_coef_controller
+start_input_pass
+start_output_pass
+----------------------page end;
+decompress_data ::::2752
+---------------------- page index: 1
+consume_data
+----------------------page end;
+dummy_consume_data ::::3824
+remain Size: to dummy_consume_data 950
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+decompress_onepass ::::3872
+I am here, not find start
+---------------------- page index: 2
+decompress_data
+dummy_consume_data
+----------------------page end;
+start_iMCU_row ::::5440
+remain Size: to start_iMCU_row 316
+smoothing_ok ::::5616
+---------------------- page index: 3
+decompress_onepass
+start_iMCU_row
+----------------------page end;
+decompress_smooth_data ::::6272
+---------------------- page index: 4
+smoothing_ok
+----------------------page end;
+  CC       jdcolor.lo
+1201-----start_pass_dcolor- functions--1
+1201-----rgb_gray_convert- functions--6
+1201-----rgb1_gray_convert- functions--6
+1201-----gray_rgb_convert- functions--6
+1201-----ycc_rgb_convert- functions--6
+1201-----rgb_convert- functions--6
+1201-----rgb1_rgb_convert- functions--6
+1201-----ycck_cmyk_convert- functions--6
+1201-----null_convert- functions--10
+jinit_color_deconverter===
+start_pass_dcolor===
+grayscale_convert===
+rgb_gray_convert===
+rgb1_gray_convert===
+build_rgb_y_table===
+gray_rgb_convert===
+ycc_rgb_convert===
+build_ycc_rgb_table===
+build_bg_ycc_rgb_table===
+rgb_convert===
+rgb1_rgb_convert===
+ycck_cmyk_convert===
+null_convert===
+jinit_color_deconverter ::::0
+remain Size: to jinit_color_deconverter 103
+start_pass_dcolor ::::1952
+remain Size: to start_pass_dcolor 64
+grayscale_convert ::::2000
+---------------------- page index: 0
+jinit_color_deconverter
+start_pass_dcolor
+----------------------page end;
+rgb_gray_convert ::::2112
+remain Size: to rgb_gray_convert 1504
+rgb1_gray_convert ::::2560
+remain Size: to rgb1_gray_convert 1000
+build_rgb_y_table ::::3072
+remain Size: to build_rgb_y_table 629
+gray_rgb_convert ::::3456
+remain Size: to gray_rgb_convert 231
+ycc_rgb_convert ::::3856
+---------------------- page index: 1
+grayscale_convert
+rgb_gray_convert
+rgb1_gray_convert
+build_rgb_y_table
+gray_rgb_convert
+----------------------page end;
+build_ycc_rgb_table ::::4544
+remain Size: to build_ycc_rgb_table 483
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+build_bg_ycc_rgb_table ::::5440
+---------------------- page index: 2
+ycc_rgb_convert
+build_ycc_rgb_table
+----------------------page end;
+rgb_convert ::::6640
+remain Size: to rgb_convert 405
+rgb1_rgb_convert ::::7088
+---------------------- page index: 3
+build_bg_ycc_rgb_table
+rgb_convert
+----------------------page end;
+ycck_cmyk_convert ::::7616
+remain Size: to ycck_cmyk_convert 807
+null_convert ::::8336
+remain Size: to null_convert 332
+  CC       jddctmgr.lo
+jinit_inverse_dct===
+start_pass===
+jinit_inverse_dct ::::0
+remain Size: to jinit_inverse_dct 1438
+start_pass ::::624
+---------------------- page index: 0
+jinit_inverse_dct
+----------------------page end;
+  CC       jdhuff.lo
+1201-----finish_pass_huff- functions--1
+jinit_huff_decoder===
+start_pass_huff_decoder===
+finish_pass_huff===
+decode_mcu_DC_first===
+decode_mcu_AC_first===
+decode_mcu_DC_refine===
+decode_mcu_AC_refine===
+jpeg_make_d_derived_tbl===
+decode_mcu_sub===
+decode_mcu===
+process_restart===
+jpeg_fill_bit_buffer===
+jpeg_huff_decode===
+jinit_huff_decoder ::::0
+remain Size: to jinit_huff_decoder 1388
+start_pass_huff_decoder ::::672
+---------------------- page index: 0
+jinit_huff_decoder
+----------------------page end;
+finish_pass_huff ::::3536
+---------------------- page index: 1
+start_pass_huff_decoder
+----------------------page end;
+decode_mcu_DC_first ::::3680
+remain Size: to decode_mcu_DC_first 511
+decode_mcu_AC_first ::::5088
+---------------------- page index: 2
+finish_pass_huff
+decode_mcu_DC_first
+----------------------page end;
+decode_mcu_DC_refine ::::6736
+---------------------- page index: 3
+decode_mcu_AC_first
+----------------------page end;
+decode_mcu_AC_refine ::::7456
+---------------------- page index: 4
+decode_mcu_DC_refine
+----------------------page end;
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+jpeg_make_d_derived_tbl ::::10128
+---------------------- page index: 5
+decode_mcu_AC_refine
+----------------------page end;
+decode_mcu_sub ::::12384
+---------------------- page index: 6
+jpeg_make_d_derived_tbl
+----------------------page end;
+decode_mcu ::::15136
+---------------------- page index: 7
+decode_mcu_sub
+----------------------page end;
+process_restart ::::17904
+---------------------- page index: 8
+decode_mcu
+----------------------page end;
+jpeg_fill_bit_buffer ::::18304
+remain Size: to jpeg_fill_bit_buffer 504
+jpeg_huff_decode ::::19456
+---------------------- page index: 9
+process_restart
+jpeg_fill_bit_buffer
+----------------------page end;
+  CC       jdinput.lo
+jpeg_core_output_dimensions===
+jinit_input_controller===
+consume_markers===
+reset_input_controller===
+start_input_pass===
+finish_input_pass===
+initial_setup===
+per_scan_setup===
+latch_quant_tables===
+jpeg_core_output_dimensions ::::0
+---------------------- page index: 0
+----------------------page end;
+jinit_input_controller ::::2928
+---------------------- page index: 1
+jpeg_core_output_dimensions
+----------------------page end;
+consume_markers ::::3248
+remain Size: to consume_markers 923
+reset_input_controller ::::4064
+remain Size: to reset_input_controller 570
+start_input_pass ::::4432
+remain Size: to start_input_pass 114
+finish_input_pass ::::4896
+---------------------- page index: 2
+jinit_input_controller
+consume_markers
+reset_input_controller
+start_input_pass
+----------------------page end;
+initial_setup ::::5152
+---------------------- page index: 3
+finish_input_pass
+----------------------page end;
+per_scan_setup ::::8432
+---------------------- page index: 4
+initial_setup
+----------------------page end;
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+latch_quant_tables ::::9392
+remain Size: to latch_quant_tables 470
+  CC       jdmainct.lo
+1201-----make_funny_pointers- functions--13
+1201-----set_bottom_pointers- functions--11
+1201-----set_wraparound_pointers- functions--7
+jinit_d_main_controller===
+start_pass_main===
+alloc_funny_pointers===
+process_data_context_main===
+make_funny_pointers===
+process_data_simple_main===
+process_data_crank_post===
+set_bottom_pointers===
+set_wraparound_pointers===
+jinit_d_main_controller ::::0
+remain Size: to jinit_d_main_controller 1099
+TailJMP :start_pass_main
+start_pass_main ::::960
+remain Size: to start_pass_main 620
+alloc_funny_pointers ::::1440
+---------------------- page index: 0
+jinit_d_main_controller
+start_pass_main
+----------------------page end;
+process_data_context_main ::::2224
+remain Size: to process_data_context_main 147
+make_funny_pointers ::::3360
+---------------------- page index: 1
+alloc_funny_pointers
+process_data_context_main
+----------------------page end;
+process_data_simple_main ::::4912
+remain Size: to process_data_simple_main 29
+process_data_crank_post ::::5392
+---------------------- page index: 2
+make_funny_pointers
+process_data_simple_main
+----------------------page end;
+set_bottom_pointers ::::5616
+remain Size: to set_bottom_pointers 1524
+set_wraparound_pointers ::::5936
+remain Size: to set_wraparound_pointers 886
+  CC       jdmarker.lo
+1201-----reset_marker_reader- functions--1
+jpeg_resync_to_restart===
+next_marker===
+jinit_marker_reader===
+reset_marker_reader===
+read_markers===
+read_restart_marker===
+skip_variable===
+get_interesting_appn===
+jpeg_save_markers===
+save_marker===
+jpeg_set_marker_processor===
+first_marker===
+get_soi===
+get_sof===
+get_sos===
+get_dac===
+get_dht===
+get_dqt===
+get_dri===
+get_lse===
+examine_app0===
+examine_app14===
+jpeg_resync_to_restart ::::0
+remain Size: to jpeg_resync_to_restart 1190
+next_marker ::::864
+remain Size: to next_marker 129
+TailJMP :jinit_marker_reader
+jinit_marker_reader ::::1936
+---------------------- page index: 0
+jpeg_resync_to_restart
+next_marker
+----------------------page end;
+reset_marker_reader ::::2416
+remain Size: to reset_marker_reader 1434
+read_markers ::::2576
+---------------------- page index: 1
+jinit_marker_reader
+reset_marker_reader
+----------------------page end;
+read_restart_marker ::::4416
+---------------------- page index: 2
+read_markers
+----------------------page end;
+skip_variable ::::4976
+remain Size: to skip_variable 687
+get_interesting_appn ::::5792
+---------------------- page index: 3
+read_restart_marker
+skip_variable
+----------------------page end;
+jpeg_save_markers ::::7088
+remain Size: to jpeg_save_markers 332
+save_marker ::::7520
+---------------------- page index: 4
+get_interesting_appn
+jpeg_save_markers
+----------------------page end;
+jpeg_set_marker_processor ::::9968
+---------------------- page index: 5
+save_marker
+----------------------page end;
+first_marker ::::10240
+remain Size: to first_marker 1191
+get_soi ::::10832
+remain Size: to get_soi 528
+get_sof ::::11504
+---------------------- page index: 6
+jpeg_set_marker_processor
+first_marker
+get_soi
+----------------------page end;
+get_sos ::::15184
+---------------------- page index: 7
+get_sof
+----------------------page end;
+get_dac ::::18384
+---------------------- page index: 8
+get_sos
+----------------------page end;
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+get_dht ::::20000
+---------------------- page index: 9
+get_dac
+----------------------page end;
+get_dqt ::::22592
+I am here, not find start
+---------------------- page index: 10
+get_dht
+----------------------page end;
+get_dri ::::25440
+---------------------- page index: 11
+get_dqt
+----------------------page end;
+get_lse ::::26576
+---------------------- page index: 12
+get_dri
+----------------------page end;
+TailJMP :examine_app0
+examine_app0 ::::30160
+---------------------- page index: 13
+get_lse
+----------------------page end;
+TailJMP :examine_app14
+examine_app14 ::::31856
+---------------------- page index: 14
+examine_app0
+----------------------page end;
+  CC       jdmaster.lo
+1201-----use_merged_upsample- functions--25
+jpeg_calc_output_dimensions===
+use_merged_upsample===
+jpeg_new_colormap===
+jinit_master_decompress===
+prepare_for_output_pass===
+finish_output_pass===
+master_selection===
+prepare_range_limit_table===
+jpeg_calc_output_dimensions ::::0
+remain Size: to jpeg_calc_output_dimensions 945
+use_merged_upsample ::::1104
+remain Size: to use_merged_upsample 662
+TailJMP :jpeg_new_colormap
+jpeg_new_colormap ::::1392
+remain Size: to jpeg_new_colormap 89
+TailJMP :jinit_master_decompress
+jinit_master_decompress ::::1968
+---------------------- page index: 0
+jpeg_calc_output_dimensions
+use_merged_upsample
+jpeg_new_colormap
+----------------------page end;
+prepare_for_output_pass ::::2272
+remain Size: to prepare_for_output_pass 257
+finish_output_pass ::::3776
+remain Size: to finish_output_pass 26
+master_selection ::::4016
+---------------------- page index: 1
+jinit_master_decompress
+prepare_for_output_pass
+finish_output_pass
+----------------------page end;
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+prepare_range_limit_table ::::6304
+---------------------- page index: 2
+master_selection
+----------------------page end;
+  CC       jdmerge.lo
+1201-----start_pass_merged_upsample- functions--1
+1201-----h2v2_merged_upsample- functions--6
+1201-----h2v1_merged_upsample- functions--6
+jinit_merged_upsampler===
+start_pass_merged_upsample===
+merged_2v_upsample===
+h2v2_merged_upsample===
+merged_1v_upsample===
+h2v1_merged_upsample===
+build_ycc_rgb_table===
+TailJMP :jinit_merged_upsampler
+jinit_merged_upsampler ::::0
+remain Size: to jinit_merged_upsampler 1595
+start_pass_merged_upsample ::::464
+remain Size: to start_pass_merged_upsample 1493
+%EBP<def> = MOV32rm %RSP, 1, %noreg, 80, %noreg; mem:LD4[FixedStack-1](align=16)
+merged_2v_upsample ::::576
+remain Size: to merged_2v_upsample 862
+h2v2_merged_upsample ::::1216
+---------------------- page index: 0
+jinit_merged_upsampler
+start_pass_merged_upsample
+merged_2v_upsample
+----------------------page end;
+merged_1v_upsample ::::2384
+remain Size: to merged_1v_upsample 580
+h2v1_merged_upsample ::::2688
+---------------------- page index: 1
+h2v2_merged_upsample
+merged_1v_upsample
+----------------------page end;
+build_ycc_rgb_table ::::3584
+remain Size: to build_ycc_rgb_table 310
+  CC       jdpostct.lo
+jinit_d_post_controller===
+start_pass_dpost===
+post_process_1pass===
+post_process_prepass===
+post_process_2pass===
+jinit_d_post_controller ::::0
+remain Size: to jinit_d_post_controller 1430
+start_pass_dpost ::::624
+remain Size: to start_pass_dpost 779
+%EAX<def> = MOV32rm %RSP, 1, %noreg, 80, %noreg; mem:LD4[FixedStack-1](align=16)
+post_process_1pass ::::1280
+remain Size: to post_process_1pass 275
+post_process_prepass ::::1792
+---------------------- page index: 0
+jinit_d_post_controller
+start_pass_dpost
+post_process_1pass
+----------------------page end;
+%EBX<def> = MOV32rm %RSP, 1, %noreg, 96, %noreg; mem:LD4[FixedStack-1](align=16)
+post_process_2pass ::::2512
+remain Size: to post_process_2pass 716
+  CC       jdsample.lo
+1201-----start_pass_upsample- functions--1
+1201-----noop_upsample- functions--1
+1201-----fullsize_upsample- functions--1
+1201-----h2v1_upsample- functions--7
+jinit_upsampler===
+start_pass_upsample===
+sep_upsample===
+noop_upsample===
+fullsize_upsample===
+h2v1_upsample===
+h2v2_upsample===
+int_upsample===
+jinit_upsampler ::::0
+remain Size: to jinit_upsampler 896
+start_pass_upsample ::::1152
+remain Size: to start_pass_upsample 785
+%R12D<def> = MOV32rm %RSP, 1, %noreg, 144, %noreg; mem:LD4[FixedStack-1](align=16)
+%R12D<def> = MOV32rm %RSP, 1, %noreg, 144, %noreg; mem:LD4[FixedStack-1](align=16)
+sep_upsample ::::1264
+---------------------- page index: 0
+jinit_upsampler
+start_pass_upsample
+----------------------page end;
+noop_upsample ::::2160
+remain Size: to noop_upsample 1101
+fullsize_upsample ::::2240
+remain Size: to fullsize_upsample 1040
+h2v1_upsample ::::2304
+remain Size: to h2v1_upsample 649
+h2v2_upsample ::::2704
+---------------------- page index: 1
+sep_upsample
+noop_upsample
+fullsize_upsample
+h2v1_upsample
+----------------------page end;
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+int_upsample ::::3360
+remain Size: to int_upsample 725
+  CC       jdtrans.lo
+jpeg_read_coefficients===
+transdecode_master_selection===
+jpeg_read_coefficients ::::0
+remain Size: to jpeg_read_coefficients 1296
+transdecode_master_selection ::::752
+remain Size: to transdecode_master_selection 573
+  CC       jerror.lo
+1201-----jpeg_std_error- functions--1
+1201-----reset_error_mgr- functions--1
+jpeg_std_error===
+error_exit===
+emit_message===
+output_message===
+format_message===
+reset_error_mgr===
+jpeg_std_error ::::0
+remain Size: to jpeg_std_error 1882
+error_exit ::::176
+remain Size: to error_exit 1669
+TailJMP :emit_message
+emit_message ::::400
+remain Size: to emit_message 1295
+output_message ::::784
+remain Size: to output_message 1003
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RDI %RSI %RBX %R12 %RBP
+	INLINEASM <es:rorx $$0xb,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x35,%r14,$0> [attdialect], $0:[regdef:GR64], %RAX<def>, $1:[reguse:GR64], %RDI<kill>, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	%RDX<def> = MOV64rm %RAX<kill>, 1, %noreg, 0, %noreg; mem:LD8[%3](tbaa=!22)
+	INLINEASM <es:rorx $$0xb,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x35,%r14,$0> [attdialect], $0:[regdef:GR64], %RAX<def>, $1:[reguse:GR64], %RDX, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	%RCX<def> = MOVSX64rm32 %RAX, 1, %noreg, 40, %noreg; mem:LD4[%8](align=8)(tbaa=!3)
+	TEST64rr %RCX, %RCX, %EFLAGS<imp-def>
+	JLE_1 <BB#3>, %EFLAGS<imp-use>
+    Successors according to CFG: BB#1(0x50000000 / 0x80000000 = 62.50%) BB#3(0x30000000 / 0x80000000 = 37.50%)
+format_message stack size does not suit for stackSize
+realStackSize: 0 stackSize: 40
+TailJMP :format_message
+format_message ::::1088
+remain Size: to format_message 378
+reset_error_mgr ::::1728
+remain Size: to reset_error_mgr 256
+  CC       jfdctflt.lo
+1201-----jpeg_fdct_float- functions--7
+jpeg_fdct_float===
+jpeg_fdct_float ::::0
+remain Size: to jpeg_fdct_float 1085
+  CC       jfdctfst.lo
+1201-----jpeg_fdct_ifast- functions--7
+jpeg_fdct_ifast===
+jpeg_fdct_ifast ::::0
+remain Size: to jpeg_fdct_ifast 1276
+  CC       jfdctint.lo
+1201-----jpeg_fdct_islow- functions--7
+1201-----jpeg_fdct_7x7- functions--7
+1201-----jpeg_fdct_6x6- functions--7
+1201-----jpeg_fdct_5x5- functions--7
+1201-----jpeg_fdct_4x4- functions--7
+1201-----jpeg_fdct_3x3- functions--7
+1201-----jpeg_fdct_2x2- functions--1
+1201-----jpeg_fdct_1x1- functions--1
+1201-----jpeg_fdct_9x9- functions--9
+1201-----jpeg_fdct_10x10- functions--9
+1201-----jpeg_fdct_11x11- functions--9
+1201-----jpeg_fdct_12x12- functions--9
+1201-----jpeg_fdct_13x13- functions--9
+1201-----jpeg_fdct_14x14- functions--9
+1201-----jpeg_fdct_15x15- functions--9
+1201-----jpeg_fdct_16x16- functions--9
+1201-----jpeg_fdct_16x8- functions--7
+1201-----jpeg_fdct_14x7- functions--7
+1201-----jpeg_fdct_12x6- functions--7
+1201-----jpeg_fdct_10x5- functions--7
+1201-----jpeg_fdct_8x4- functions--7
+1201-----jpeg_fdct_6x3- functions--7
+1201-----jpeg_fdct_4x2- functions--7
+1201-----jpeg_fdct_2x1- functions--1
+1201-----jpeg_fdct_8x16- functions--9
+1201-----jpeg_fdct_7x14- functions--9
+1201-----jpeg_fdct_6x12- functions--9
+1201-----jpeg_fdct_5x10- functions--9
+1201-----jpeg_fdct_4x8- functions--7
+1201-----jpeg_fdct_3x6- functions--7
+1201-----jpeg_fdct_2x4- functions--7
+1201-----jpeg_fdct_1x2- functions--1
+jpeg_fdct_islow===
+jpeg_fdct_7x7===
+jpeg_fdct_6x6===
+jpeg_fdct_5x5===
+jpeg_fdct_4x4===
+jpeg_fdct_3x3===
+jpeg_fdct_2x2===
+jpeg_fdct_1x1===
+jpeg_fdct_9x9===
+jpeg_fdct_10x10===
+jpeg_fdct_11x11===
+jpeg_fdct_12x12===
+jpeg_fdct_13x13===
+jpeg_fdct_14x14===
+jpeg_fdct_15x15===
+jpeg_fdct_16x16===
+jpeg_fdct_16x8===
+jpeg_fdct_14x7===
+jpeg_fdct_12x6===
+jpeg_fdct_10x5===
+jpeg_fdct_8x4===
+jpeg_fdct_6x3===
+jpeg_fdct_4x2===
+jpeg_fdct_2x1===
+jpeg_fdct_8x16===
+jpeg_fdct_7x14===
+jpeg_fdct_6x12===
+jpeg_fdct_5x10===
+jpeg_fdct_4x8===
+jpeg_fdct_3x6===
+jpeg_fdct_2x4===
+jpeg_fdct_1x2===
+jpeg_fdct_islow ::::0
+remain Size: to jpeg_fdct_islow 1003
+jpeg_fdct_7x7 ::::1056
+---------------------- page index: 0
+jpeg_fdct_islow
+----------------------page end;
+jpeg_fdct_6x6 ::::2256
+remain Size: to jpeg_fdct_6x6 38
+jpeg_fdct_5x5 ::::3088
+---------------------- page index: 1
+jpeg_fdct_7x7
+jpeg_fdct_6x6
+----------------------page end;
+jpeg_fdct_4x4 ::::3856
+---------------------- page index: 2
+jpeg_fdct_5x5
+----------------------page end;
+jpeg_fdct_3x3 ::::5248
+---------------------- page index: 3
+jpeg_fdct_4x4
+----------------------page end;
+jpeg_fdct_2x2 ::::6080
+remain Size: to jpeg_fdct_2x2 916
+jpeg_fdct_1x1 ::::6384
+remain Size: to jpeg_fdct_1x1 701
+jpeg_fdct_9x9 ::::6608
+---------------------- page index: 4
+jpeg_fdct_3x3
+jpeg_fdct_2x2
+jpeg_fdct_1x1
+----------------------page end;
+jpeg_fdct_10x10 ::::7824
+---------------------- page index: 5
+jpeg_fdct_9x9
+----------------------page end;
+jpeg_fdct_11x11 ::::9168
+---------------------- page index: 6
+jpeg_fdct_10x10
+----------------------page end;
+jpeg_fdct_12x12 ::::10848
+---------------------- page index: 7
+jpeg_fdct_11x11
+----------------------page end;
+jpeg_fdct_13x13 ::::12432
+---------------------- page index: 8
+jpeg_fdct_12x12
+----------------------page end;
+jpeg_fdct_14x14 ::::14304
+---------------------- page index: 9
+jpeg_fdct_13x13
+----------------------page end;
+jpeg_fdct_15x15 ::::16144
+---------------------- page index: 10
+jpeg_fdct_14x14
+----------------------page end;
+jpeg_fdct_16x16 ::::18112
+---------------------- page index: 11
+jpeg_fdct_15x15
+----------------------page end;
+jpeg_fdct_16x8 ::::20560
+---------------------- page index: 12
+jpeg_fdct_16x16
+----------------------page end;
+jpeg_fdct_14x7 ::::22320
+---------------------- page index: 13
+jpeg_fdct_16x8
+----------------------page end;
+jpeg_fdct_12x6 ::::23760
+---------------------- page index: 14
+jpeg_fdct_14x7
+----------------------page end;
+jpeg_fdct_10x5 ::::24928
+---------------------- page index: 15
+jpeg_fdct_12x6
+----------------------page end;
+jpeg_fdct_8x4 ::::25952
+remain Size: to jpeg_fdct_8x4 189
+jpeg_fdct_6x3 ::::26800
+---------------------- page index: 16
+jpeg_fdct_10x5
+jpeg_fdct_8x4
+----------------------page end;
+jpeg_fdct_4x2 ::::27984
+remain Size: to jpeg_fdct_4x2 216
+jpeg_fdct_2x1 ::::28656
+---------------------- page index: 17
+jpeg_fdct_6x3
+jpeg_fdct_4x2
+----------------------page end;
+jpeg_fdct_8x16 ::::28896
+---------------------- page index: 18
+jpeg_fdct_2x1
+----------------------page end;
+jpeg_fdct_7x14 ::::30720
+---------------------- page index: 19
+jpeg_fdct_8x16
+----------------------page end;
+jpeg_fdct_6x12 ::::32368
+---------------------- page index: 20
+jpeg_fdct_7x14
+----------------------page end;
+jpeg_fdct_5x10 ::::33648
+---------------------- page index: 21
+jpeg_fdct_6x12
+----------------------page end;
+jpeg_fdct_4x8 ::::34800
+remain Size: to jpeg_fdct_4x8 0
+BB#0: derived from LLVM BB %entry
+    Live Ins: %EDX %RDI %RSI %RBX %R12 %RBP
+	INLINEASM <es:rorx $$0xb,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x35,%r14,$0> [attdialect], $0:[regdef:GR64], %R8<def>, $1:[reguse:GR64], %RSI<kill>, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	INLINEASM <es:rorx $$0xb,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x35,%r14,$0> [attdialect], $0:[regdef:GR64], %R10<def>, $1:[reguse:GR64], %RDI<kill>, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	%XMM0<def,tied1> = XORPSrr %XMM0<undef,tied0>, %XMM0<undef>
+	MOVUPSmr %R10, 1, %noreg, 240, %noreg, %XMM0; mem:ST16[%4+240](align=1)
+	MOVUPSmr %R10, 1, %noreg, 224, %noreg, %XMM0; mem:ST16[%4+224](align=1)
+	MOVUPSmr %R10, 1, %noreg, 208, %noreg, %XMM0; mem:ST16[%4+208](align=1)
+	MOVUPSmr %R10, 1, %noreg, 192, %noreg, %XMM0; mem:ST16[%4+192](align=1)
+	MOVUPSmr %R10, 1, %noreg, 176, %noreg, %XMM0; mem:ST16[%4+176](align=1)
+	MOVUPSmr %R10, 1, %noreg, 160, %noreg, %XMM0; mem:ST16[%4+160](align=1)
+	MOVUPSmr %R10, 1, %noreg, 144, %noreg, %XMM0; mem:ST16[%4+144](align=1)
+	MOVUPSmr %R10, 1, %noreg, 128, %noreg, %XMM0; mem:ST16[%4+128](align=1)
+	MOVUPSmr %R10, 1, %noreg, 112, %noreg, %XMM0; mem:ST16[%4+112](align=1)
+	MOVUPSmr %R10, 1, %noreg, 96, %noreg, %XMM0; mem:ST16[%4+96](align=1)
+	MOVUPSmr %R10, 1, %noreg, 80, %noreg, %XMM0; mem:ST16[%4+80](align=1)
+	MOVUPSmr %R10, 1, %noreg, 64, %noreg, %XMM0; mem:ST16[%4+64](align=1)
+	MOVUPSmr %R10, 1, %noreg, 48, %noreg, %XMM0; mem:ST16[%4+48](align=1)
+	MOVUPSmr %R10, 1, %noreg, 32, %noreg, %XMM0; mem:ST16[%4+32](align=1)
+	MOVUPSmr %R10, 1, %noreg, 16, %noreg, %XMM0; mem:ST16[%4+16](align=1)
+	MOVUPSmr %R10, 1, %noreg, 0, %noreg, %XMM0<kill>; mem:ST16[%4](align=1)
+	%R9D<def> = MOV32rr %EDX<kill>, %R9<imp-def>
+	%ESI<def,tied1> = XOR32rr %ESI<undef,tied0>, %ESI<undef>, %EFLAGS<imp-def,dead>, %RSI<imp-def>
+    Successors according to CFG: BB#1(?%)
+jpeg_fdct_3x6 stack size does not suit for stackSize
+realStackSize: 0 stackSize: 24
+jpeg_fdct_3x6 ::::35712
+---------------------- page index: 22
+jpeg_fdct_5x10
+jpeg_fdct_4x8
+----------------------page end;
+jpeg_fdct_2x4 ::::36448
+remain Size: to jpeg_fdct_2x4 603
+jpeg_fdct_1x2 ::::37168
+remain Size: to jpeg_fdct_1x2 347
+  CC       jidctflt.lo
+1201-----jpeg_idct_float- functions--16
+jpeg_idct_float===
+jpeg_idct_float ::::0
+remain Size: to jpeg_idct_float 632
+  CC       jidctfst.lo
+1201-----jpeg_idct_ifast- functions--25
+jpeg_idct_ifast===
+jpeg_idct_ifast ::::0
+remain Size: to jpeg_idct_ifast 667
+  CC       jidctint.lo
+1201-----jpeg_idct_islow- functions--25
+1201-----jpeg_idct_7x7- functions--7
+1201-----jpeg_idct_6x6- functions--7
+1201-----jpeg_idct_5x5- functions--7
+1201-----jpeg_idct_4x4- functions--7
+1201-----jpeg_idct_3x3- functions--7
+1201-----jpeg_idct_2x2- functions--1
+1201-----jpeg_idct_1x1- functions--1
+1201-----jpeg_idct_9x9- functions--7
+1201-----jpeg_idct_10x10- functions--7
+1201-----jpeg_idct_11x11- functions--7
+1201-----jpeg_idct_12x12- functions--7
+1201-----jpeg_idct_13x13- functions--7
+1201-----jpeg_idct_14x14- functions--7
+1201-----jpeg_idct_15x15- functions--7
+1201-----jpeg_idct_16x16- functions--7
+1201-----jpeg_idct_16x8- functions--16
+1201-----jpeg_idct_14x7- functions--7
+1201-----jpeg_idct_12x6- functions--7
+1201-----jpeg_idct_10x5- functions--7
+1201-----jpeg_idct_8x4- functions--7
+1201-----jpeg_idct_6x3- functions--7
+1201-----jpeg_idct_4x2- functions--7
+1201-----jpeg_idct_2x1- functions--1
+1201-----jpeg_idct_8x16- functions--7
+1201-----jpeg_idct_7x14- functions--7
+1201-----jpeg_idct_6x12- functions--7
+1201-----jpeg_idct_5x10- functions--7
+1201-----jpeg_idct_4x8- functions--16
+1201-----jpeg_idct_3x6- functions--7
+1201-----jpeg_idct_2x4- functions--7
+1201-----jpeg_idct_1x2- functions--1
+jpeg_idct_islow===
+jpeg_idct_7x7===
+jpeg_idct_6x6===
+jpeg_idct_5x5===
+jpeg_idct_4x4===
+jpeg_idct_3x3===
+jpeg_idct_2x2===
+jpeg_idct_1x1===
+jpeg_idct_9x9===
+jpeg_idct_10x10===
+jpeg_idct_11x11===
+jpeg_idct_12x12===
+jpeg_idct_13x13===
+jpeg_idct_14x14===
+jpeg_idct_15x15===
+jpeg_idct_16x16===
+jpeg_idct_16x8===
+jpeg_idct_14x7===
+jpeg_idct_12x6===
+jpeg_idct_10x5===
+jpeg_idct_8x4===
+jpeg_idct_6x3===
+jpeg_idct_4x2===
+jpeg_idct_2x1===
+jpeg_idct_8x16===
+jpeg_idct_7x14===
+jpeg_idct_6x12===
+jpeg_idct_5x10===
+jpeg_idct_4x8===
+jpeg_idct_3x6===
+jpeg_idct_2x4===
+jpeg_idct_1x2===
+jpeg_idct_islow ::::0
+remain Size: to jpeg_idct_islow 446
+jpeg_idct_7x7 ::::1616
+---------------------- page index: 0
+jpeg_idct_islow
+----------------------page end;
+jpeg_idct_6x6 ::::2816
+---------------------- page index: 1
+jpeg_idct_7x7
+----------------------page end;
+jpeg_idct_5x5 ::::3728
+remain Size: to jpeg_idct_5x5 314
+jpeg_idct_4x4 ::::4560
+---------------------- page index: 2
+jpeg_idct_6x6
+jpeg_idct_5x5
+----------------------page end;
+jpeg_idct_3x3 ::::5200
+remain Size: to jpeg_idct_3x3 375
+jpeg_idct_2x2 ::::6256
+---------------------- page index: 3
+jpeg_idct_4x4
+jpeg_idct_3x3
+----------------------page end;
+jpeg_idct_1x1 ::::6656
+remain Size: to jpeg_idct_1x1 1438
+jpeg_idct_9x9 ::::6880
+remain Size: to jpeg_idct_9x9 81
+jpeg_idct_10x10 ::::8240
+---------------------- page index: 4
+jpeg_idct_2x2
+jpeg_idct_1x1
+jpeg_idct_9x9
+----------------------page end;
+jpeg_idct_11x11 ::::9776
+---------------------- page index: 5
+jpeg_idct_10x10
+----------------------page end;
+jpeg_idct_12x12 ::::11696
+---------------------- page index: 6
+jpeg_idct_11x11
+----------------------page end;
+jpeg_idct_13x13 ::::13552
+---------------------- page index: 7
+jpeg_idct_12x12
+----------------------page end;
+jpeg_idct_14x14 ::::15712
+---------------------- page index: 8
+jpeg_idct_13x13
+----------------------page end;
+jpeg_idct_15x15 ::::17824
+---------------------- page index: 9
+jpeg_idct_14x14
+----------------------page end;
+jpeg_idct_16x16 ::::20128
+---------------------- page index: 10
+jpeg_idct_15x15
+----------------------page end;
+jpeg_idct_16x8 ::::22672
+---------------------- page index: 11
+jpeg_idct_16x16
+----------------------page end;
+jpeg_idct_14x7 ::::24864
+---------------------- page index: 12
+jpeg_idct_16x8
+----------------------page end;
+jpeg_idct_12x6 ::::26592
+---------------------- page index: 13
+jpeg_idct_14x7
+----------------------page end;
+jpeg_idct_10x5 ::::28048
+---------------------- page index: 14
+jpeg_idct_12x6
+----------------------page end;
+jpeg_idct_8x4 ::::29264
+---------------------- page index: 15
+jpeg_idct_10x5
+----------------------page end;
+jpeg_idct_6x3 ::::30256
+remain Size: to jpeg_idct_6x3 320
+jpeg_idct_4x2 ::::31008
+---------------------- page index: 16
+jpeg_idct_8x4
+jpeg_idct_6x3
+----------------------page end;
+jpeg_idct_2x1 ::::31840
+remain Size: to jpeg_idct_2x1 959
+jpeg_idct_8x16 ::::32112
+---------------------- page index: 17
+jpeg_idct_4x2
+jpeg_idct_2x1
+----------------------page end;
+jpeg_idct_7x14 ::::33968
+---------------------- page index: 18
+jpeg_idct_8x16
+----------------------page end;
+jpeg_idct_6x12 ::::35568
+---------------------- page index: 19
+jpeg_idct_7x14
+----------------------page end;
+jpeg_idct_5x10 ::::36896
+---------------------- page index: 20
+jpeg_idct_6x12
+----------------------page end;
+jpeg_idct_4x8 ::::38080
+---------------------- page index: 21
+jpeg_idct_5x10
+----------------------page end;
+jpeg_idct_3x6 ::::39248
+remain Size: to jpeg_idct_3x6 153
+jpeg_idct_2x4 ::::40000
+---------------------- page index: 22
+jpeg_idct_4x8
+jpeg_idct_3x6
+----------------------page end;
+jpeg_idct_1x2 ::::40928
+remain Size: to jpeg_idct_1x2 847
+  CC       jquant1.lo
+1201-----finish_pass_1_quant- functions--1
+1201-----color_quantize3- functions--7
+1201-----color_quantize- functions--10
+1201-----quantize3_ord_dither- functions--7
+1201-----quantize_ord_dither- functions--10
+1201-----quantize_fs_dither- functions--13
+1201-----output_value- functions--1
+1201-----largest_input_value- functions--1
+jinit_1pass_quantizer===
+start_pass_1_quant===
+finish_pass_1_quant===
+new_color_map_1_quant===
+create_colormap===
+create_colorindex===
+alloc_fs_workspace===
+color_quantize3===
+color_quantize===
+quantize3_ord_dither===
+quantize_ord_dither===
+create_odither_tables===
+quantize_fs_dither===
+make_odither_array===
+select_ncolors===
+output_value===
+largest_input_value===
+TailJMP :jinit_1pass_quantizer
+jinit_1pass_quantizer ::::0
+remain Size: to jinit_1pass_quantizer 1315
+TailJMP :start_pass_1_quant
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+start_pass_1_quant ::::736
+remain Size: to start_pass_1_quant 617
+finish_pass_1_quant ::::1440
+remain Size: to finish_pass_1_quant 578
+new_color_map_1_quant ::::1488
+remain Size: to new_color_map_1_quant 468
+create_colormap ::::1600
+---------------------- page index: 0
+jinit_1pass_quantizer
+start_pass_1_quant
+finish_pass_1_quant
+new_color_map_1_quant
+----------------------page end;
+create_colorindex ::::2640
+I am here, not find start
+remain Size: to create_colorindex 132
+alloc_fs_workspace ::::3536
+---------------------- page index: 1
+create_colormap
+create_colorindex
+----------------------page end;
+color_quantize3 ::::3856
+remain Size: to color_quantize3 1249
+color_quantize ::::4352
+remain Size: to color_quantize 858
+quantize3_ord_dither ::::4752
+remain Size: to quantize3_ord_dither 248
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+quantize_ord_dither ::::5376
+---------------------- page index: 2
+alloc_fs_workspace
+color_quantize3
+color_quantize
+quantize3_ord_dither
+----------------------page end;
+create_odither_tables ::::6112
+remain Size: to create_odither_tables 1017
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+quantize_fs_dither ::::6416
+---------------------- page index: 3
+quantize_ord_dither
+create_odither_tables
+----------------------page end;
+make_odither_array ::::7472
+---------------------- page index: 4
+quantize_fs_dither
+----------------------page end;
+select_ncolors ::::8496
+remain Size: to select_ncolors 89
+output_value ::::9456
+remain Size: to output_value 11
+largest_input_value ::::9536
+---------------------- page index: 5
+make_odither_array
+select_ncolors
+output_value
+----------------------page end;
+  CC       jquant2.lo
+1201-----new_color_map_2_quant- functions--1
+1201-----prescan_quantize- functions--9
+1201-----finish_pass2- functions--1
+1201-----update_box- functions--84
+1201-----compute_color- functions--12
+1201-----find_biggest_color_pop- functions--7
+1201-----find_biggest_volume- functions--6
+1201-----find_nearby_colors- functions--32
+1201-----find_best_colors- functions--18
+jinit_2pass_quantizer===
+start_pass_2_quant===
+new_color_map_2_quant===
+init_error_limit===
+prescan_quantize===
+finish_pass1===
+pass2_fs_dither===
+pass2_no_dither===
+finish_pass2===
+select_colors===
+update_box===
+median_cut===
+compute_color===
+find_biggest_color_pop===
+find_biggest_volume===
+fill_inverse_cmap===
+find_nearby_colors===
+find_best_colors===
+TailJMP :jinit_2pass_quantizer
+jinit_2pass_quantizer ::::0
+remain Size: to jinit_2pass_quantizer 673
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+start_pass_2_quant ::::1376
+---------------------- page index: 0
+jinit_2pass_quantizer
+----------------------page end;
+new_color_map_2_quant ::::2304
+remain Size: to new_color_map_2_quant 1041
+init_error_limit ::::2400
+remain Size: to init_error_limit 310
+prescan_quantize ::::3136
+remain Size: to prescan_quantize 27
+finish_pass1 ::::3424
+---------------------- page index: 1
+start_pass_2_quant
+new_color_map_2_quant
+init_error_limit
+prescan_quantize
+----------------------page end;
+pass2_fs_dither ::::3664
+remain Size: to pass2_fs_dither 267
+pass2_no_dither ::::5216
+---------------------- page index: 2
+finish_pass1
+pass2_fs_dither
+----------------------page end;
+finish_pass2 ::::5792
+remain Size: to finish_pass2 1434
+TailJMP :select_colors
+select_colors ::::5840
+remain Size: to select_colors 832
+update_box ::::6448
+---------------------- page index: 3
+pass2_no_dither
+finish_pass2
+select_colors
+----------------------page end;
+median_cut ::::7920
+---------------------- page index: 4
+update_box
+----------------------page end;
+compute_color ::::8672
+remain Size: to compute_color 584
+find_biggest_color_pop ::::9392
+remain Size: to find_biggest_color_pop 361
+find_biggest_volume ::::9616
+remain Size: to find_biggest_volume 78
+fill_inverse_cmap ::::9904
+---------------------- page index: 5
+median_cut
+compute_color
+find_biggest_color_pop
+find_biggest_volume
+----------------------page end;
+find_nearby_colors ::::10800
+remain Size: to find_nearby_colors 234
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 1184, %noreg; mem:LD8[FixedStack-1](align=16)
+find_best_colors ::::11728
+---------------------- page index: 6
+fill_inverse_cmap
+find_nearby_colors
+----------------------page end;
+  CC       jutils.lo
+1201-----jdiv_round_up- functions--1
+1201-----jround_up- functions--1
+1201-----jcopy_sample_rows- functions--4
+1201-----jcopy_block_row- functions--1
+jdiv_round_up===
+jround_up===
+jcopy_sample_rows===
+jcopy_block_row===
+jdiv_round_up ::::0
+remain Size: to jdiv_round_up 1998
+jround_up ::::64
+remain Size: to jround_up 1938
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+jcopy_sample_rows ::::128
+remain Size: to jcopy_sample_rows 1622
+TAILJMPd64 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>
+BBI->none Reg
+jcopy_block_row ::::448
+remain Size: to jcopy_block_row 1527
+  CC       jmemmgr.lo
+jinit_memory_mgr===
+alloc_small===
+alloc_large===
+alloc_sarray===
+alloc_barray===
+request_virt_sarray===
+request_virt_barray===
+realize_virt_arrays===
+access_virt_sarray===
+access_virt_barray===
+free_pool===
+self_destruct===
+out_of_memory===
+do_sarray_io===
+do_barray_io===
+jinit_memory_mgr ::::0
+remain Size: to jinit_memory_mgr 1131
+alloc_small ::::928
+remain Size: to alloc_small 160
+alloc_large ::::1904
+---------------------- page index: 0
+jinit_memory_mgr
+alloc_small
+----------------------page end;
+alloc_sarray ::::2512
+remain Size: to alloc_sarray 844
+alloc_barray ::::3120
+remain Size: to alloc_barray 241
+request_virt_sarray ::::3728
+---------------------- page index: 1
+alloc_large
+alloc_sarray
+alloc_barray
+----------------------page end;
+request_virt_barray ::::4176
+remain Size: to request_virt_barray 1156
+realize_virt_arrays ::::4624
+---------------------- page index: 2
+request_virt_sarray
+request_virt_barray
+----------------------page end;
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+access_virt_sarray ::::5824
+---------------------- page index: 3
+realize_virt_arrays
+----------------------page end;
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+access_virt_barray ::::7024
+---------------------- page index: 4
+access_virt_sarray
+----------------------page end;
+free_pool ::::8224
+I am here, not find start
+I am here, not find start
+I am here, not find start
+---------------------- page index: 5
+access_virt_barray
+----------------------page end;
+TailJMP :self_destruct
+self_destruct ::::9280
+remain Size: to self_destruct 693
+out_of_memory ::::9600
+remain Size: to out_of_memory 558
+do_sarray_io ::::9744
+---------------------- page index: 6
+free_pool
+self_destruct
+out_of_memory
+----------------------page end;
+do_barray_io ::::10368
+remain Size: to do_barray_io 799
+  CC       jmemnobs.lo
+1201-----jpeg_mem_available- functions--1
+1201-----jpeg_mem_init- functions--1
+1201-----jpeg_mem_term- functions--1
+jpeg_get_small===
+jpeg_free_small===
+jpeg_get_large===
+jpeg_free_large===
+jpeg_mem_available===
+jpeg_open_backing_store===
+jpeg_mem_init===
+jpeg_mem_term===
+jpeg_get_small ::::0
+remain Size: to jpeg_get_small 2003
+jpeg_free_small ::::48
+remain Size: to jpeg_free_small 1958
+jpeg_get_large ::::96
+remain Size: to jpeg_get_large 1913
+jpeg_free_large ::::144
+remain Size: to jpeg_free_large 1868
+jpeg_mem_available ::::192
+remain Size: to jpeg_mem_available 1826
+jpeg_open_backing_store ::::240
+remain Size: to jpeg_open_backing_store 1716
+jpeg_mem_init ::::352
+remain Size: to jpeg_mem_init 1675
+jpeg_mem_term ::::400
+remain Size: to jpeg_mem_term 1636
+  CCLD     libjpeg.la
+  CC       cjpeg.o
+main===
+parse_switches===
+usage===
+select_file_type===
+main ::::0
+remain Size: to main 422
+parse_switches ::::1632
+---------------------- page index: 0
+main
+----------------------page end;
+usage ::::7184
+---------------------- page index: 1
+parse_switches
+----------------------page end;
+select_file_type ::::9040
+---------------------- page index: 2
+usage
+----------------------page end;
+  CC       rdppm.o
+1201-----finish_input_ppm- functions--1
+jinit_read_ppm===
+start_input_ppm===
+finish_input_ppm===
+read_pbm_integer===
+get_text_gray_row===
+get_text_rgb_row===
+get_word_gray_row===
+get_raw_row===
+get_scaled_gray_row===
+get_word_rgb_row===
+get_scaled_rgb_row===
+pbm_getc===
+jinit_read_ppm ::::0
+remain Size: to jinit_read_ppm 1812
+start_input_ppm ::::240
+---------------------- page index: 0
+jinit_read_ppm
+----------------------page end;
+finish_input_ppm ::::2640
+---------------------- page index: 1
+start_input_ppm
+----------------------page end;
+read_pbm_integer ::::2688
+I am here, not find start
+remain Size: to read_pbm_integer 1452
+get_text_gray_row ::::3248
+remain Size: to get_text_gray_row 1116
+get_text_rgb_row ::::3584
+remain Size: to get_text_rgb_row 585
+get_word_gray_row ::::4128
+---------------------- page index: 2
+finish_input_ppm
+read_pbm_integer
+get_text_gray_row
+get_text_rgb_row
+----------------------page end;
+get_raw_row ::::4768
+remain Size: to get_raw_row 1067
+get_scaled_gray_row ::::5120
+remain Size: to get_scaled_gray_row 442
+get_word_rgb_row ::::5760
+---------------------- page index: 3
+get_word_gray_row
+get_raw_row
+get_scaled_gray_row
+----------------------page end;
+get_scaled_rgb_row ::::6368
+remain Size: to get_scaled_rgb_row 755
+pbm_getc ::::7056
+remain Size: to pbm_getc 539
+  CC       rdgif.o
+jinit_read_gif===
+jinit_read_gif ::::0
+remain Size: to jinit_read_gif 1878
+  CC       rdtarga.o
+1201-----finish_input_tga- functions--1
+jinit_read_targa===
+start_input_tga===
+finish_input_tga===
+read_rle_pixel===
+read_non_rle_pixel===
+get_8bit_row===
+get_16bit_row===
+get_24bit_row===
+get_8bit_gray_row===
+preload_image===
+read_byte===
+read_colormap===
+get_memory_row===
+jinit_read_targa ::::0
+remain Size: to jinit_read_targa 1804
+start_input_tga ::::256
+I am here, not find start
+---------------------- page index: 0
+jinit_read_targa
+----------------------page end;
+finish_input_tga ::::3152
+---------------------- page index: 1
+start_input_tga
+----------------------page end;
+read_rle_pixel ::::3200
+remain Size: to read_rle_pixel 1648
+read_non_rle_pixel ::::3568
+remain Size: to read_non_rle_pixel 1409
+get_8bit_row ::::3808
+remain Size: to get_8bit_row 982
+get_16bit_row ::::4240
+remain Size: to get_16bit_row 599
+get_24bit_row ::::4624
+remain Size: to get_24bit_row 284
+get_8bit_gray_row ::::4944
+---------------------- page index: 2
+finish_input_tga
+read_rle_pixel
+read_non_rle_pixel
+get_8bit_row
+get_16bit_row
+get_24bit_row
+----------------------page end;
+TailJMP :preload_image
+preload_image ::::5248
+remain Size: to preload_image 1202
+read_byte ::::5808
+remain Size: to read_byte 860
+read_colormap ::::6160
+remain Size: to read_colormap 211
+get_memory_row ::::6816
+---------------------- page index: 3
+get_8bit_gray_row
+preload_image
+read_byte
+read_colormap
+----------------------page end;
+  CC       rdrle.o
+  CC       rdbmp.o
+1201-----finish_input_bmp- functions--1
+jinit_read_bmp===
+start_input_bmp===
+finish_input_bmp===
+read_colormap===
+read_byte===
+preload_image===
+get_8bit_row===
+get_24bit_row===
+get_32bit_row===
+jinit_read_bmp ::::0
+remain Size: to jinit_read_bmp 1804
+start_input_bmp ::::256
+---------------------- page index: 0
+jinit_read_bmp
+----------------------page end;
+finish_input_bmp ::::4672
+---------------------- page index: 1
+start_input_bmp
+----------------------page end;
+TailJMP :read_colormap
+read_colormap ::::4720
+remain Size: to read_colormap 934
+read_byte ::::5808
+remain Size: to read_byte 592
+TailJMP :preload_image
+preload_image ::::6160
+---------------------- page index: 2
+finish_input_bmp
+read_colormap
+read_byte
+----------------------page end;
+get_8bit_row ::::7104
+remain Size: to get_8bit_row 590
+get_24bit_row ::::7632
+remain Size: to get_24bit_row 91
+get_32bit_row ::::8144
+---------------------- page index: 3
+preload_image
+get_8bit_row
+get_24bit_row
+----------------------page end;
+  CC       rdswitch.o
+read_quant_tables===
+read_text_integer===
+read_scan_script===
+read_scan_integer===
+set_quality_ratings===
+set_quant_slots===
+set_sample_factors===
+text_getc===
+read_quant_tables ::::0
+remain Size: to read_quant_tables 1066
+read_text_integer ::::992
+remain Size: to read_text_integer 430
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+read_scan_script ::::1632
+---------------------- page index: 0
+read_quant_tables
+read_text_integer
+----------------------page end;
+read_scan_integer ::::3504
+I am here, not find start
+---------------------- page index: 1
+read_scan_script
+----------------------page end;
+set_quality_ratings ::::4064
+remain Size: to set_quality_ratings 959
+set_quant_slots ::::4608
+remain Size: to set_quant_slots 416
+set_sample_factors ::::5152
+---------------------- page index: 2
+read_scan_integer
+set_quality_ratings
+set_quant_slots
+----------------------page end;
+text_getc ::::5824
+remain Size: to text_getc 1169
+  CC       cdjpeg.o
+1201-----read_stdin- functions--1
+1201-----write_stdout- functions--1
+keymatch===
+tolower===
+read_stdin===
+write_stdout===
+keymatch ::::0
+remain Size: to keymatch 1632
+read_stdin ::::416
+remain Size: to read_stdin 1565
+write_stdout ::::496
+remain Size: to write_stdout 1498
+  CCLD     cjpeg
+  CC       djpeg.o
+main===
+print_text_marker===
+parse_switches===
+usage===
+jpeg_getc===
+main ::::0
+---------------------- page index: 0
+----------------------page end;
+print_text_marker ::::2064
+---------------------- page index: 1
+main
+----------------------page end;
+parse_switches ::::3040
+I am here, not find start
+I am here, not find start
+I am here, not find start
+I am here, not find start
+I am here, not find start
+I am here, not find start
+I am here, not find start
+I am here, not find start
+I am here, not find start
+---------------------- page index: 2
+print_text_marker
+----------------------page end;
+usage ::::7408
+---------------------- page index: 3
+parse_switches
+----------------------page end;
+jpeg_getc ::::9008
+remain Size: to jpeg_getc 109
+  CC       wrppm.o
+jinit_write_ppm===
+start_output_ppm===
+finish_output_ppm===
+copy_pixel_rows===
+put_demapped_gray===
+put_demapped_rgb===
+put_pixel_rows===
+jinit_write_ppm ::::0
+remain Size: to jinit_write_ppm 1262
+start_output_ppm ::::800
+remain Size: to start_output_ppm 1003
+TailJMP :finish_output_ppm
+finish_output_ppm ::::1072
+remain Size: to finish_output_ppm 610
+copy_pixel_rows ::::1472
+remain Size: to copy_pixel_rows 224
+put_demapped_gray ::::1872
+---------------------- page index: 0
+jinit_write_ppm
+start_output_ppm
+finish_output_ppm
+copy_pixel_rows
+----------------------page end;
+TailJMP :put_demapped_rgb
+put_demapped_rgb ::::2208
+remain Size: to put_demapped_rgb 1212
+put_pixel_rows ::::2720
+remain Size: to put_pixel_rows 1133
+  CC       wrgif.o
+jinit_write_gif===
+start_output_gif===
+put_pixel_rows===
+finish_output_gif===
+emit_header===
+put_word===
+put_3bytes===
+compress_init===
+output===
+flush_packet===
+compress_pixel===
+compress_term===
+jinit_write_gif ::::0
+remain Size: to jinit_write_gif 1320
+start_output_gif ::::736
+remain Size: to start_output_gif 1187
+put_pixel_rows ::::880
+remain Size: to put_pixel_rows 889
+TailJMP :finish_output_gif
+finish_output_gif ::::1184
+remain Size: to finish_output_gif 342
+TailJMP :emit_header
+emit_header ::::1744
+---------------------- page index: 0
+jinit_write_gif
+start_output_gif
+put_pixel_rows
+finish_output_gif
+----------------------page end;
+TailJMP :put_word
+put_word ::::4016
+---------------------- page index: 1
+emit_header
+----------------------page end;
+TailJMP :put_3bytes
+put_3bytes ::::4256
+remain Size: to put_3bytes 1533
+compress_init ::::4544
+remain Size: to compress_init 1394
+output ::::4688
+I am here, not find start
+remain Size: to output 1118
+flush_packet ::::4976
+remain Size: to flush_packet 735
+compress_pixel ::::5360
+remain Size: to compress_pixel 440
+TailJMP :compress_term
+compress_term ::::5664
+remain Size: to compress_term 161
+  CC       wrtarga.o
+jinit_write_targa===
+start_output_tga===
+finish_output_tga===
+write_header===
+put_demapped_gray===
+put_gray_rows===
+put_pixel_rows===
+jinit_write_targa ::::0
+remain Size: to jinit_write_targa 1431
+TailJMP :start_output_tga
+start_output_tga ::::624
+remain Size: to start_output_tga 337
+TailJMP :finish_output_tga
+finish_output_tga ::::1728
+---------------------- page index: 0
+jinit_write_targa
+start_output_tga
+----------------------page end;
+write_header ::::2128
+remain Size: to write_header 1191
+put_demapped_gray ::::2592
+remain Size: to put_demapped_gray 856
+put_gray_rows ::::2928
+remain Size: to put_gray_rows 449
+put_pixel_rows ::::3344
+remain Size: to put_pixel_rows 158
+  CC       wrrle.o
+  CC       wrbmp.o
+1201-----start_output_bmp- functions--1
+jinit_write_bmp===
+start_output_bmp===
+finish_output_bmp===
+put_gray_rows===
+put_pixel_rows===
+write_os2_header===
+write_bmp_header===
+write_colormap===
+jinit_write_bmp ::::0
+remain Size: to jinit_write_bmp 1203
+start_output_bmp ::::848
+remain Size: to start_output_bmp 1164
+TailJMP :finish_output_bmp
+finish_output_bmp ::::896
+remain Size: to finish_output_bmp 201
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+put_gray_rows ::::1872
+---------------------- page index: 0
+jinit_write_bmp
+start_output_bmp
+finish_output_bmp
+----------------------page end;
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+put_pixel_rows ::::2608
+remain Size: to put_pixel_rows 722
+write_os2_header ::::3216
+---------------------- page index: 1
+put_gray_rows
+put_pixel_rows
+----------------------page end;
+write_bmp_header ::::4048
+remain Size: to write_bmp_header 256
+write_colormap ::::5024
+I am here, not find start
+I am here, not find start
+I am here, not find start
+I am here, not find start
+---------------------- page index: 2
+write_os2_header
+write_bmp_header
+----------------------page end;
+  CC       rdcolmap.o
+read_color_map===
+read_gif_map===
+read_ppm_map===
+add_map_entry===
+read_pbm_integer===
+pbm_getc===
+TailJMP :read_color_map
+TailJMP :read_color_map
+read_color_map ::::0
+remain Size: to read_color_map 1557
+read_gif_map ::::496
+I am here, not find start
+remain Size: to read_gif_map 676
+TailJMP :read_ppm_map
+read_ppm_map ::::1392
+---------------------- page index: 0
+read_color_map
+read_gif_map
+----------------------page end;
+add_map_entry ::::2704
+remain Size: to add_map_entry 249
+read_pbm_integer ::::3216
+I am here, not find start
+---------------------- page index: 1
+read_ppm_map
+add_map_entry
+----------------------page end;
+pbm_getc ::::3776
+remain Size: to pbm_getc 1275
+  CCLD     djpeg
+./.libs/libjpeg.a(jdcoefct.o): In function `decompress_onepass':
+jdcoefct.c:(.text+0x1878): undefined reference to `sgx_measure_start'
+jdcoefct.c:(.text+0x1c7f): undefined reference to `sgx_measure_wait'
+clang-5.0: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [djpeg] Error 1
+make[1]: Leaving directory `/home/alax/SGXTestProgram/libjpeg'
+make: *** [all] Error 2

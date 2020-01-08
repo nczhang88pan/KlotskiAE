@@ -1,0 +1,2645 @@
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c debug.c
+1201-----mbedtls_debug_set_threshold- functions--1
+mbedtls_debug_set_threshold===
+mbedtls_debug_print_msg===
+debug_send_line===
+mbedtls_debug_print_ret===
+mbedtls_debug_print_buf===
+mbedtls_debug_print_ecp===
+mbedtls_debug_print_mpi===
+mbedtls_debug_print_crt===
+debug_print_line_by_line===
+debug_print_pk===
+mbedtls_debug_set_threshold ::::0
+mbedtls_debug_print_msg ::::80
+debug_send_line ::::656
+mbedtls_debug_print_ret ::::752
+%R10<def> = MOV64rm %RSP, 1, %noreg, 656, %noreg; mem:LD8[FixedStack-1](align=16)
+CMP64mi8 %RSP, 1, %noreg, 656, %noreg, 0, %EFLAGS<imp-def>; mem:LD8[FixedStack-1](align=16)
+CMP64rm %RBX, %RSP, 1, %noreg, 656, %noreg, %EFLAGS<imp-def>; mem:LD8[FixedStack-1](align=16)
+CMP64mi8 %RSP, 1, %noreg, 656, %noreg, 0, %EFLAGS<imp-def>; mem:LD8[FixedStack-1](align=16)
+mbedtls_debug_print_buf ::::1168
+mbedtls_debug_print_ecp ::::2352
+mbedtls_debug_print_mpi ::::2864
+mbedtls_debug_print_crt ::::4128
+---------------------- page index: 0
+mbedtls_debug_set_threshold
+mbedtls_debug_print_msg
+debug_send_line
+mbedtls_debug_print_ret
+mbedtls_debug_print_buf
+mbedtls_debug_print_ecp
+mbedtls_debug_print_mpi
+----------------------page end;
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+debug_print_line_by_line ::::4800
+debug_print_pk ::::5216
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c ssl_cache.c
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c ssl_ciphersuites.c
+1201-----mbedtls_ssl_ciphersuite_from_id- functions--7
+1201-----mbedtls_ssl_get_ciphersuite_name- functions--4
+1201-----mbedtls_ssl_get_ciphersuite_sig_pk_alg- functions--6
+1201-----mbedtls_ssl_ciphersuite_uses_ec- functions--4
+1201-----mbedtls_ssl_ciphersuite_uses_psk- functions--4
+mbedtls_ssl_list_ciphersuites===
+mbedtls_ssl_ciphersuite_from_id===
+mbedtls_ssl_ciphersuite_from_string===
+mbedtls_ssl_get_ciphersuite_name===
+mbedtls_ssl_get_ciphersuite_id===
+mbedtls_ssl_get_ciphersuite_sig_pk_alg===
+mbedtls_ssl_ciphersuite_uses_ec===
+mbedtls_ssl_ciphersuite_uses_psk===
+mbedtls_ssl_list_ciphersuites ::::0
+mbedtls_ssl_ciphersuite_from_id ::::384
+mbedtls_ssl_ciphersuite_from_string ::::496
+mbedtls_ssl_get_ciphersuite_name ::::752
+mbedtls_ssl_get_ciphersuite_id ::::992
+mbedtls_ssl_get_ciphersuite_sig_pk_alg ::::1232
+mbedtls_ssl_ciphersuite_uses_ec ::::1376
+mbedtls_ssl_ciphersuite_uses_psk ::::1520
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c ssl_cli.c
+1201-----mbedtls_ssl_hs_hdr_len- functions--4
+1201-----ssl_parse_max_fragment_length_ext- functions--5
+1201-----ssl_parse_truncated_hmac_ext- functions--4
+1201-----ssl_parse_encrypt_then_mac_ext- functions--5
+1201-----ssl_parse_extended_ms_ext- functions--5
+1201-----ssl_parse_session_ticket_ext- functions--4
+1201-----mbedtls_ssl_safer_memcmp- functions--4
+1201-----mbedtls_pk_ec- functions--1
+1201-----mbedtls_ssl_own_key- functions--7
+1201-----mbedtls_ssl_own_cert- functions--7
+1201-----mbedtls_zeroize- functions--4
+mbedtls_ssl_handshake_client_step===
+ssl_write_client_hello===
+ssl_parse_server_hello===
+ssl_parse_server_key_exchange===
+ssl_parse_certificate_request===
+ssl_parse_server_hello_done===
+ssl_write_client_key_exchange===
+ssl_write_certificate_verify===
+ssl_parse_new_session_ticket===
+ssl_generate_random===
+ssl_write_hostname_ext===
+ssl_write_renegotiation_ext===
+ssl_write_signature_algorithms_ext===
+ssl_write_supported_elliptic_curves_ext===
+ssl_write_supported_point_formats_ext===
+ssl_write_max_fragment_length_ext===
+ssl_write_truncated_hmac_ext===
+ssl_write_encrypt_then_mac_ext===
+ssl_write_extended_ms_ext===
+ssl_write_alpn_ext===
+ssl_write_session_ticket_ext===
+ssl_parse_hello_verify_request===
+mbedtls_ssl_hs_hdr_len===
+ssl_parse_renegotiation_info===
+ssl_parse_max_fragment_length_ext===
+ssl_parse_truncated_hmac_ext===
+ssl_parse_encrypt_then_mac_ext===
+ssl_parse_extended_ms_ext===
+ssl_parse_session_ticket_ext===
+ssl_parse_supported_point_formats_ext===
+ssl_parse_alpn_ext===
+mbedtls_ssl_safer_memcmp===
+ssl_get_ecdh_params_from_cert===
+ssl_parse_server_psk_hint===
+ssl_parse_server_dh_params===
+ssl_parse_server_ecdh_params===
+ssl_parse_signature_algorithm===
+mbedtls_pk_ec===
+ssl_check_server_ecdh_params===
+mbedtls_ssl_own_key===
+ssl_write_encrypted_pms===
+mbedtls_ssl_own_cert===
+mbedtls_zeroize===
+TailJMP :mbedtls_ssl_handshake_client_step
+mbedtls_ssl_handshake_client_step ::::0
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_client_hello ::::1296
+---------------------- page index: 0
+mbedtls_ssl_handshake_client_step
+----------------------page end;
+TailJMP :ssl_parse_server_hello
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_parse_server_hello ::::5600
+ssl_parse_server_key_exchange ::::12032
+ssl_parse_certificate_request ::::16304
+ssl_parse_server_hello_done ::::18448
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_client_key_exchange ::::19168
+ssl_write_certificate_verify ::::22784
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_parse_new_session_ticket ::::24720
+TailJMP :ssl_generate_random
+ssl_generate_random ::::26400
+TailJMP :ssl_write_hostname_ext
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_hostname_ext ::::26832
+TailJMP :ssl_write_renegotiation_ext
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_renegotiation_ext ::::27472
+TailJMP :ssl_write_signature_algorithms_ext
+ssl_write_signature_algorithms_ext ::::28016
+TailJMP :ssl_write_supported_elliptic_curves_ext
+ssl_write_supported_elliptic_curves_ext ::::28912
+TailJMP :ssl_write_supported_point_formats_ext
+ssl_write_supported_point_formats_ext ::::29760
+TailJMP :ssl_write_max_fragment_length_ext
+ssl_write_max_fragment_length_ext ::::30208
+TailJMP :ssl_write_truncated_hmac_ext
+ssl_write_truncated_hmac_ext ::::30720
+TailJMP :ssl_write_encrypt_then_mac_ext
+ssl_write_encrypt_then_mac_ext ::::31184
+TailJMP :ssl_write_extended_ms_ext
+ssl_write_extended_ms_ext ::::31680
+TailJMP :ssl_write_alpn_ext
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_alpn_ext ::::32176
+TailJMP :ssl_write_session_ticket_ext
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_session_ticket_ext ::::33184
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_parse_hello_verify_request ::::33984
+I am here, not find start
+mbedtls_ssl_hs_hdr_len ::::35360
+ssl_parse_renegotiation_info ::::35472
+ssl_parse_max_fragment_length_ext ::::36048
+ssl_parse_truncated_hmac_ext ::::36224
+ssl_parse_encrypt_then_mac_ext ::::36368
+ssl_parse_extended_ms_ext ::::36528
+ssl_parse_session_ticket_ext ::::36688
+ssl_parse_supported_point_formats_ext ::::36832
+ssl_parse_alpn_ext ::::37248
+mbedtls_ssl_safer_memcmp ::::37712
+ssl_get_ecdh_params_from_cert ::::37824
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RDI %RDX %RSI
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %R8<def>, $1:[reguse:GR64], %RSI<kill>, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	%RCX<def> = MOV64rm %R8, 1, %noreg, 0, %noreg; mem:LD8[%2](tbaa=!3)
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RSI<def>, $1:[reguse:GR64], %RCX, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	%EAX<def> = MOVZX32rm8 %RSI, 1, %noreg, 0, %noreg, %RAX<imp-def>; mem:LD1[%6](tbaa=!4)
+	%RAX<def,tied1> = SHL64ri %RAX<kill,tied0>, 8, %EFLAGS<imp-def,dead>
+	%ESI<def> = MOVZX32rm8 %RSI<kill>, 1, %noreg, 1, %noreg, %RSI<imp-def>; mem:LD1[%8](tbaa=!4)
+	%RSI<def,tied1> = ADD64rr_DB %RSI<kill,tied0>, %RAX<kill>, %EFLAGS<imp-def,dead>
+	%RAX<def> = LEA64r %RCX, 1, %noreg, 2, %noreg
+	MOV64mr %R8, 1, %noreg, 0, %noreg, %RAX<kill>; mem:ST8[%2](tbaa=!3)
+	%RCX<def> = LEA64r %RCX<kill>, 1, %RSI<kill>, 2, %noreg
+	CMP64rr %RCX, %RDX<kill>, %EFLAGS<imp-def>
+	JBE_1 <BB#2>, %EFLAGS<imp-use,kill>
+    Successors according to CFG: BB#1(0x40000000 / 0x80000000 = 50.00%) BB#2(0x40000000 / 0x80000000 = 50.00%)
+ssl_parse_server_psk_hint stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+ssl_parse_server_psk_hint ::::38544
+ssl_parse_server_dh_params ::::38864
+ssl_parse_server_ecdh_params ::::39568
+ssl_parse_signature_algorithm ::::39952
+mbedtls_pk_ec ::::40896
+ssl_check_server_ecdh_params ::::40944
+mbedtls_ssl_own_key ::::41504
+ssl_write_encrypted_pms ::::41728
+mbedtls_ssl_own_cert ::::42944
+mbedtls_zeroize ::::43168
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c ssl_cookie.c
+1201-----mbedtls_ssl_cookie_set_timeout- functions--1
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_ssl_safer_memcmp- functions--4
+mbedtls_ssl_cookie_init===
+mbedtls_ssl_cookie_set_timeout===
+mbedtls_ssl_cookie_free===
+mbedtls_zeroize===
+mbedtls_ssl_cookie_setup===
+mbedtls_ssl_cookie_write===
+ssl_cookie_hmac===
+mbedtls_ssl_cookie_check===
+mbedtls_ssl_safer_memcmp===
+mbedtls_ssl_cookie_init ::::0
+mbedtls_ssl_cookie_set_timeout ::::192
+TailJMP :mbedtls_ssl_cookie_free
+mbedtls_ssl_cookie_free ::::256
+mbedtls_zeroize ::::432
+mbedtls_ssl_cookie_setup ::::512
+mbedtls_ssl_cookie_write ::::896
+ssl_cookie_hmac ::::1216
+mbedtls_ssl_cookie_check ::::1696
+mbedtls_ssl_safer_memcmp ::::2144
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c ssl_srv.c
+1201-----mbedtls_ssl_conf_dtls_cookies- functions--1
+1201-----mbedtls_ssl_hdr_len- functions--4
+1201-----mbedtls_ssl_hs_hdr_len- functions--4
+1201-----mbedtls_ssl_safer_memcmp- functions--4
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_pk_ec- functions--1
+1201-----mbedtls_ssl_own_key- functions--7
+mbedtls_ssl_set_client_transport_id===
+mbedtls_ssl_conf_dtls_cookies===
+mbedtls_ssl_handshake_server_step===
+ssl_parse_client_hello===
+ssl_write_server_hello===
+ssl_write_server_key_exchange===
+ssl_write_certificate_request===
+ssl_write_server_hello_done===
+ssl_parse_client_key_exchange===
+ssl_parse_certificate_verify===
+ssl_write_new_session_ticket===
+mbedtls_ssl_hdr_len===
+mbedtls_ssl_hs_hdr_len===
+ssl_parse_servername_ext===
+ssl_parse_renegotiation_info===
+ssl_parse_signature_algorithms_ext===
+ssl_parse_supported_elliptic_curves===
+ssl_parse_supported_point_formats===
+ssl_parse_max_fragment_length_ext===
+ssl_parse_truncated_hmac_ext===
+ssl_parse_encrypt_then_mac_ext===
+ssl_parse_extended_ms_ext===
+ssl_parse_session_ticket_ext===
+ssl_parse_alpn_ext===
+ssl_ciphersuite_match===
+mbedtls_ssl_safer_memcmp===
+mbedtls_zeroize===
+ssl_pick_cert===
+ssl_check_key_curve===
+mbedtls_pk_ec===
+ssl_write_hello_verify_request===
+ssl_write_renegotiation_ext===
+ssl_write_max_fragment_length_ext===
+ssl_write_truncated_hmac_ext===
+ssl_write_encrypt_then_mac_ext===
+ssl_write_extended_ms_ext===
+ssl_write_session_ticket_ext===
+ssl_write_supported_point_formats_ext===
+ssl_write_alpn_ext===
+ssl_get_ecdh_params_from_cert===
+mbedtls_ssl_own_key===
+ssl_parse_client_dh_public===
+ssl_parse_client_psk_identity===
+ssl_parse_encrypted_pms===
+mbedtls_pk_get_len===
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_set_client_transport_id ::::0
+mbedtls_ssl_conf_dtls_cookies ::::432
+TailJMP :mbedtls_ssl_handshake_server_step
+mbedtls_ssl_handshake_server_step ::::528
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_parse_client_hello ::::1808
+I am here, not find start
+---------------------- page index: 0
+mbedtls_ssl_set_client_transport_id
+mbedtls_ssl_conf_dtls_cookies
+mbedtls_ssl_handshake_server_step
+----------------------page end;
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_server_hello ::::12112
+ssl_write_server_key_exchange ::::15648
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_certificate_request ::::20880
+ssl_write_server_hello_done ::::22544
+ssl_parse_client_key_exchange ::::23056
+ssl_parse_certificate_verify ::::26512
+ssl_write_new_session_ticket ::::28432
+mbedtls_ssl_hdr_len ::::29360
+mbedtls_ssl_hs_hdr_len ::::29472
+ssl_parse_servername_ext ::::29584
+ssl_parse_renegotiation_info ::::30224
+ssl_parse_signature_algorithms_ext ::::30752
+ssl_parse_supported_elliptic_curves ::::31456
+ssl_parse_supported_point_formats ::::32112
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RDI %RDX %RSI
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RAX<def>, $1:[reguse:GR64], %RDI, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RCX<def>, $1:[reguse:GR64], %RSI<kill>, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	CMP64ri8 %RDX<kill>, 1, %EFLAGS<imp-def>
+	JNE_1 <BB#2>, %EFLAGS<imp-use>
+    Successors according to CFG: BB#1(0x40000000 / 0x80000000 = 50.00%) BB#2(0x40000000 / 0x80000000 = 50.00%)
+ssl_parse_max_fragment_length_ext stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+ssl_parse_max_fragment_length_ext ::::32480
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RDI %RDX
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RCX<def>, $1:[reguse:GR64], %RDI, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	TEST64rr %RDX<kill>, %RDX, %EFLAGS<imp-def>
+	JE_1 <BB#2>, %EFLAGS<imp-use,kill>
+    Successors according to CFG: BB#2(0x30000000 / 0x80000000 = 37.50%) BB#1(0x50000000 / 0x80000000 = 62.50%)
+ssl_parse_truncated_hmac_ext stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+ssl_parse_truncated_hmac_ext ::::32800
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RDI %RDX
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RCX<def>, $1:[reguse:GR64], %RDI, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	TEST64rr %RDX<kill>, %RDX, %EFLAGS<imp-def>
+	JE_1 <BB#2>, %EFLAGS<imp-use,kill>
+    Successors according to CFG: BB#2(0x30000000 / 0x80000000 = 37.50%) BB#1(0x50000000 / 0x80000000 = 62.50%)
+ssl_parse_encrypt_then_mac_ext stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+ssl_parse_encrypt_then_mac_ext ::::33184
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RDI %RDX
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RCX<def>, $1:[reguse:GR64], %RDI, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	TEST64rr %RDX<kill>, %RDX, %EFLAGS<imp-def>
+	JE_1 <BB#2>, %EFLAGS<imp-use,kill>
+    Successors according to CFG: BB#2(0x30000000 / 0x80000000 = 37.50%) BB#1(0x50000000 / 0x80000000 = 62.50%)
+ssl_parse_extended_ms_ext stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+ssl_parse_extended_ms_ext ::::33520
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_parse_session_ticket_ext ::::33856
+ssl_parse_alpn_ext ::::35152
+ssl_ciphersuite_match ::::35792
+mbedtls_ssl_safer_memcmp ::::36864
+mbedtls_zeroize ::::36976
+ssl_pick_cert ::::37056
+ssl_check_key_curve ::::38560
+mbedtls_pk_ec ::::38912
+ssl_write_hello_verify_request ::::38960
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_renegotiation_ext ::::40112
+ssl_write_max_fragment_length_ext ::::40640
+ssl_write_truncated_hmac_ext ::::41040
+ssl_write_encrypt_then_mac_ext ::::41376
+ssl_write_extended_ms_ext ::::41872
+ssl_write_session_ticket_ext ::::42208
+ssl_write_supported_point_formats_ext ::::42544
+TailJMP :ssl_write_alpn_ext
+TAILJMPd64 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>
+BBI->none Reg
+ssl_write_alpn_ext ::::42880
+ssl_get_ecdh_params_from_cert ::::43456
+mbedtls_ssl_own_key ::::43984
+ssl_parse_client_dh_public ::::44208
+ssl_parse_client_psk_identity ::::44800
+ssl_parse_encrypted_pms ::::45600
+mbedtls_pk_get_len ::::47024
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c ssl_ticket.c
+1201-----mbedtls_ssl_ticket_init- functions--1
+1201-----ssl_ticket_update_keys- functions--1
+1201-----ssl_save_session- functions--11
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_cipher_get_key_bitlen- functions--5
+mbedtls_ssl_ticket_init===
+mbedtls_ssl_ticket_setup===
+ssl_ticket_gen_key===
+mbedtls_ssl_ticket_write===
+ssl_ticket_update_keys===
+ssl_save_session===
+mbedtls_ssl_ticket_parse===
+ssl_ticket_select_key===
+ssl_load_session===
+mbedtls_ssl_ticket_free===
+mbedtls_zeroize===
+mbedtls_cipher_get_key_bitlen===
+mbedtls_ssl_ticket_init ::::0
+TailJMP :mbedtls_ssl_ticket_setup
+mbedtls_ssl_ticket_setup ::::160
+ssl_ticket_gen_key ::::640
+mbedtls_ssl_ticket_write ::::1152
+ssl_ticket_update_keys ::::2016
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_save_session ::::2064
+mbedtls_ssl_ticket_parse ::::2576
+ssl_ticket_select_key ::::3200
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_load_session ::::3424
+TailJMP :mbedtls_ssl_ticket_free
+mbedtls_ssl_ticket_free ::::4176
+---------------------- page index: 0
+mbedtls_ssl_ticket_init
+mbedtls_ssl_ticket_setup
+ssl_ticket_gen_key
+mbedtls_ssl_ticket_write
+ssl_ticket_update_keys
+ssl_save_session
+mbedtls_ssl_ticket_parse
+ssl_ticket_select_key
+ssl_load_session
+----------------------page end;
+mbedtls_zeroize ::::4400
+mbedtls_cipher_get_key_bitlen ::::4480
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c ssl_tls.c
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_ssl_hdr_len- functions--4
+1201-----ssl_ep_len- functions--4
+1201-----mbedtls_ssl_write_version- functions--6
+1201-----ssl_load_six_bytes- functions--1
+1201-----mbedtls_ssl_own_cert- functions--7
+1201-----mbedtls_ssl_hs_hdr_len- functions--4
+1201-----mbedtls_ssl_check_curve- functions--9
+1201-----mbedtls_pk_ec- functions--1
+1201-----ssl_dtls_replay_reset- functions--1
+1201-----mbedtls_ssl_safer_memcmp- functions--4
+1201-----mbedtls_ssl_session_init- functions--1
+1201-----mbedtls_ssl_init- functions--1
+1201-----mbedtls_ssl_conf_endpoint- functions--1
+1201-----mbedtls_ssl_conf_transport- functions--1
+1201-----mbedtls_ssl_conf_dtls_anti_replay- functions--1
+1201-----mbedtls_ssl_conf_dtls_badmac_limit- functions--1
+1201-----mbedtls_ssl_conf_handshake_timeout- functions--1
+1201-----mbedtls_ssl_conf_authmode- functions--1
+1201-----mbedtls_ssl_conf_verify- functions--1
+1201-----mbedtls_ssl_conf_rng- functions--1
+1201-----mbedtls_ssl_conf_dbg- functions--1
+1201-----mbedtls_ssl_set_bio- functions--1
+1201-----mbedtls_ssl_conf_read_timeout- functions--1
+1201-----mbedtls_ssl_conf_session_cache- functions--1
+1201-----mbedtls_ssl_conf_ciphersuites- functions--1
+1201-----mbedtls_ssl_conf_ciphersuites_for_version- functions--4
+1201-----mbedtls_ssl_conf_cert_profile- functions--1
+1201-----mbedtls_ssl_conf_ca_chain- functions--1
+1201-----mbedtls_ssl_set_hs_ca_chain- functions--1
+1201-----mbedtls_ssl_set_hs_authmode- functions--1
+1201-----mbedtls_ssl_conf_psk_cb- functions--1
+1201-----mbedtls_ssl_conf_dhm_min_bitlen- functions--1
+1201-----mbedtls_ssl_conf_sig_hashes- functions--1
+1201-----mbedtls_ssl_conf_curves- functions--1
+1201-----mbedtls_ssl_conf_sni- functions--1
+1201-----mbedtls_ssl_get_alpn_protocol- functions--1
+1201-----mbedtls_ssl_conf_max_version- functions--1
+1201-----mbedtls_ssl_conf_min_version- functions--1
+1201-----mbedtls_ssl_conf_fallback- functions--1
+1201-----mbedtls_ssl_conf_encrypt_then_mac- functions--1
+1201-----mbedtls_ssl_conf_extended_master_secret- functions--1
+1201-----mbedtls_ssl_conf_arc4_support- functions--1
+1201-----mbedtls_ssl_conf_max_frag_len- functions--5
+1201-----mbedtls_ssl_conf_truncated_hmac- functions--1
+1201-----mbedtls_ssl_conf_cbc_record_splitting- functions--1
+1201-----mbedtls_ssl_conf_legacy_renegotiation- functions--1
+1201-----mbedtls_ssl_conf_renegotiation- functions--1
+1201-----mbedtls_ssl_conf_renegotiation_enforced- functions--1
+1201-----mbedtls_ssl_conf_renegotiation_period- functions--1
+1201-----mbedtls_ssl_conf_session_tickets- functions--1
+1201-----mbedtls_ssl_conf_session_tickets_cb- functions--1
+1201-----mbedtls_ssl_conf_export_keys_cb- functions--1
+1201-----mbedtls_ssl_get_bytes_avail- functions--3
+1201-----mbedtls_ssl_get_verify_result- functions--6
+1201-----mbedtls_ssl_get_version- functions--12
+1201-----mbedtls_cipher_get_cipher_mode- functions--5
+1201-----mbedtls_cipher_get_block_size- functions--5
+1201-----mbedtls_ssl_get_max_frag_len- functions--4
+1201-----mbedtls_ssl_get_peer_cert- functions--5
+1201-----mbedtls_ssl_config_init- functions--1
+1201-----ssl_cookie_write_dummy- functions--1
+1201-----ssl_cookie_check_dummy- functions--1
+1201-----mbedtls_ssl_pk_alg_from_sig- functions--5
+1201-----mbedtls_ssl_md_alg_from_hash- functions--9
+1201-----mbedtls_ssl_hash_from_md_alg- functions--9
+1201-----mbedtls_ssl_check_sig_hash- functions--9
+1201-----mbedtls_ssl_read_version- functions--5
+1201-----ssl_bitmask_set- functions--17
+1201-----ssl_bitmask_check- functions--12
+mbedtls_ssl_derive_keys===
+ssl3_prf===
+ssl_calc_verify_ssl===
+ssl_calc_finished_ssl===
+tls1_prf===
+ssl_calc_verify_tls===
+ssl_calc_finished_tls===
+tls_prf_sha384===
+ssl_calc_verify_tls_sha384===
+ssl_calc_finished_tls_sha384===
+tls_prf_sha256===
+ssl_calc_verify_tls_sha256===
+ssl_calc_finished_tls_sha256===
+mbedtls_zeroize===
+mbedtls_ssl_psk_derive_premaster===
+mbedtls_ssl_fetch_input===
+ssl_check_timer===
+ssl_set_timer===
+ssl_double_retransmit_timeout===
+mbedtls_ssl_resend===
+ssl_resend_hello_request===
+mbedtls_ssl_flush_output===
+mbedtls_ssl_hdr_len===
+ssl_ep_len===
+ssl_swap_epochs===
+mbedtls_ssl_write_record===
+mbedtls_ssl_recv_flight_completed===
+ssl_flight_free===
+mbedtls_ssl_send_flight_completed===
+ssl_reset_retransmit_timeout===
+ssl_flight_append===
+mbedtls_ssl_write_version===
+ssl_encrypt_buf===
+mbedtls_ssl_dtls_replay_check===
+ssl_load_six_bytes===
+mbedtls_ssl_dtls_replay_update===
+mbedtls_ssl_read_record===
+ssl_prepare_handshake_record===
+ssl_parse_record_header===
+ssl_prepare_record_content===
+mbedtls_ssl_send_alert_message===
+ssl_handshake_wrapup_free_hs_transform===
+mbedtls_ssl_send_fatal_handshake_failure===
+mbedtls_ssl_write_certificate===
+mbedtls_ssl_own_cert===
+mbedtls_ssl_parse_certificate===
+mbedtls_ssl_hs_hdr_len===
+mbedtls_ssl_check_curve===
+mbedtls_pk_ec===
+mbedtls_ssl_check_cert_usage===
+mbedtls_ssl_write_change_cipher_spec===
+mbedtls_ssl_parse_change_cipher_spec===
+ssl_dtls_replay_reset===
+mbedtls_ssl_optimize_checksum===
+ssl_update_checksum_md5sha1===
+ssl_update_checksum_sha384===
+ssl_update_checksum_sha256===
+mbedtls_ssl_reset_checksum===
+mbedtls_ssl_handshake_wrapup===
+mbedtls_ssl_session_free===
+mbedtls_ssl_write_finished===
+mbedtls_ssl_parse_finished===
+mbedtls_ssl_safer_memcmp===
+mbedtls_ssl_session_init===
+mbedtls_ssl_init===
+mbedtls_ssl_setup===
+ssl_handshake_init===
+mbedtls_ssl_session_reset===
+ssl_session_reset_int===
+mbedtls_ssl_conf_endpoint===
+mbedtls_ssl_conf_transport===
+mbedtls_ssl_conf_dtls_anti_replay===
+mbedtls_ssl_conf_dtls_badmac_limit===
+mbedtls_ssl_conf_handshake_timeout===
+mbedtls_ssl_conf_authmode===
+mbedtls_ssl_conf_verify===
+mbedtls_ssl_conf_rng===
+mbedtls_ssl_conf_dbg===
+mbedtls_ssl_set_bio===
+mbedtls_ssl_conf_read_timeout===
+mbedtls_ssl_set_timer_cb===
+mbedtls_ssl_conf_session_cache===
+mbedtls_ssl_set_session===
+ssl_session_copy===
+mbedtls_ssl_conf_ciphersuites===
+mbedtls_ssl_conf_ciphersuites_for_version===
+mbedtls_ssl_conf_cert_profile===
+mbedtls_ssl_conf_own_cert===
+ssl_append_key_cert===
+mbedtls_ssl_conf_ca_chain===
+mbedtls_ssl_set_hs_own_cert===
+mbedtls_ssl_set_hs_ca_chain===
+mbedtls_ssl_set_hs_authmode===
+mbedtls_ssl_conf_psk===
+mbedtls_ssl_set_hs_psk===
+mbedtls_ssl_conf_psk_cb===
+mbedtls_ssl_conf_dh_param===
+mbedtls_ssl_conf_dh_param_ctx===
+mbedtls_ssl_conf_dhm_min_bitlen===
+mbedtls_ssl_conf_sig_hashes===
+mbedtls_ssl_conf_curves===
+mbedtls_ssl_set_hostname===
+mbedtls_ssl_conf_sni===
+mbedtls_ssl_conf_alpn_protocols===
+mbedtls_ssl_get_alpn_protocol===
+mbedtls_ssl_conf_max_version===
+mbedtls_ssl_conf_min_version===
+mbedtls_ssl_conf_fallback===
+mbedtls_ssl_conf_encrypt_then_mac===
+mbedtls_ssl_conf_extended_master_secret===
+mbedtls_ssl_conf_arc4_support===
+mbedtls_ssl_conf_max_frag_len===
+mbedtls_ssl_conf_truncated_hmac===
+mbedtls_ssl_conf_cbc_record_splitting===
+mbedtls_ssl_conf_legacy_renegotiation===
+mbedtls_ssl_conf_renegotiation===
+mbedtls_ssl_conf_renegotiation_enforced===
+mbedtls_ssl_conf_renegotiation_period===
+mbedtls_ssl_conf_session_tickets===
+mbedtls_ssl_conf_session_tickets_cb===
+mbedtls_ssl_conf_export_keys_cb===
+mbedtls_ssl_get_bytes_avail===
+mbedtls_ssl_get_verify_result===
+mbedtls_ssl_get_ciphersuite===
+mbedtls_ssl_get_version===
+mbedtls_ssl_get_record_expansion===
+mbedtls_cipher_get_cipher_mode===
+mbedtls_cipher_get_block_size===
+mbedtls_ssl_get_max_frag_len===
+mbedtls_ssl_get_peer_cert===
+mbedtls_ssl_get_session===
+mbedtls_ssl_handshake_step===
+mbedtls_ssl_handshake===
+mbedtls_ssl_renegotiate===
+ssl_write_hello_request===
+ssl_start_renegotiation===
+mbedtls_ssl_read===
+ssl_check_ctr_renegotiate===
+mbedtls_ssl_write===
+ssl_write_split===
+mbedtls_ssl_close_notify===
+mbedtls_ssl_transform_free===
+mbedtls_ssl_handshake_free===
+mbedtls_ssl_free===
+mbedtls_ssl_config_init===
+mbedtls_ssl_config_defaults===
+ssl_cookie_write_dummy===
+ssl_cookie_check_dummy===
+mbedtls_ssl_config_free===
+ssl_key_cert_free===
+mbedtls_ssl_sig_from_pk===
+mbedtls_ssl_pk_alg_from_sig===
+mbedtls_ssl_md_alg_from_hash===
+mbedtls_ssl_hash_from_md_alg===
+mbedtls_ssl_check_sig_hash===
+mbedtls_ssl_read_version===
+tls_prf_generic===
+ssl_mac===
+ssl_reassemble_dtls_handshake===
+ssl_bitmask_set===
+ssl_bitmask_check===
+ssl_handle_possible_reconnect===
+ssl_check_dtls_clihlo_cookie===
+ssl_decrypt_buf===
+ssl_transform_init===
+ssl_handshake_params_init===
+ssl_update_checksum_start===
+ssl_write_real===
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_derive_keys ::::0
+---------------------- page index: 0
+----------------------page end;
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 352, %noreg; mem:LD8[FixedStack-1](align=16)
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl3_prf ::::5536
+ssl_calc_verify_ssl ::::6544
+ssl_calc_finished_ssl ::::8192
+%RCX<def> = MOV64rm %RSP, 1, %noreg, 320, %noreg; mem:LD8[FixedStack-1](align=16)
+%RSI<def> = MOV64rm %RSP, 1, %noreg, 320, %noreg; mem:LD8[FixedStack-1](align=16)
+CMP64mi8 %RSP, 1, %noreg, 320, %noreg, 0, %EFLAGS<imp-def>; mem:LD8[FixedStack-1](align=16)
+%RDI<def> = MOV64rm %RSP, 1, %noreg, 320, %noreg; mem:LD8[FixedStack-1](align=16)
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+tls1_prf ::::10224
+ssl_calc_verify_tls ::::12240
+ssl_calc_finished_tls ::::13008
+tls_prf_sha384 ::::14224
+ssl_calc_verify_tls_sha384 ::::14448
+ssl_calc_finished_tls_sha384 ::::15008
+# Machine code for function tls_prf_sha256: NoPHIs, TracksLiveness, NoVRegs
+Frame Objects:
+  fi#-4: size=8, align=16, fixed, at location [SP-24]
+  fi#-3: size=8, align=8, fixed, at location [SP-16]
+  fi#-2: size=8, align=16, fixed, at location [SP-8]
+  fi#-1: size=8, align=16, fixed, at location [SP+24]
+  fi#0: size=8, align=8, at location [SP-32]
+  fi#1: size=8, align=8, at location [SP-40]
+  fi#2: size=8, align=8, at location [SP-48]
+Function Live Ins: %RDI, %RSI, %RDX, %RCX, %R8, %R9
+
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RCX %RDI %RDX %RSI %R8 %R9 %RBP %R12 %RBX
+	PUSH64r %RBP<kill>, %RSP<imp-def>, %RSP<imp-use>; flags: FrameSetup
+	PUSH64r %R12<kill>, %RSP<imp-def>, %RSP<imp-use>; flags: FrameSetup
+	PUSH64r %RBX<kill>, %RSP<imp-def>, %RSP<imp-use>; flags: FrameSetup
+	%RSP<def,tied1> = SUB64ri8 %RSP<tied0>, 32, %EFLAGS<imp-def,dead>; flags: FrameSetup
+	MOV64mr %RSP, 1, %noreg, 24, %noreg, %R9; mem:ST8[FixedStack0]
+	MOV64mr %RSP, 1, %noreg, 16, %noreg, %R8; mem:ST8[FixedStack1]
+	MOV64mr %RSP, 1, %noreg, 8, %noreg, %RCX; mem:ST8[FixedStack2]
+	%R12<def> = MOV64rr %RDX
+	%RBX<def> = MOV64rr %RSI
+	%RBP<def> = MOV64rr %RDI
+	%EAX<def> = MOV32ri <ga:@printf_sgx>, %RAX<imp-def>
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RCX<def>, $1:[reguse:GR64], %RAX<kill>, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	%EDI<def,dead> = MOV32ri <ga:@.str.8>, %RDI<imp-def>
+	%ESI<def,dead> = MOV32ri <ga:@__func__.tls_prf_sha256>, %RSI<imp-def>
+	%EDX<def> = MOV32ri 439
+	%EAX<def,dead,tied1> = XOR32rr %EAX<undef,tied0>, %EAX<undef>, %EFLAGS<imp-def,dead>, %AL<imp-def>
+	CALL64r %RCX<kill>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %EDX<imp-use>, %AL<imp-use>, %RSP<imp-def>, %EAX<imp-def,dead>
+	%EAX<def> = MOV32ri <ga:@tls_prf_generic>, %RAX<imp-def>
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RAX<def>, $1:[reguse:GR64], %RAX<kill>, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	%EDI<def> = MOV32ri 6
+	%RSI<def> = MOV64rr %RBP<kill>
+	%RDX<def> = MOV64rr %RBX<kill>
+	%RCX<def> = MOV64rr %R12<kill>
+	%R8<def> = MOV64rm %RSP, 1, %noreg, 8, %noreg; mem:LD8[FixedStack2]
+	%R9<def> = MOV64rm %RSP, 1, %noreg, 16, %noreg; mem:LD8[FixedStack1]
+	PUSH64rmm %RSP, 1, %noreg, 80, %noreg, %RSP<imp-def>, %RSP<imp-use>; mem:LD8[FixedStack-1](align=16)
+	CFI_INSTRUCTION <call frame instruction>
+	PUSH64rmm %RSP, 1, %noreg, 32, %noreg, %RSP<imp-def>, %RSP<imp-use>; mem:LD8[FixedStack0]
+	CFI_INSTRUCTION <call frame instruction>
+	CALL64r %RAX<kill>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %EDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RCX<imp-use>, %R8<imp-use>, %R9<imp-use>, %RSP<imp-def>, %EAX<imp-def>
+	%RSP<def,tied1> = ADD64ri8 %RSP<tied0>, 48, %EFLAGS<imp-def,dead>
+	%RBX<def> = POP64r %RSP<imp-def>, %RSP<imp-use>; flags: FrameDestroy
+	%R12<def> = POP64r %RSP<imp-def>, %RSP<imp-use>; flags: FrameDestroy
+	%RBP<def> = POP64r %RSP<imp-def>, %RSP<imp-use>; flags: FrameDestroy
+	RETQ %EAX
+
+# End machine code for function tls_prf_sha256.
+
+ realDestoryStackSize = 1 
+tls_prf_sha256 ::::15904
+ssl_calc_verify_tls_sha256 ::::16224
+ssl_calc_finished_tls_sha256 ::::16784
+mbedtls_zeroize ::::17680
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_psk_derive_premaster ::::17760
+CALL64pcrel32 <es:memmove>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_fetch_input ::::19072
+ssl_check_timer ::::21968
+TailJMP :ssl_set_timer
+ssl_set_timer ::::22240
+ssl_double_retransmit_timeout ::::22608
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_resend ::::22992
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RDI
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RCX<def>, $1:[reguse:GR64], %RDI, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	%RAX<def> = MOV64rm %RCX, 1, %noreg, 0, %noreg; mem:LD8[%2](tbaa=!2)
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RSI<def>, $1:[reguse:GR64], %RAX<kill>, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	CMP32mi8 %RSI, 1, %noreg, 348, %noreg, 0, %EFLAGS<imp-def>; mem:LD4[%6](tbaa=!53)
+	JNS_1 <BB#5>, %EFLAGS<imp-use>
+    Successors according to CFG: BB#1(0x30000000 / 0x80000000 = 37.50%) BB#5(0x50000000 / 0x80000000 = 62.50%)
+ssl_resend_hello_request stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+TailJMP :ssl_resend_hello_request
+ssl_resend_hello_request ::::24176
+mbedtls_ssl_flush_output ::::24528
+mbedtls_ssl_hdr_len ::::25760
+ssl_ep_len ::::25872
+TailJMP :ssl_swap_epochs
+ssl_swap_epochs ::::25968
+CALL64pcrel32 <es:memmove>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_write_record ::::26640
+mbedtls_ssl_recv_flight_completed ::::29040
+ssl_flight_free ::::29536
+mbedtls_ssl_send_flight_completed ::::29808
+ssl_reset_retransmit_timeout ::::30176
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_flight_append ::::30352
+mbedtls_ssl_write_version ::::31120
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_encrypt_buf ::::31264
+mbedtls_ssl_dtls_replay_check ::::36512
+ssl_load_six_bytes ::::36816
+mbedtls_ssl_dtls_replay_update ::::36944
+TailJMP :mbedtls_ssl_read_record
+CALL64pcrel32 <es:memmove>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_read_record ::::37328
+ssl_prepare_handshake_record ::::40048
+ssl_parse_record_header ::::41888
+ssl_prepare_record_content ::::44016
+mbedtls_ssl_send_alert_message ::::44736
+TailJMP :ssl_handshake_wrapup_free_hs_transform
+ssl_handshake_wrapup_free_hs_transform ::::45280
+mbedtls_ssl_send_fatal_handshake_failure ::::45808
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_write_certificate ::::45872
+mbedtls_ssl_own_cert ::::47616
+mbedtls_ssl_parse_certificate ::::47840
+mbedtls_ssl_hs_hdr_len ::::52128
+mbedtls_ssl_check_curve ::::52240
+mbedtls_pk_ec ::::52432
+mbedtls_ssl_check_cert_usage ::::52480
+mbedtls_ssl_write_change_cipher_spec ::::52896
+mbedtls_ssl_parse_change_cipher_spec ::::53344
+ssl_dtls_replay_reset ::::54288
+mbedtls_ssl_optimize_checksum ::::54368
+TailJMP :ssl_update_checksum_md5sha1
+ssl_update_checksum_md5sha1 ::::54576
+ssl_update_checksum_sha384 ::::54832
+ssl_update_checksum_sha256 ::::54912
+TailJMP :mbedtls_ssl_reset_checksum
+mbedtls_ssl_reset_checksum ::::54992
+TailJMP :mbedtls_ssl_handshake_wrapup
+mbedtls_ssl_handshake_wrapup ::::55360
+TailJMP :mbedtls_ssl_session_free
+mbedtls_ssl_session_free ::::56320
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_write_finished ::::56704
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_parse_finished ::::58192
+mbedtls_ssl_safer_memcmp ::::59472
+mbedtls_ssl_session_init ::::59584
+TAILJMPd64 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>
+BBI->none Reg
+mbedtls_ssl_init ::::59696
+TailJMP :mbedtls_ssl_setup
+mbedtls_ssl_setup ::::59776
+ssl_handshake_init ::::60608
+mbedtls_ssl_session_reset ::::61904
+TailJMP :ssl_session_reset_int
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_session_reset_int ::::61952
+mbedtls_ssl_conf_endpoint ::::63040
+mbedtls_ssl_conf_transport ::::63120
+mbedtls_ssl_conf_dtls_anti_replay ::::63216
+mbedtls_ssl_conf_dtls_badmac_limit ::::63312
+mbedtls_ssl_conf_handshake_timeout ::::63376
+mbedtls_ssl_conf_authmode ::::63456
+mbedtls_ssl_conf_verify ::::63552
+mbedtls_ssl_conf_rng ::::63632
+mbedtls_ssl_conf_dbg ::::63712
+mbedtls_ssl_set_bio ::::63792
+mbedtls_ssl_conf_read_timeout ::::63872
+mbedtls_ssl_set_timer_cb ::::63936
+mbedtls_ssl_conf_session_cache ::::64032
+mbedtls_ssl_set_session ::::64112
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_session_copy ::::64448
+mbedtls_ssl_conf_ciphersuites ::::65264
+mbedtls_ssl_conf_ciphersuites_for_version ::::65344
+mbedtls_ssl_conf_cert_profile ::::65424
+mbedtls_ssl_conf_own_cert ::::65504
+ssl_append_key_cert ::::65568
+mbedtls_ssl_conf_ca_chain ::::65904
+mbedtls_ssl_set_hs_own_cert ::::65984
+mbedtls_ssl_set_hs_ca_chain ::::66064
+mbedtls_ssl_set_hs_authmode ::::66192
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_conf_psk ::::66288
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_set_hs_psk ::::67232
+mbedtls_ssl_conf_psk_cb ::::67744
+mbedtls_ssl_conf_dh_param ::::67824
+mbedtls_ssl_conf_dh_param_ctx ::::68176
+mbedtls_ssl_conf_dhm_min_bitlen ::::68528
+mbedtls_ssl_conf_sig_hashes ::::68592
+mbedtls_ssl_conf_curves ::::68672
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_set_hostname ::::68752
+I am here, not find start
+mbedtls_ssl_conf_sni ::::69168
+mbedtls_ssl_conf_alpn_protocols ::::69248
+mbedtls_ssl_get_alpn_protocol ::::69552
+mbedtls_ssl_conf_max_version ::::69632
+mbedtls_ssl_conf_min_version ::::69712
+mbedtls_ssl_conf_fallback ::::69792
+mbedtls_ssl_conf_encrypt_then_mac ::::69888
+mbedtls_ssl_conf_extended_master_secret ::::69984
+mbedtls_ssl_conf_arc4_support ::::70080
+mbedtls_ssl_conf_max_frag_len ::::70176
+mbedtls_ssl_conf_truncated_hmac ::::70320
+mbedtls_ssl_conf_cbc_record_splitting ::::70416
+mbedtls_ssl_conf_legacy_renegotiation ::::70512
+mbedtls_ssl_conf_renegotiation ::::70608
+mbedtls_ssl_conf_renegotiation_enforced ::::70704
+mbedtls_ssl_conf_renegotiation_period ::::70768
+mbedtls_ssl_conf_session_tickets ::::70864
+mbedtls_ssl_conf_session_tickets_cb ::::70960
+mbedtls_ssl_conf_export_keys_cb ::::71056
+mbedtls_ssl_get_bytes_avail ::::71136
+mbedtls_ssl_get_verify_result ::::71248
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RDI
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RAX<def>, $1:[reguse:GR64], %RDI, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	TEST64rr %RDI<kill>, %RDI, %EFLAGS<imp-def>
+	JE_1 <BB#1>, %EFLAGS<imp-use>
+    Successors according to CFG: BB#1(0x30000000 / 0x80000000 = 37.50%) BB#2(0x50000000 / 0x80000000 = 62.50%)
+mbedtls_ssl_get_ciphersuite stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+mbedtls_ssl_get_ciphersuite ::::71408
+mbedtls_ssl_get_version ::::71728
+mbedtls_ssl_get_record_expansion ::::71968
+mbedtls_cipher_get_cipher_mode ::::72416
+mbedtls_cipher_get_block_size ::::72512
+mbedtls_ssl_get_max_frag_len ::::72608
+mbedtls_ssl_get_peer_cert ::::72784
+mbedtls_ssl_get_session ::::72960
+TailJMP :mbedtls_ssl_handshake_step
+mbedtls_ssl_handshake_step ::::73120
+mbedtls_ssl_handshake ::::73472
+I am here, not find start
+TailJMP :mbedtls_ssl_renegotiate
+mbedtls_ssl_renegotiate ::::73840
+ssl_write_hello_request ::::74384
+ssl_start_renegotiation ::::74832
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_ssl_read ::::75376
+TailJMP :ssl_check_ctr_renegotiate
+ssl_check_ctr_renegotiate ::::78656
+mbedtls_ssl_write ::::79120
+TailJMP :ssl_write_split
+ssl_write_split ::::79696
+TailJMP :mbedtls_ssl_close_notify
+mbedtls_ssl_close_notify ::::80208
+TailJMP :mbedtls_ssl_transform_free
+mbedtls_ssl_transform_free ::::80736
+TailJMP :mbedtls_ssl_handshake_free
+mbedtls_ssl_handshake_free ::::81104
+I am here, not find start
+TailJMP :mbedtls_ssl_free
+mbedtls_ssl_free ::::82032
+TAILJMPd64 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>
+BBI->none Reg
+mbedtls_ssl_config_init ::::83392
+mbedtls_ssl_config_defaults ::::83472
+ssl_cookie_write_dummy ::::84208
+ssl_cookie_check_dummy ::::84256
+TailJMP :mbedtls_ssl_config_free
+mbedtls_ssl_config_free ::::84304
+ssl_key_cert_free ::::84944
+mbedtls_ssl_sig_from_pk ::::85168
+mbedtls_ssl_pk_alg_from_sig ::::85392
+mbedtls_ssl_md_alg_from_hash ::::85472
+mbedtls_ssl_hash_from_md_alg ::::85568
+mbedtls_ssl_check_sig_hash ::::85664
+mbedtls_ssl_read_version ::::85856
+CMP64mi8 %RSP, 1, %noreg, 360, %noreg, 0, %EFLAGS<imp-def>; mem:LD8[FixedStack-2]
+%R8<def> = MOV64rm %RSP, 1, %noreg, 360, %noreg; mem:LD8[FixedStack-2]
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 352, %noreg; mem:LD8[FixedStack-1](align=16)
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+tls_prf_generic ::::86080
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_mac ::::88048
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memmove>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_reassemble_dtls_handshake ::::89040
+TAILJMPd64 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>
+BBI->none Reg
+ssl_bitmask_set ::::91616
+ssl_bitmask_check ::::91936
+ssl_handle_possible_reconnect ::::92144
+%RDI<def> = MOV64rm %RSP, 1, %noreg, 96, %noreg; mem:LD8[FixedStack-1](align=16)
+%RCX<def> = MOV64rm %RSP, 1, %noreg, 104, %noreg; mem:LD8[FixedStack-2]
+%RDX<def> = MOV64rm %RSP, 1, %noreg, 112, %noreg; mem:LD8[FixedStack-3](align=16)
+%RBX<def> = MOV64rm %RSP, 1, %noreg, 120, %noreg; mem:LD8[FixedStack-4]
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 104, %noreg; mem:LD8[FixedStack-2]
+%RAX<def,tied1> = SUB64rm %RAX<kill,tied0>, %RSP, 1, %noreg, 104, %noreg, %EFLAGS<imp-def,dead>; mem:LD8[FixedStack-2]
+ssl_check_dtls_clihlo_cookie ::::92784
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_decrypt_buf ::::93488
+TailJMP :ssl_transform_init
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_transform_init ::::100496
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_handshake_params_init ::::100832
+TailJMP :ssl_update_checksum_start
+ssl_update_checksum_start ::::101504
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ssl_write_real ::::101904
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c certs.c
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c pkcs11.c
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c x509.c
+1201-----x509_parse_int- functions--8
+1201-----mbedtls_x509_time_is_past- functions--1
+1201-----mbedtls_x509_time_is_future- functions--1
+mbedtls_x509_get_serial===
+mbedtls_x509_get_alg_null===
+mbedtls_x509_get_alg===
+mbedtls_x509_get_rsassa_pss_params===
+x509_get_hash_alg===
+mbedtls_x509_get_name===
+x509_get_attr_type_value===
+mbedtls_x509_get_time===
+x509_parse_int===
+mbedtls_x509_get_sig===
+mbedtls_x509_get_sig_alg===
+mbedtls_x509_get_ext===
+mbedtls_x509_dn_gets===
+mbedtls_x509_serial_gets===
+mbedtls_x509_sig_alg_gets===
+mbedtls_x509_key_size_helper===
+mbedtls_x509_time_is_past===
+mbedtls_x509_time_is_future===
+mbedtls_x509_self_test===
+mbedtls_x509_get_serial ::::0
+mbedtls_x509_get_alg_null ::::400
+mbedtls_x509_get_alg ::::576
+mbedtls_x509_get_rsassa_pss_params ::::752
+x509_get_hash_alg ::::1984
+mbedtls_x509_get_name ::::2512
+x509_get_attr_type_value ::::3248
+mbedtls_x509_get_time ::::4016
+---------------------- page index: 0
+mbedtls_x509_get_serial
+mbedtls_x509_get_alg_null
+mbedtls_x509_get_alg
+mbedtls_x509_get_rsassa_pss_params
+x509_get_hash_alg
+mbedtls_x509_get_name
+x509_get_attr_type_value
+----------------------page end;
+x509_parse_int ::::5184
+mbedtls_x509_get_sig ::::5408
+mbedtls_x509_get_sig_alg ::::5712
+mbedtls_x509_get_ext ::::6224
+mbedtls_x509_dn_gets ::::6656
+mbedtls_x509_serial_gets ::::7600
+mbedtls_x509_sig_alg_gets ::::8128
+---------------------- page index: 1
+mbedtls_x509_get_time
+x509_parse_int
+mbedtls_x509_get_sig
+mbedtls_x509_get_sig_alg
+mbedtls_x509_get_ext
+mbedtls_x509_dn_gets
+mbedtls_x509_serial_gets
+----------------------page end;
+mbedtls_x509_key_size_helper ::::8880
+mbedtls_x509_time_is_past ::::9088
+mbedtls_x509_time_is_future ::::9136
+mbedtls_x509_self_test ::::9184
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c x509_create.c
+mbedtls_x509_string_to_names===
+x509_at_oid_from_name===
+mbedtls_x509_set_extension===
+mbedtls_x509_write_names===
+x509_write_name===
+mbedtls_x509_write_sig===
+mbedtls_x509_write_extensions===
+x509_write_extension===
+mbedtls_x509_string_to_names ::::0
+x509_at_oid_from_name ::::752
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_x509_set_extension ::::1008
+mbedtls_x509_write_names ::::1360
+x509_write_name ::::1760
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_x509_write_sig ::::2384
+mbedtls_x509_write_extensions ::::2944
+x509_write_extension ::::3216
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c x509_crl.c
+1201-----mbedtls_x509_crl_init- functions--1
+1201-----mbedtls_zeroize- functions--4
+mbedtls_x509_crl_parse_der===
+mbedtls_x509_crl_free===
+mbedtls_x509_crl_init===
+x509_crl_get_version===
+x509_get_entries===
+x509_get_crl_ext===
+mbedtls_x509_crl_parse===
+mbedtls_x509_crl_info===
+mbedtls_zeroize===
+x509_get_crl_entry_ext===
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_x509_crl_parse_der ::::0
+I am here, not find start
+mbedtls_x509_crl_free ::::2720
+TAILJMPd64 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>
+BBI->none Reg
+mbedtls_x509_crl_init ::::3568
+x509_crl_get_version ::::3648
+x509_get_entries ::::3904
+---------------------- page index: 0
+mbedtls_x509_crl_parse_der
+mbedtls_x509_crl_free
+mbedtls_x509_crl_init
+x509_crl_get_version
+----------------------page end;
+x509_get_crl_ext ::::4640
+mbedtls_x509_crl_parse ::::5008
+mbedtls_x509_crl_info ::::5664
+mbedtls_zeroize ::::7200
+x509_get_crl_entry_ext ::::7280
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c x509_crt.c
+1201-----mbedtls_x509_crt_init- functions--1
+1201-----x509_info_subject_alt_name- functions--13
+1201-----mbedtls_x509_crt_check_key_usage- functions--8
+1201-----x509_memcasecmp- functions--12
+1201-----x509_profile_check_pk_alg- functions--4
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_pk_ec- functions--1
+1201-----x509_profile_check_md_alg- functions--4
+mbedtls_x509_crt_parse_der===
+mbedtls_x509_crt_init===
+x509_crt_parse_der_core===
+mbedtls_x509_crt_parse===
+mbedtls_x509_crt_info===
+x509_info_subject_alt_name===
+x509_info_cert_type===
+x509_info_key_usage===
+x509_info_ext_key_usage===
+mbedtls_x509_crt_verify_info===
+mbedtls_x509_crt_check_key_usage===
+mbedtls_x509_crt_check_extended_key_usage===
+mbedtls_x509_crt_is_revoked===
+mbedtls_x509_crt_verify===
+mbedtls_x509_crt_verify_with_profile===
+x509_memcasecmp===
+x509_check_wildcard===
+x509_profile_check_pk_alg===
+x509_profile_check_key===
+x509_crt_check_parent===
+x509_crt_verify_top===
+x509_crt_verify_child===
+mbedtls_x509_crt_free===
+mbedtls_zeroize===
+x509_get_version===
+x509_get_dates===
+x509_get_uid===
+x509_get_crt_ext===
+x509_get_basic_constraints===
+x509_get_key_usage===
+x509_get_ext_key_usage===
+x509_get_subject_alt_name===
+x509_get_ns_cert_type===
+mbedtls_pk_ec===
+x509_name_cmp===
+x509_string_cmp===
+x509_profile_check_md_alg===
+x509_crt_verifycrl===
+mbedtls_x509_crt_parse_der ::::0
+I am here, not find start
+TAILJMPd64 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>
+BBI->none Reg
+mbedtls_x509_crt_init ::::592
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+x509_crt_parse_der_core ::::672
+mbedtls_x509_crt_parse ::::3680
+---------------------- page index: 0
+mbedtls_x509_crt_parse_der
+mbedtls_x509_crt_init
+x509_crt_parse_der_core
+----------------------page end;
+mbedtls_x509_crt_info ::::4512
+x509_info_subject_alt_name ::::7264
+x509_info_cert_type ::::7632
+---------------------- page index: 1
+mbedtls_x509_crt_parse
+mbedtls_x509_crt_info
+x509_info_subject_alt_name
+----------------------page end;
+x509_info_key_usage ::::8608
+x509_info_ext_key_usage ::::9680
+mbedtls_x509_crt_verify_info ::::10144
+mbedtls_x509_crt_check_key_usage ::::10544
+mbedtls_x509_crt_check_extended_key_usage ::::10672
+mbedtls_x509_crt_is_revoked ::::11024
+mbedtls_x509_crt_verify ::::11392
+mbedtls_x509_crt_verify_with_profile ::::11600
+---------------------- page index: 2
+x509_info_cert_type
+x509_info_key_usage
+x509_info_ext_key_usage
+mbedtls_x509_crt_verify_info
+mbedtls_x509_crt_check_key_usage
+mbedtls_x509_crt_check_extended_key_usage
+mbedtls_x509_crt_is_revoked
+mbedtls_x509_crt_verify
+----------------------page end;
+x509_memcasecmp ::::13408
+x509_check_wildcard ::::13552
+x509_profile_check_pk_alg ::::13920
+x509_profile_check_key ::::14000
+x509_crt_check_parent ::::14384
+%RBX<def> = MOV64rm %RSP, 1, %noreg, 224, %noreg; mem:LD8[FixedStack-1](align=16)
+%R12<def> = MOV64rm %RSP, 1, %noreg, 224, %noreg; mem:LD8[FixedStack-1](align=16)
+%RBP<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+%RDI<def> = MOV64rm %RSP, 1, %noreg, 240, %noreg; mem:LD8[FixedStack-3](align=16)
+%R12<def> = MOV64rm %RSP, 1, %noreg, 224, %noreg; mem:LD8[FixedStack-1](align=16)
+%RBP<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+%RDI<def> = MOV64rm %RSP, 1, %noreg, 240, %noreg; mem:LD8[FixedStack-3](align=16)
+x509_crt_verify_top ::::14800
+I am here, not find start
+---------------------- page index: 3
+mbedtls_x509_crt_verify_with_profile
+x509_memcasecmp
+x509_check_wildcard
+x509_profile_check_pk_alg
+x509_profile_check_key
+x509_crt_check_parent
+----------------------page end;
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+%R12D<def> = MOV32rm %RSP, 1, %noreg, 224, %noreg, %R12<imp-def>; mem:LD4[FixedStack-1](align=16)
+%R12<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+%RCX<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+%RCX<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+%RBP<def> = MOV64rm %RSP, 1, %noreg, 256, %noreg; mem:LD8[FixedStack-4]
+%RBX<def> = MOV64rm %RSP, 1, %noreg, 256, %noreg; mem:LD8[FixedStack-3](align=16)
+%RCX<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+%RBP<def> = MOV64rm %RSP, 1, %noreg, 256, %noreg; mem:LD8[FixedStack-4]
+%RBX<def> = MOV64rm %RSP, 1, %noreg, 256, %noreg; mem:LD8[FixedStack-3](align=16)
+%RCX<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+%RBP<def> = MOV64rm %RSP, 1, %noreg, 248, %noreg; mem:LD8[FixedStack-4]
+%RBX<def> = MOV64rm %RSP, 1, %noreg, 248, %noreg; mem:LD8[FixedStack-3](align=16)
+%RCX<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+x509_crt_verify_child ::::16752
+I am here, not find start
+---------------------- page index: 4
+x509_crt_verify_top
+----------------------page end;
+mbedtls_x509_crt_free ::::19008
+mbedtls_zeroize ::::20192
+x509_get_version ::::20272
+x509_get_dates ::::20624
+---------------------- page index: 5
+x509_crt_verify_child
+mbedtls_x509_crt_free
+mbedtls_zeroize
+x509_get_version
+----------------------page end;
+x509_get_uid ::::21008
+x509_get_crt_ext ::::21344
+x509_get_basic_constraints ::::22656
+x509_get_key_usage ::::23248
+x509_get_ext_key_usage ::::23568
+x509_get_subject_alt_name ::::23840
+x509_get_ns_cert_type ::::24560
+---------------------- page index: 6
+x509_get_dates
+x509_get_uid
+x509_get_crt_ext
+x509_get_basic_constraints
+x509_get_key_usage
+x509_get_ext_key_usage
+x509_get_subject_alt_name
+----------------------page end;
+mbedtls_pk_ec ::::24832
+x509_name_cmp ::::24880
+x509_string_cmp ::::25328
+x509_profile_check_md_alg ::::25664
+x509_crt_verifycrl ::::25744
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c x509_csr.c
+1201-----mbedtls_x509_csr_init- functions--1
+1201-----mbedtls_zeroize- functions--4
+mbedtls_x509_csr_parse_der===
+mbedtls_x509_csr_init===
+mbedtls_x509_csr_free===
+x509_csr_get_version===
+mbedtls_x509_csr_parse===
+mbedtls_x509_csr_info===
+mbedtls_zeroize===
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_x509_csr_parse_der ::::0
+I am here, not find start
+mbedtls_x509_csr_init ::::1920
+TailJMP :mbedtls_x509_csr_free
+mbedtls_x509_csr_free ::::2064
+x509_csr_get_version ::::2688
+mbedtls_x509_csr_parse ::::2944
+mbedtls_x509_csr_info ::::3488
+---------------------- page index: 0
+mbedtls_x509_csr_parse_der
+mbedtls_x509_csr_init
+mbedtls_x509_csr_free
+x509_csr_get_version
+mbedtls_x509_csr_parse
+----------------------page end;
+mbedtls_zeroize ::::4304
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c x509write_crt.c
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_x509write_crt_set_version- functions--1
+1201-----mbedtls_x509write_crt_set_md_alg- functions--1
+1201-----mbedtls_x509write_crt_set_subject_key- functions--1
+1201-----mbedtls_x509write_crt_set_issuer_key- functions--1
+mbedtls_x509write_crt_init===
+mbedtls_x509write_crt_free===
+mbedtls_zeroize===
+mbedtls_x509write_crt_set_version===
+mbedtls_x509write_crt_set_md_alg===
+mbedtls_x509write_crt_set_subject_key===
+mbedtls_x509write_crt_set_issuer_key===
+mbedtls_x509write_crt_set_subject_name===
+mbedtls_x509write_crt_set_issuer_name===
+mbedtls_x509write_crt_set_serial===
+mbedtls_x509write_crt_set_validity===
+mbedtls_x509write_crt_set_extension===
+mbedtls_x509write_crt_set_basic_constraints===
+mbedtls_x509write_crt_set_subject_key_identifier===
+mbedtls_x509write_crt_set_authority_key_identifier===
+mbedtls_x509write_crt_set_key_usage===
+mbedtls_x509write_crt_set_ns_cert_type===
+mbedtls_x509write_crt_der===
+x509_write_time===
+mbedtls_x509write_crt_pem===
+mbedtls_x509write_crt_init ::::0
+TailJMP :mbedtls_x509write_crt_free
+mbedtls_x509write_crt_free ::::240
+mbedtls_zeroize ::::528
+mbedtls_x509write_crt_set_version ::::608
+mbedtls_x509write_crt_set_md_alg ::::672
+mbedtls_x509write_crt_set_subject_key ::::736
+mbedtls_x509write_crt_set_issuer_key ::::800
+mbedtls_x509write_crt_set_subject_name ::::864
+mbedtls_x509write_crt_set_issuer_name ::::912
+mbedtls_x509write_crt_set_serial ::::960
+mbedtls_x509write_crt_set_validity ::::1008
+mbedtls_x509write_crt_set_extension ::::1408
+mbedtls_x509write_crt_set_basic_constraints ::::1456
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_x509write_crt_set_subject_key_identifier ::::2032
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_x509write_crt_set_authority_key_identifier ::::2656
+mbedtls_x509write_crt_set_key_usage ::::3392
+mbedtls_x509write_crt_set_ns_cert_type ::::3728
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_x509write_crt_der ::::4048
+---------------------- page index: 0
+mbedtls_x509write_crt_init
+mbedtls_x509write_crt_free
+mbedtls_zeroize
+mbedtls_x509write_crt_set_version
+mbedtls_x509write_crt_set_md_alg
+mbedtls_x509write_crt_set_subject_key
+mbedtls_x509write_crt_set_issuer_key
+mbedtls_x509write_crt_set_subject_name
+mbedtls_x509write_crt_set_issuer_name
+mbedtls_x509write_crt_set_serial
+mbedtls_x509write_crt_set_validity
+mbedtls_x509write_crt_set_extension
+mbedtls_x509write_crt_set_basic_constraints
+mbedtls_x509write_crt_set_subject_key_identifier
+mbedtls_x509write_crt_set_authority_key_identifier
+mbedtls_x509write_crt_set_key_usage
+mbedtls_x509write_crt_set_ns_cert_type
+----------------------page end;
+x509_write_time ::::6544
+4160 This function frame size is bigger than 4096.
+this stack over 4096mbedtls_x509write_crt_pem ::::7024
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c x509write_csr.c
+1201-----mbedtls_x509write_csr_init- functions--1
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_x509write_csr_set_md_alg- functions--1
+1201-----mbedtls_x509write_csr_set_key- functions--1
+mbedtls_x509write_csr_init===
+mbedtls_x509write_csr_free===
+mbedtls_zeroize===
+mbedtls_x509write_csr_set_md_alg===
+mbedtls_x509write_csr_set_key===
+mbedtls_x509write_csr_set_subject_name===
+mbedtls_x509write_csr_set_extension===
+mbedtls_x509write_csr_set_key_usage===
+mbedtls_x509write_csr_set_ns_cert_type===
+mbedtls_x509write_csr_der===
+mbedtls_x509write_csr_pem===
+mbedtls_x509write_csr_init ::::0
+TailJMP :mbedtls_x509write_csr_free
+mbedtls_x509write_csr_free ::::80
+mbedtls_zeroize ::::304
+mbedtls_x509write_csr_set_md_alg ::::384
+mbedtls_x509write_csr_set_key ::::448
+mbedtls_x509write_csr_set_subject_name ::::512
+mbedtls_x509write_csr_set_extension ::::560
+mbedtls_x509write_csr_set_key_usage ::::624
+mbedtls_x509write_csr_set_ns_cert_type ::::928
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_x509write_csr_der ::::1232
+4160 This function frame size is bigger than 4096.
+this stack over 4096mbedtls_x509write_csr_pem ::::3280
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c aes.c
+1201-----mbedtls_aes_init- functions--1
+1201-----mbedtls_zeroize- functions--4
+1201-----aes_gen_tables- functions--21
+1201-----mbedtls_aes_encrypt- functions--4
+1201-----mbedtls_aes_decrypt- functions--4
+1201-----mbedtls_aes_crypt_ecb- functions--4
+1201-----mbedtls_aes_crypt_cbc- functions--15
+1201-----mbedtls_aes_crypt_cfb128- functions--10
+1201-----mbedtls_aes_crypt_cfb8- functions--8
+1201-----mbedtls_aes_crypt_ctr- functions--9
+mbedtls_aes_init===
+mbedtls_aes_free===
+mbedtls_zeroize===
+mbedtls_aes_setkey_enc===
+aes_gen_tables===
+mbedtls_aes_setkey_dec===
+mbedtls_aes_encrypt===
+mbedtls_aes_decrypt===
+mbedtls_aes_crypt_ecb===
+mbedtls_aes_crypt_cbc===
+mbedtls_aes_crypt_cfb128===
+mbedtls_aes_crypt_cfb8===
+mbedtls_aes_crypt_ctr===
+mbedtls_aes_self_test===
+TAILJMPd64 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>
+BBI->none Reg
+mbedtls_aes_init ::::0
+mbedtls_aes_free ::::80
+mbedtls_zeroize ::::176
+mbedtls_aes_setkey_enc ::::256
+aes_gen_tables ::::1216
+mbedtls_aes_setkey_dec ::::2432
+mbedtls_aes_encrypt ::::3328
+---------------------- page index: 0
+mbedtls_aes_init
+mbedtls_aes_free
+mbedtls_zeroize
+mbedtls_aes_setkey_enc
+aes_gen_tables
+mbedtls_aes_setkey_dec
+----------------------page end;
+mbedtls_aes_decrypt ::::4864
+mbedtls_aes_crypt_ecb ::::6336
+mbedtls_aes_crypt_cbc ::::6528
+I am here, not find start
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 96, %noreg; mem:LD8[FixedStack-1](align=16)
+mbedtls_aes_crypt_cfb128 ::::7168
+---------------------- page index: 1
+mbedtls_aes_encrypt
+mbedtls_aes_decrypt
+mbedtls_aes_crypt_ecb
+mbedtls_aes_crypt_cbc
+----------------------page end;
+mbedtls_aes_crypt_cfb8 ::::7728
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 96, %noreg; mem:LD8[FixedStack-1](align=16)
+mbedtls_aes_crypt_ctr ::::8128
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_aes_self_test ::::8576
+---------------------- page index: 2
+mbedtls_aes_crypt_cfb128
+mbedtls_aes_crypt_cfb8
+mbedtls_aes_crypt_ctr
+----------------------page end;
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c aesni.c
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c arc4.c
+1201-----mbedtls_arc4_init- functions--1
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_arc4_setup- functions--9
+1201-----mbedtls_arc4_crypt- functions--4
+mbedtls_arc4_init===
+mbedtls_arc4_free===
+mbedtls_zeroize===
+mbedtls_arc4_setup===
+mbedtls_arc4_crypt===
+mbedtls_arc4_self_test===
+TAILJMPd64 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>
+BBI->none Reg
+mbedtls_arc4_init ::::0
+mbedtls_arc4_free ::::80
+mbedtls_zeroize ::::176
+mbedtls_arc4_setup ::::256
+mbedtls_arc4_crypt ::::432
+mbedtls_arc4_self_test ::::624
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c asn1parse.c
+1201-----mbedtls_asn1_get_len- functions--23
+1201-----mbedtls_asn1_get_tag- functions--6
+1201-----mbedtls_asn1_get_bool- functions--6
+1201-----mbedtls_asn1_get_int- functions--10
+1201-----mbedtls_asn1_get_bitstring- functions--10
+1201-----mbedtls_asn1_get_bitstring_null- functions--7
+1201-----mbedtls_zeroize- functions--4
+mbedtls_asn1_get_len===
+mbedtls_asn1_get_tag===
+mbedtls_asn1_get_bool===
+mbedtls_asn1_get_int===
+mbedtls_asn1_get_mpi===
+mbedtls_asn1_get_bitstring===
+mbedtls_asn1_get_bitstring_null===
+mbedtls_asn1_get_sequence_of===
+mbedtls_asn1_get_alg===
+mbedtls_zeroize===
+mbedtls_asn1_get_alg_null===
+mbedtls_asn1_free_named_data===
+mbedtls_asn1_free_named_data_list===
+mbedtls_asn1_find_named_data===
+mbedtls_asn1_get_len ::::0
+mbedtls_asn1_get_tag ::::384
+mbedtls_asn1_get_bool ::::576
+mbedtls_asn1_get_int ::::864
+mbedtls_asn1_get_mpi ::::1232
+mbedtls_asn1_get_bitstring ::::1520
+mbedtls_asn1_get_bitstring_null ::::1872
+mbedtls_asn1_get_sequence_of ::::2160
+mbedtls_asn1_get_alg ::::2768
+mbedtls_zeroize ::::3408
+mbedtls_asn1_get_alg_null ::::3488
+TailJMP :mbedtls_asn1_free_named_data
+mbedtls_asn1_free_named_data ::::3712
+mbedtls_asn1_free_named_data_list ::::4032
+---------------------- page index: 0
+mbedtls_asn1_get_len
+mbedtls_asn1_get_tag
+mbedtls_asn1_get_bool
+mbedtls_asn1_get_int
+mbedtls_asn1_get_mpi
+mbedtls_asn1_get_bitstring
+mbedtls_asn1_get_bitstring_null
+mbedtls_asn1_get_sequence_of
+mbedtls_asn1_get_alg
+mbedtls_zeroize
+mbedtls_asn1_get_alg_null
+mbedtls_asn1_free_named_data
+----------------------page end;
+mbedtls_asn1_find_named_data ::::4320
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c asn1write.c
+1201-----mbedtls_asn1_write_len- functions--12
+1201-----mbedtls_asn1_write_tag- functions--4
+1201-----mbedtls_asn1_write_raw_buffer- functions--5
+1201-----mbedtls_asn1_write_null- functions--6
+1201-----mbedtls_asn1_write_oid- functions--8
+1201-----mbedtls_asn1_write_algorithm_identifier- functions--13
+1201-----mbedtls_asn1_write_bool- functions--8
+1201-----mbedtls_asn1_write_int- functions--13
+1201-----mbedtls_asn1_write_printable_string- functions--8
+1201-----mbedtls_asn1_write_ia5_string- functions--8
+1201-----mbedtls_asn1_write_bitstring- functions--9
+1201-----mbedtls_asn1_write_octet_string- functions--8
+mbedtls_asn1_write_len===
+mbedtls_asn1_write_tag===
+mbedtls_asn1_write_raw_buffer===
+mbedtls_asn1_write_mpi===
+mbedtls_asn1_write_null===
+mbedtls_asn1_write_oid===
+mbedtls_asn1_write_algorithm_identifier===
+mbedtls_asn1_write_bool===
+mbedtls_asn1_write_int===
+mbedtls_asn1_write_printable_string===
+mbedtls_asn1_write_ia5_string===
+mbedtls_asn1_write_bitstring===
+mbedtls_asn1_write_octet_string===
+mbedtls_asn1_store_named_data===
+mbedtls_asn1_write_len ::::0
+mbedtls_asn1_write_tag ::::416
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_asn1_write_raw_buffer ::::576
+mbedtls_asn1_write_mpi ::::848
+mbedtls_asn1_write_null ::::1392
+mbedtls_asn1_write_oid ::::1648
+mbedtls_asn1_write_algorithm_identifier ::::1968
+mbedtls_asn1_write_bool ::::2384
+mbedtls_asn1_write_int ::::2720
+mbedtls_asn1_write_printable_string ::::3120
+mbedtls_asn1_write_ia5_string ::::3440
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_asn1_write_bitstring ::::3760
+---------------------- page index: 0
+mbedtls_asn1_write_len
+mbedtls_asn1_write_tag
+mbedtls_asn1_write_raw_buffer
+mbedtls_asn1_write_mpi
+mbedtls_asn1_write_null
+mbedtls_asn1_write_oid
+mbedtls_asn1_write_algorithm_identifier
+mbedtls_asn1_write_bool
+mbedtls_asn1_write_int
+mbedtls_asn1_write_printable_string
+mbedtls_asn1_write_ia5_string
+----------------------page end;
+mbedtls_asn1_write_octet_string ::::4256
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_asn1_store_named_data ::::4576
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c base64.c
+1201-----mbedtls_base64_encode- functions--18
+1201-----mbedtls_base64_decode- functions--44
+mbedtls_base64_encode===
+mbedtls_base64_decode===
+mbedtls_base64_self_test===
+mbedtls_base64_encode ::::0
+mbedtls_base64_decode ::::592
+mbedtls_base64_self_test ::::1280
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c bignum.c
+1201-----mbedtls_mpi_init- functions--3
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_mpi_swap- functions--1
+1201-----mbedtls_mpi_get_bit- functions--4
+1201-----mbedtls_mpi_lsb- functions--10
+1201-----mbedtls_clz- functions--5
+1201-----mpi_get_digit- functions--13
+1201-----mbedtls_mpi_cmp_abs- functions--22
+1201-----mbedtls_mpi_cmp_mpi- functions--28
+1201-----mbedtls_mpi_cmp_int- functions--1
+1201-----mpi_sub_hlp- functions--6
+1201-----mpi_mul_hlp- functions--10
+1201-----mbedtls_int_div_int- functions--9
+1201-----mbedtls_mpi_mod_int- functions--15
+1201-----mpi_montg_init- functions--4
+1201-----mpi_check_small_factors- functions--12
+mbedtls_mpi_init===
+mbedtls_mpi_free===
+mbedtls_zeroize===
+mbedtls_mpi_grow===
+mbedtls_mpi_shrink===
+mbedtls_mpi_copy===
+mbedtls_mpi_swap===
+mbedtls_mpi_safe_cond_assign===
+mbedtls_mpi_safe_cond_swap===
+mbedtls_mpi_lset===
+mbedtls_mpi_get_bit===
+mbedtls_mpi_set_bit===
+mbedtls_mpi_lsb===
+mbedtls_mpi_bitlen===
+mbedtls_clz===
+mbedtls_mpi_size===
+mbedtls_mpi_read_string===
+mpi_get_digit===
+mbedtls_mpi_mul_int===
+mbedtls_mpi_add_int===
+mbedtls_mpi_sub_int===
+mbedtls_mpi_write_string===
+mpi_write_hlp===
+mbedtls_mpi_read_binary===
+mbedtls_mpi_write_binary===
+mbedtls_mpi_shift_l===
+mbedtls_mpi_shift_r===
+mbedtls_mpi_cmp_abs===
+mbedtls_mpi_cmp_mpi===
+mbedtls_mpi_cmp_int===
+mbedtls_mpi_add_abs===
+mbedtls_mpi_sub_abs===
+mpi_sub_hlp===
+mbedtls_mpi_add_mpi===
+mbedtls_mpi_sub_mpi===
+mbedtls_mpi_mul_mpi===
+mpi_mul_hlp===
+mbedtls_mpi_div_mpi===
+mbedtls_int_div_int===
+mbedtls_mpi_div_int===
+mbedtls_mpi_mod_mpi===
+mbedtls_mpi_mod_int===
+mbedtls_mpi_exp_mod===
+mpi_montg_init===
+mpi_montmul===
+mpi_montred===
+mbedtls_mpi_gcd===
+mbedtls_mpi_fill_random===
+mbedtls_mpi_inv_mod===
+mbedtls_mpi_is_prime===
+mpi_check_small_factors===
+mpi_miller_rabin===
+mbedtls_mpi_gen_prime===
+mbedtls_mpi_self_test===
+mbedtls_mpi_init ::::0
+mbedtls_mpi_free ::::80
+mbedtls_zeroize ::::368
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_mpi_grow ::::448
+TailJMP :mbedtls_mpi_shrink
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_mpi_shrink ::::928
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_mpi_copy ::::1584
+mbedtls_mpi_swap ::::2144
+mbedtls_mpi_safe_cond_assign ::::2352
+mbedtls_mpi_safe_cond_swap ::::2832
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_mpi_lset ::::3392
+mbedtls_mpi_get_bit ::::3728
+mbedtls_mpi_set_bit ::::3856
+---------------------- page index: 0
+mbedtls_mpi_init
+mbedtls_mpi_free
+mbedtls_zeroize
+mbedtls_mpi_grow
+mbedtls_mpi_shrink
+mbedtls_mpi_copy
+mbedtls_mpi_swap
+mbedtls_mpi_safe_cond_assign
+mbedtls_mpi_safe_cond_swap
+mbedtls_mpi_lset
+mbedtls_mpi_get_bit
+----------------------page end;
+mbedtls_mpi_lsb ::::4240
+mbedtls_mpi_bitlen ::::4416
+mbedtls_clz ::::4752
+mbedtls_mpi_size ::::4880
+mbedtls_mpi_read_string ::::5040
+mpi_get_digit ::::6288
+mbedtls_mpi_mul_int ::::6448
+mbedtls_mpi_add_int ::::6656
+mbedtls_mpi_sub_int ::::6896
+mbedtls_mpi_write_string ::::7136
+---------------------- page index: 1
+mbedtls_mpi_set_bit
+mbedtls_mpi_lsb
+mbedtls_mpi_bitlen
+mbedtls_clz
+mbedtls_mpi_size
+mbedtls_mpi_read_string
+mpi_get_digit
+mbedtls_mpi_mul_int
+mbedtls_mpi_add_int
+mbedtls_mpi_sub_int
+----------------------page end;
+mpi_write_hlp ::::8048
+mbedtls_mpi_read_binary ::::8512
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_mpi_write_binary ::::8976
+mbedtls_mpi_shift_l ::::9376
+mbedtls_mpi_shift_r ::::9920
+mbedtls_mpi_cmp_abs ::::10304
+mbedtls_mpi_cmp_mpi ::::10656
+mbedtls_mpi_cmp_int ::::11136
+---------------------- page index: 2
+mbedtls_mpi_write_string
+mpi_write_hlp
+mbedtls_mpi_read_binary
+mbedtls_mpi_write_binary
+mbedtls_mpi_shift_l
+mbedtls_mpi_shift_r
+mbedtls_mpi_cmp_abs
+mbedtls_mpi_cmp_mpi
+----------------------page end;
+mbedtls_mpi_add_abs ::::11376
+mbedtls_mpi_sub_abs ::::12112
+mpi_sub_hlp ::::12688
+mbedtls_mpi_add_mpi ::::12880
+mbedtls_mpi_sub_mpi ::::13312
+mbedtls_mpi_mul_mpi ::::13744
+mpi_mul_hlp ::::14800
+---------------------- page index: 3
+mbedtls_mpi_cmp_int
+mbedtls_mpi_add_abs
+mbedtls_mpi_sub_abs
+mpi_sub_hlp
+mbedtls_mpi_add_mpi
+mbedtls_mpi_sub_mpi
+mbedtls_mpi_mul_mpi
+----------------------page end;
+mbedtls_mpi_div_mpi ::::15920
+---------------------- page index: 4
+mpi_mul_hlp
+----------------------page end;
+CALL64pcrel32 <es:__udivti3>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RCX<imp-use>, %RSP<imp-def>, %RAX<imp-def>, %RDX<imp-def>
+BBI->none Reg
+mbedtls_int_div_int ::::19344
+mbedtls_mpi_div_int ::::19584
+mbedtls_mpi_mod_mpi ::::19824
+I am here, not find start
+I am here, not find start
+---------------------- page index: 5
+mbedtls_mpi_div_mpi
+mbedtls_int_div_int
+mbedtls_mpi_div_int
+----------------------page end;
+mbedtls_mpi_mod_int ::::20256
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_mpi_exp_mod ::::20672
+I am here, not find start
+---------------------- page index: 6
+mbedtls_mpi_mod_mpi
+mbedtls_mpi_mod_int
+----------------------page end;
+mpi_montg_init ::::24096
+TailJMP :mpi_montmul
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mpi_montmul ::::24272
+---------------------- page index: 7
+mbedtls_mpi_exp_mod
+mpi_montg_init
+----------------------page end;
+mpi_montred ::::25168
+mbedtls_mpi_gcd ::::25392
+mbedtls_mpi_fill_random ::::26704
+mbedtls_mpi_inv_mod ::::26976
+I am here, not find start
+I am here, not find start
+I am here, not find start
+---------------------- page index: 8
+mpi_montmul
+mpi_montred
+mbedtls_mpi_gcd
+mbedtls_mpi_fill_random
+----------------------page end;
+mbedtls_mpi_is_prime ::::29856
+mpi_check_small_factors ::::30304
+mpi_miller_rabin ::::30768
+---------------------- page index: 9
+mbedtls_mpi_inv_mod
+mbedtls_mpi_is_prime
+mpi_check_small_factors
+----------------------page end;
+mbedtls_mpi_gen_prime ::::33040
+I am here, not find start
+I am here, not find start
+I am here, not find start
+mbedtls_mpi_self_test ::::34304
+---------------------- page index: 10
+mpi_miller_rabin
+mbedtls_mpi_gen_prime
+----------------------page end;
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c blowfish.c
+1201-----mbedtls_blowfish_init- functions--1
+1201-----mbedtls_zeroize- functions--4
+1201-----F- functions--1
+mbedtls_blowfish_init===
+mbedtls_blowfish_free===
+mbedtls_zeroize===
+mbedtls_blowfish_setkey===
+blowfish_enc===
+mbedtls_blowfish_crypt_ecb===
+blowfish_dec===
+mbedtls_blowfish_crypt_cbc===
+mbedtls_blowfish_crypt_cfb64===
+mbedtls_blowfish_crypt_ctr===
+F===
+TAILJMPd64 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>
+BBI->none Reg
+mbedtls_blowfish_init ::::0
+mbedtls_blowfish_free ::::80
+mbedtls_zeroize ::::176
+mbedtls_blowfish_setkey ::::256
+blowfish_enc ::::944
+mbedtls_blowfish_crypt_ecb ::::1312
+blowfish_dec ::::1680
+mbedtls_blowfish_crypt_cbc ::::2048
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 96, %noreg; mem:LD8[FixedStack-1](align=16)
+mbedtls_blowfish_crypt_cfb64 ::::2656
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 96, %noreg; mem:LD8[FixedStack-1](align=16)
+mbedtls_blowfish_crypt_ctr ::::3216
+F ::::3664
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c camellia.c
+1201-----mbedtls_camellia_init- functions--1
+1201-----mbedtls_zeroize- functions--4
+1201-----camellia_feistel- functions--1
+mbedtls_camellia_init===
+mbedtls_camellia_free===
+mbedtls_zeroize===
+mbedtls_camellia_setkey_enc===
+camellia_feistel===
+mbedtls_camellia_setkey_dec===
+mbedtls_camellia_crypt_ecb===
+mbedtls_camellia_crypt_cbc===
+mbedtls_camellia_crypt_cfb128===
+mbedtls_camellia_crypt_ctr===
+mbedtls_camellia_self_test===
+TAILJMPd64 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use,kill>, %RDX<imp-use,kill>
+BBI->none Reg
+mbedtls_camellia_init ::::0
+mbedtls_camellia_free ::::80
+mbedtls_zeroize ::::176
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_camellia_setkey_enc ::::256
+camellia_feistel ::::2704
+%EDX<def> = MOV32rm %RSP, 1, %RSI, -8, %noreg; mem:LD4[%43](tbaa=!6)
+%EDX<def> = MOV32rm %RSP, 1, %RSI, -4, %noreg; mem:LD4[%48](tbaa=!6)
+mbedtls_camellia_setkey_dec ::::3072
+mbedtls_camellia_crypt_ecb ::::3648
+---------------------- page index: 0
+mbedtls_camellia_init
+mbedtls_camellia_free
+mbedtls_zeroize
+mbedtls_camellia_setkey_enc
+camellia_feistel
+mbedtls_camellia_setkey_dec
+----------------------page end;
+mbedtls_camellia_crypt_cbc ::::4512
+I am here, not find start
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 96, %noreg; mem:LD8[FixedStack-1](align=16)
+mbedtls_camellia_crypt_cfb128 ::::5152
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 96, %noreg; mem:LD8[FixedStack-1](align=16)
+mbedtls_camellia_crypt_ctr ::::5712
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_camellia_self_test ::::6160
+---------------------- page index: 1
+mbedtls_camellia_crypt_ecb
+mbedtls_camellia_crypt_cbc
+mbedtls_camellia_crypt_cfb128
+mbedtls_camellia_crypt_ctr
+----------------------page end;
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c ccm.c
+1201-----mbedtls_ccm_init- functions--1
+1201-----mbedtls_zeroize- functions--4
+mbedtls_ccm_init===
+mbedtls_ccm_setkey===
+mbedtls_ccm_free===
+mbedtls_zeroize===
+mbedtls_ccm_encrypt_and_tag===
+ccm_auth_crypt===
+mbedtls_ccm_auth_decrypt===
+mbedtls_ccm_self_test===
+mbedtls_ccm_init ::::0
+TailJMP :mbedtls_ccm_setkey
+mbedtls_ccm_setkey ::::96
+TailJMP :mbedtls_ccm_free
+mbedtls_ccm_free ::::496
+mbedtls_zeroize ::::672
+mbedtls_ccm_encrypt_and_tag ::::752
+CMP64mi32 %RSP, 1, %noreg, 224, %noreg, 65280, %EFLAGS<imp-def>; mem:LD8[FixedStack-1](align=16)
+%RDX<def> = MOV64rm %RSP, 1, %noreg, 256, %noreg; mem:LD8[FixedStack-5](align=16)
+CMP64mi8 %RSP, 1, %noreg, 224, %noreg, 0, %EFLAGS<imp-def>; mem:LD8[FixedStack-1](align=16)
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 240, %noreg; mem:LD8[FixedStack-3](align=16)
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 232, %noreg; mem:LD8[FixedStack-2]
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 224, %noreg; mem:LD8[FixedStack-1](align=16)
+%RDX<def> = MOV64rm %RSP, 1, %noreg, 256, %noreg; mem:LD8[FixedStack-5](align=16)
+%RSI<def> = MOV64rm %RSP, 1, %noreg, 248, %noreg; mem:LD8[FixedStack-4]
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+ccm_auth_crypt ::::1008
+I am here, not find start
+%R12<def> = MOV64rm %RSP, 1, %noreg, 104, %noreg; mem:LD8[FixedStack-4]
+%RBP<def> = MOV64rm %RSP, 1, %noreg, 96, %noreg; mem:LD8[FixedStack-2]
+%RCX<def> = MOV64rm %RSP, 1, %noreg, 96, %noreg; mem:LD8[FixedStack-3](align=16)
+mbedtls_ccm_auth_decrypt ::::3104
+mbedtls_ccm_self_test ::::3568
+---------------------- page index: 0
+mbedtls_ccm_init
+mbedtls_ccm_setkey
+mbedtls_ccm_free
+mbedtls_zeroize
+mbedtls_ccm_encrypt_and_tag
+ccm_auth_crypt
+mbedtls_ccm_auth_decrypt
+----------------------page end;
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c cipher.c
+1201-----mbedtls_cipher_list- functions--6
+1201-----mbedtls_cipher_info_from_type- functions--7
+1201-----mbedtls_cipher_info_from_values- functions--9
+1201-----mbedtls_cipher_init- functions--1
+1201-----mbedtls_zeroize- functions--4
+1201-----mbedtls_cipher_set_padding_mode- functions--12
+1201-----mbedtls_cipher_set_iv- functions--11
+1201-----mbedtls_cipher_reset- functions--5
+1201-----mbedtls_cipher_get_block_size- functions--5
+1201-----mbedtls_cipher_get_iv_size- functions--7
+1201-----add_pkcs_padding- functions--4
+1201-----get_pkcs_padding- functions--7
+1201-----add_one_and_zeros_padding- functions--4
+1201-----get_one_and_zeros_padding- functions--7
+1201-----add_zeros_and_len_padding- functions--4
+1201-----get_zeros_and_len_padding- functions--7
+1201-----add_zeros_padding- functions--4
+1201-----get_zeros_padding- functions--7
+1201-----get_no_padding- functions--4
+mbedtls_cipher_list===
+mbedtls_cipher_info_from_type===
+mbedtls_cipher_info_from_string===
+mbedtls_cipher_info_from_values===
+mbedtls_cipher_init===
+mbedtls_cipher_free===
+mbedtls_zeroize===
+mbedtls_cipher_setup===
+mbedtls_cipher_set_padding_mode===
+mbedtls_cipher_setkey===
+mbedtls_cipher_set_iv===
+mbedtls_cipher_reset===
+mbedtls_cipher_update_ad===
+mbedtls_cipher_update===
+mbedtls_cipher_get_block_size===
+mbedtls_cipher_finish===
+mbedtls_cipher_get_iv_size===
+add_pkcs_padding===
+get_pkcs_padding===
+add_one_and_zeros_padding===
+get_one_and_zeros_padding===
+add_zeros_and_len_padding===
+get_zeros_and_len_padding===
+add_zeros_padding===
+get_zeros_padding===
+get_no_padding===
+mbedtls_cipher_write_tag===
+mbedtls_cipher_check_tag===
+mbedtls_cipher_crypt===
+mbedtls_cipher_auth_encrypt===
+mbedtls_cipher_auth_decrypt===
+mbedtls_cipher_list ::::0
+mbedtls_cipher_info_from_type ::::208
+mbedtls_cipher_info_from_string ::::368
+mbedtls_cipher_info_from_values ::::688
+mbedtls_cipher_init ::::864
+TailJMP :mbedtls_cipher_free
+mbedtls_cipher_free ::::960
+mbedtls_zeroize ::::1264
+mbedtls_cipher_setup ::::1344
+mbedtls_cipher_set_padding_mode ::::1712
+mbedtls_cipher_setkey ::::1920
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_cipher_set_iv ::::2240
+mbedtls_cipher_reset ::::2560
+mbedtls_cipher_update_ad ::::2656
+TailJMP :mbedtls_cipher_update
+TailJMP :mbedtls_cipher_update
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+mbedtls_cipher_update ::::2832
+---------------------- page index: 0
+mbedtls_cipher_list
+mbedtls_cipher_info_from_type
+mbedtls_cipher_info_from_string
+mbedtls_cipher_info_from_values
+mbedtls_cipher_init
+mbedtls_cipher_free
+mbedtls_zeroize
+mbedtls_cipher_setup
+mbedtls_cipher_set_padding_mode
+mbedtls_cipher_setkey
+mbedtls_cipher_set_iv
+mbedtls_cipher_reset
+mbedtls_cipher_update_ad
+----------------------page end;
+mbedtls_cipher_get_block_size ::::5440
+TailJMP :mbedtls_cipher_finish
+mbedtls_cipher_finish ::::5536
+mbedtls_cipher_get_iv_size ::::6576
+add_pkcs_padding ::::6720
+get_pkcs_padding ::::6816
+---------------------- page index: 1
+mbedtls_cipher_update
+mbedtls_cipher_get_block_size
+mbedtls_cipher_finish
+mbedtls_cipher_get_iv_size
+add_pkcs_padding
+----------------------page end;
+add_one_and_zeros_padding ::::6992
+get_one_and_zeros_padding ::::7104
+add_zeros_and_len_padding ::::7344
+get_zeros_and_len_padding ::::7456
+BB#0: derived from LLVM BB %entry
+    Live Ins: %RDI %RDX %RSI
+	%RAX<def> = MOV64rr %RSI
+	INLINEASM <es:rorx $$0xc,$1,%r14;add (%r15d,%r14d,8),%r14;rorx $$0x34,%r14,$0> [attdialect], $0:[regdef:GR64], %RDI<def>, $1:[reguse:GR64], %RDI<kill>, $2:[clobber], %EFLAGS<earlyclobber,imp-def,dead>
+	%RAX<def,tied1> = SUB64rr %RAX<kill,tied0>, %RDX, %EFLAGS<imp-def>
+	JBE_1 <BB#2>, %EFLAGS<imp-use>
+    Successors according to CFG: BB#1(0x40000000 / 0x80000000 = 50.00%) BB#2(0x40000000 / 0x80000000 = 50.00%)
+add_zeros_padding stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+add_zeros_padding ::::7632
+get_zeros_padding ::::7840
+get_no_padding ::::8000
+mbedtls_cipher_write_tag ::::8080
+mbedtls_cipher_check_tag ::::8240
+%R8<def> = MOV64rm %RSP, 1, %noreg, 80, %noreg; mem:LD8[FixedStack-1](align=16)
+mbedtls_cipher_crypt ::::8608
+%R8<def> = MOV64rm %RSP, 1, %noreg, 80, %noreg; mem:LD8[FixedStack-5](align=16)
+%R12<def> = MOV64rm %RSP, 1, %noreg, 72, %noreg; mem:LD8[FixedStack-4]
+%RBP<def> = MOV64rm %RSP, 1, %noreg, 56, %noreg; mem:LD8[FixedStack-2]
+%RDX<def> = MOV64rm %RSP, 1, %noreg, 48, %noreg; mem:LD8[FixedStack-1](align=16)
+%RSI<def> = MOV64rm %RSP, 1, %noreg, 64, %noreg; mem:LD8[FixedStack-3](align=16)
+mbedtls_cipher_auth_encrypt ::::9024
+%RBX<def> = MOV64rm %RSP, 1, %noreg, 80, %noreg; mem:LD8[FixedStack-5](align=16)
+%R12<def> = MOV64rm %RSP, 1, %noreg, 72, %noreg; mem:LD8[FixedStack-4]
+%RSI<def> = MOV64rm %RSP, 1, %noreg, 48, %noreg; mem:LD8[FixedStack-1](align=16)
+%RAX<def> = MOV64rm %RSP, 1, %noreg, 64, %noreg; mem:LD8[FixedStack-3](align=16)
+mbedtls_cipher_auth_decrypt ::::9568
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c cipher_wrap.c
+aes_crypt_ecb_wrap===
+aes_crypt_cbc_wrap===
+aes_crypt_cfb128_wrap===
+aes_crypt_ctr_wrap===
+aes_setkey_enc_wrap===
+aes_setkey_dec_wrap===
+aes_ctx_alloc===
+aes_ctx_free===
+gcm_aes_setkey_wrap===
+gcm_ctx_alloc===
+gcm_ctx_free===
+ccm_aes_setkey_wrap===
+ccm_ctx_alloc===
+ccm_ctx_free===
+arc4_crypt_stream_wrap===
+arc4_setkey_wrap===
+arc4_ctx_alloc===
+arc4_ctx_free===
+blowfish_crypt_ecb_wrap===
+blowfish_crypt_cbc_wrap===
+blowfish_crypt_cfb64_wrap===
+blowfish_crypt_ctr_wrap===
+blowfish_setkey_wrap===
+blowfish_ctx_alloc===
+blowfish_ctx_free===
+camellia_crypt_ecb_wrap===
+camellia_crypt_cbc_wrap===
+camellia_crypt_cfb128_wrap===
+camellia_crypt_ctr_wrap===
+camellia_setkey_enc_wrap===
+camellia_setkey_dec_wrap===
+camellia_ctx_alloc===
+camellia_ctx_free===
+gcm_camellia_setkey_wrap===
+ccm_camellia_setkey_wrap===
+des_crypt_ecb_wrap===
+des_crypt_cbc_wrap===
+des_setkey_enc_wrap===
+des_setkey_dec_wrap===
+des_ctx_alloc===
+des_ctx_free===
+des3_crypt_ecb_wrap===
+des3_crypt_cbc_wrap===
+des3_set2key_enc_wrap===
+des3_set2key_dec_wrap===
+des3_ctx_alloc===
+des3_ctx_free===
+des3_set3key_enc_wrap===
+des3_set3key_dec_wrap===
+aes_crypt_ecb_wrap ::::0
+aes_crypt_cbc_wrap ::::48
+aes_crypt_cfb128_wrap ::::96
+aes_crypt_ctr_wrap ::::144
+aes_setkey_enc_wrap ::::192
+aes_setkey_dec_wrap ::::240
+aes_ctx_alloc ::::288
+TailJMP :aes_ctx_free
+aes_ctx_free ::::512
+gcm_aes_setkey_wrap ::::688
+gcm_ctx_alloc ::::752
+TailJMP :gcm_ctx_free
+gcm_ctx_free ::::976
+ccm_aes_setkey_wrap ::::1152
+ccm_ctx_alloc ::::1216
+TailJMP :ccm_ctx_free
+ccm_ctx_free ::::1440
+arc4_crypt_stream_wrap ::::1616
+BB#0: derived from LLVM BB %entry
+    Live Ins: %EDX %RDI %RSI
+	%EAX<def> = MOV32ri -24832
+	TEST8ri %DL, 7, %EFLAGS<imp-def>
+	JE_1 <BB#1>, %EFLAGS<imp-use>
+    Successors according to CFG: BB#1(0x30000000 / 0x80000000 = 37.50%) BB#2(0x50000000 / 0x80000000 = 62.50%)
+arc4_setkey_wrap stack size does not suit for stackSize
+realStackSize: 0 stackSize: 8
+arc4_setkey_wrap ::::1664
+arc4_ctx_alloc ::::1888
+TailJMP :arc4_ctx_free
+arc4_ctx_free ::::2112
+blowfish_crypt_ecb_wrap ::::2288
+blowfish_crypt_cbc_wrap ::::2336
+blowfish_crypt_cfb64_wrap ::::2384
+blowfish_crypt_ctr_wrap ::::2432
+blowfish_setkey_wrap ::::2480
+blowfish_ctx_alloc ::::2528
+TailJMP :blowfish_ctx_free
+blowfish_ctx_free ::::2752
+camellia_crypt_ecb_wrap ::::2928
+camellia_crypt_cbc_wrap ::::2976
+camellia_crypt_cfb128_wrap ::::3024
+camellia_crypt_ctr_wrap ::::3072
+camellia_setkey_enc_wrap ::::3120
+camellia_setkey_dec_wrap ::::3168
+camellia_ctx_alloc ::::3216
+TailJMP :camellia_ctx_free
+camellia_ctx_free ::::3440
+gcm_camellia_setkey_wrap ::::3616
+ccm_camellia_setkey_wrap ::::3680
+des_crypt_ecb_wrap ::::3744
+des_crypt_cbc_wrap ::::3792
+des_setkey_enc_wrap ::::3840
+des_setkey_dec_wrap ::::3888
+des_ctx_alloc ::::3936
+TailJMP :des_ctx_free
+des_ctx_free ::::4160
+des3_crypt_ecb_wrap ::::4336
+des3_crypt_cbc_wrap ::::4384
+---------------------- page index: 0
+aes_crypt_ecb_wrap
+aes_crypt_cbc_wrap
+aes_crypt_cfb128_wrap
+aes_crypt_ctr_wrap
+aes_setkey_enc_wrap
+aes_setkey_dec_wrap
+aes_ctx_alloc
+aes_ctx_free
+gcm_aes_setkey_wrap
+gcm_ctx_alloc
+gcm_ctx_free
+ccm_aes_setkey_wrap
+ccm_ctx_alloc
+ccm_ctx_free
+arc4_crypt_stream_wrap
+arc4_setkey_wrap
+arc4_ctx_alloc
+arc4_ctx_free
+blowfish_crypt_ecb_wrap
+blowfish_crypt_cbc_wrap
+blowfish_crypt_cfb64_wrap
+blowfish_crypt_ctr_wrap
+blowfish_setkey_wrap
+blowfish_ctx_alloc
+blowfish_ctx_free
+camellia_crypt_ecb_wrap
+camellia_crypt_cbc_wrap
+camellia_crypt_cfb128_wrap
+camellia_crypt_ctr_wrap
+camellia_setkey_enc_wrap
+camellia_setkey_dec_wrap
+camellia_ctx_alloc
+camellia_ctx_free
+gcm_camellia_setkey_wrap
+ccm_camellia_setkey_wrap
+des_crypt_ecb_wrap
+des_crypt_cbc_wrap
+des_setkey_enc_wrap
+des_setkey_dec_wrap
+des_ctx_alloc
+des_ctx_free
+des3_crypt_ecb_wrap
+----------------------page end;
+des3_set2key_enc_wrap ::::4432
+des3_set2key_dec_wrap ::::4480
+des3_ctx_alloc ::::4528
+TailJMP :des3_ctx_free
+des3_ctx_free ::::4752
+des3_set3key_enc_wrap ::::4928
+des3_set3key_dec_wrap ::::4976
+echo "  AR    libmbedtls.a"
+  AR    libmbedtls.a
+ar -rc libmbedtls.a debug.o		ssl_cache.o ssl_ciphersuites.o		ssl_cli.o ssl_cookie.o	ssl_srv.o	ssl_ticket.o ssl_tls.o debug.o		ssl_cache.o ssl_ciphersuites.o		ssl_cli.o ssl_cookie.o	ssl_srv.o	ssl_ticket.o ssl_tls.o debug.o		ssl_cache.o ssl_ciphersuites.o		ssl_cli.o ssl_cookie.o	ssl_srv.o	ssl_ticket.o ssl_tls.o net.o
+echo "  RL    libmbedtls.a"
+  RL    libmbedtls.a
+ar -s libmbedtls.a
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c s_server.c
+In file included from s_server.c:22:
+./Log.h:7:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning (disable: 4273)
+        ^
+./Log.h:9:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning (default: 4273) 
+        ^
+./Log.h:48:28: warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define LOG(level, fmt, arg...) do {    \
+                           ^
+./Log.h:63:27: warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define LL_DEBUG( fmt, arg... ) LOG( LOG_LVL_DEBUG, fmt, ##arg )
+                          ^
+./Log.h:64:25: warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define LL_LOG( fmt, arg... ) LOG( LOG_LVL_LOG, fmt,##arg )
+                        ^
+./Log.h:65:27: warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define LL_NOTICE( fmt,arg... ) LOG( LOG_LVL_NOTICE, fmt, ##arg )
+                          ^
+./Log.h:66:29: warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define LL_WARNING( fmt, arg... ) LOG( LOG_LVL_WARNING, fmt, ##arg )
+                            ^
+./Log.h:67:30: warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define LL_CRITICAL( fmt, arg... ) LOG( LOG_LVL_CRITICAL, fmt, ##arg )
+                             ^
+s_server.c:95:12: warning: variable 'ret' is uninitialized when used here [-Wuninitialized]
+    return ret;
+           ^~~
+s_server.c:89:12: note: initialize the variable 'ret' to silence this warning
+    int ret;
+           ^
+            = 0
+s_server.c:960:1: warning: unused label 'exit' [-Wunused-label]
+exit:
+^~~~~
+s_server.c:991:42: warning: sizeof on array function parameter will return size of 'int (*)[2]' instead of 'int [4][2]' [-Wsizeof-array-argument]
+        memset( version_suites, 0, sizeof( version_suites ) );
+                                         ^
+s_server.c:964:31: note: declared here
+int version_suite(char *p,int version_suites[4][2],int *ret){
+                              ^
+s_server.c:991:44: warning: 'memset' call operates on objects of type 'int [2]' while the size is based on a different type 'int (*)[2]' [-Wsizeof-pointer-memaccess]
+        memset( version_suites, 0, sizeof( version_suites ) );
+                ~~~~~~~~~~~~~~             ^~~~~~~~~~~~~~
+s_server.c:991:44: note: did you mean to dereference the argument to 'sizeof' (and multiply it by the number of elements)?
+        memset( version_suites, 0, sizeof( version_suites ) );
+                                           ^~~~~~~~~~~~~~
+s_server.c:1042:33: warning: sizeof on array function parameter will return size of 'const char **' instead of 'const char *[10]' [-Wsizeof-array-argument]
+        while( i < (int) sizeof alpn_list - 1 && *p != '\0' )
+                                ^
+s_server.c:1013:109: note: declared here
+int init_psk(char *p,psk_entry *psk_info,unsigned char psk[MBEDTLS_PSK_MAX_LEN],size_t* psk_len,const char *alpn_list[10]){
+                                                                                                            ^
+s_server.c:1056:1: warning: unused label 'usage' [-Wunused-label]
+usage:
+^~~~~~
+s_server.c:1131:1: warning: unused label 'usage' [-Wunused-label]
+usage:
+^~~~~~
+s_server.c:1164:58: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    LL_NOTICE( "  . Loading the server cert. and key..." );
+                                                         ^
+./Log.h:65:9: note: macro 'LL_NOTICE' defined here
+#define LL_NOTICE( fmt,arg... ) LOG( LOG_LVL_NOTICE, fmt, ##arg )
+        ^
+./Log.h:65:57: warning: token pasting of ',' and __VA_ARGS__ is a GNU extension [-Wgnu-zero-variadic-macro-arguments]
+#define LL_NOTICE( fmt,arg... ) LOG( LOG_LVL_NOTICE, fmt, ##arg )
+                                                        ^
+s_server.c:1164:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    LL_NOTICE( "  . Loading the server cert. and key..." );
+    ^
+./Log.h:65:65: note: expanded from macro 'LL_NOTICE'
+#define LL_NOTICE( fmt,arg... ) LOG( LOG_LVL_NOTICE, fmt, ##arg )
+                                                                ^
+./Log.h:48:9: note: macro 'LOG' defined here
+#define LOG(level, fmt, arg...) do {    \
+        ^
+./Log.h:50:86: warning: token pasting of ',' and __VA_ARGS__ is a GNU extension [-Wgnu-zero-variadic-macro-arguments]
+                printf_sgx("[%s] %s:%d: " fmt "\n", log_level_strings[level], __FUNCTION__,__LINE__, ##arg); \
+                                                                                                   ^
+s_server.c:1176:39: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+      LL_CRITICAL("loading RSA certs" );
+                                      ^
+./Log.h:67:9: note: macro 'LL_CRITICAL' defined here
+#define LL_CRITICAL( fmt, arg... ) LOG( LOG_LVL_CRITICAL, fmt, ##arg )
+        ^
+./Log.h:67:62: warning: token pasting of ',' and __VA_ARGS__ is a GNU extension [-Wgnu-zero-variadic-macro-arguments]
+#define LL_CRITICAL( fmt, arg... ) LOG( LOG_LVL_CRITICAL, fmt, ##arg )
+                                                             ^
+s_server.c:1176:7: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+      LL_CRITICAL("loading RSA certs" );
+      ^
+./Log.h:67:70: note: expanded from macro 'LL_CRITICAL'
+#define LL_CRITICAL( fmt, arg... ) LOG( LOG_LVL_CRITICAL, fmt, ##arg )
+                                                                     ^
+./Log.h:48:9: note: macro 'LOG' defined here
+#define LOG(level, fmt, arg...) do {    \
+        ^
+./Log.h:50:86: warning: token pasting of ',' and __VA_ARGS__ is a GNU extension [-Wgnu-zero-variadic-macro-arguments]
+                printf_sgx("[%s] %s:%d: " fmt "\n", log_level_strings[level], __FUNCTION__,__LINE__, ##arg); \
+                                                                                                   ^
+s_server.c:1216:1: warning: unused label 'usage' [-Wunused-label]
+usage:
+^~~~~~
+s_server.c:1495:1: warning: unused label 'usage' [-Wunused-label]
+usage:
+^~~~~~
+s_server.c:1567:1: warning: unused label 'usage' [-Wunused-label]
+usage:
+^~~~~~
+s_server.c:1637:1: warning: unused label 'exit' [-Wunused-label]
+exit:
+^~~~~
+s_server.c:1634:1: warning: unused label 'usage' [-Wunused-label]
+usage:
+^~~~~~
+s_server.c:1840:73: warning: expression result unused [-Wunused-value]
+        for( *written = 0, *frags = 0; *written < len; *written += ret, *frags++ )
+                                                                        ^~~~~~~~
+s_server.c:2217:27: warning: no newline at end of file [-Wnewline-eof]
+#undef MBEDTLS_CONFIG_FILE
+                          ^
+s_server.c:2030:9: warning: unused variable 'i' [-Wunused-variable]
+    int i;
+        ^
+s_server.c:2048:23: warning: variable 'p' is uninitialized when used here [-Wuninitialized]
+switch (version_suite(p,version_suites,&ret)){
+                      ^
+s_server.c:2031:12: note: initialize the variable 'p' to silence this warning
+    char *p;
+           ^
+            = NULL
+printf_sgx===
+mbedtls_hardware_poll===
+mbedtls_sgx_drbg_random===
+unhexify===
+psk_free===
+psk_parse===
+psk_callback===
+term_handler===
+init_opt===
+version_suite===
+init_psk===
+init_0===
+load_1===
+setup_23===
+my_debug===
+my_send===
+my_recv===
+waitingConnect_3===
+handshake_4===
+verify_server_certificate_5===
+read_HTTP_request_6===
+write_200_Response_7===
+request_renegotiation_7a===
+server_exit===
+server_init===
+enclave_main===
+printf_sgx ::::0
+mbedtls_hardware_poll ::::400
+mbedtls_sgx_drbg_random ::::656
+unhexify ::::928
+psk_free ::::1360
+psk_parse ::::1584
+I am here, not find start
+TailJMP :psk_callback
+psk_callback ::::2176
+TailJMP :term_handler
+term_handler ::::2592
+init_opt ::::2800
+version_suite ::::3840
+---------------------- page index: 0
+printf_sgx
+mbedtls_hardware_poll
+mbedtls_sgx_drbg_random
+unhexify
+psk_free
+psk_parse
+psk_callback
+term_handler
+init_opt
+----------------------page end;
+init_psk ::::4448
+init_0 ::::4944
+load_1 ::::5424
+setup_23 ::::7120
+---------------------- page index: 1
+version_suite
+init_psk
+init_0
+load_1
+----------------------page end;
+my_debug ::::10896
+my_send ::::11024
+---------------------- page index: 2
+setup_23
+my_debug
+----------------------page end;
+my_recv ::::11248
+waitingConnect_3 ::::11472
+handshake_4 ::::12352
+verify_server_certificate_5 ::::13424
+CALL64pcrel32 <es:memset>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %ESI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+CALL64pcrel32 <es:memcpy>, <regmask %BH %BL %BP %BPL %BX %EBP %EBX %RBP %RBX %R12 %R13 %R14 %R15 %R12B %R13B %R14B %R15B %R12D %R13D %R14D %R15D %R12W %R13W %R14W %R15W>, %RSP<imp-use>, %RDI<imp-use>, %RSI<imp-use>, %RDX<imp-use>, %RSP<imp-def>, %RAX<imp-def,dead>
+BBI->none Reg
+read_HTTP_request_6 ::::14128
+I am here, not find start
+---------------------- page index: 3
+my_send
+my_recv
+waitingConnect_3
+handshake_4
+verify_server_certificate_5
+----------------------page end;
+write_200_Response_7 ::::16128
+request_renegotiation_7a ::::17312
+server_exit ::::17776
+---------------------- page index: 4
+read_HTTP_request_6
+write_200_Response_7
+request_renegotiation_7a
+----------------------page end;
+TailJMP :server_init
+server_init ::::18720
+enclave_main ::::19312
+I am here, not find start
+32 warnings generated.
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden -c net_b.c
+net_b.c:217:2: warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+1201-----mbedtls_net_connect- functions--1
+1201-----mbedtls_net_set_block- functions--1
+1201-----mbedtls_net_set_nonblock- functions--1
+1201-----mbedtls_net_usleep- functions--1
+1201-----mbedtls_net_recv- functions--1
+1201-----mbedtls_sgx_net_recv- functions--1
+1201-----mbedtls_net_init- functions--1
+1201-----mbedtls_net_bind- functions--1
+1201-----mbedtls_net_accept- functions--1
+1201-----mbedtls_net_recv_timeout- functions--1
+1201-----mbedtls_net_send- functions--1
+1201-----mbedtls_net_free- functions--1
+mbedtls_net_connect===
+mbedtls_net_set_block===
+mbedtls_net_set_nonblock===
+mbedtls_net_usleep===
+mbedtls_net_recv===
+mbedtls_sgx_net_recv===
+mbedtls_net_init===
+mbedtls_net_bind===
+mbedtls_net_accept===
+mbedtls_net_recv_timeout===
+mbedtls_net_send===
+mbedtls_net_free===
+mbedtls_net_connect ::::0
+mbedtls_net_set_block ::::48
+mbedtls_net_set_nonblock ::::96
+mbedtls_net_usleep ::::144
+mbedtls_net_recv ::::192
+mbedtls_sgx_net_recv ::::240
+mbedtls_net_init ::::288
+mbedtls_net_bind ::::352
+mbedtls_net_accept ::::400
+mbedtls_net_recv_timeout ::::448
+mbedtls_net_send ::::496
+mbedtls_net_free ::::544
+1 warning generated.
+/home/alax/workingSpace/llvmProgram/llvm/build/bin/clang -Iinclude -I../ -D_FILE_OFFSET_BITS=64 -fno-asynchronous-unwind-tables -fno-jump-tables -fomit-frame-pointer -Wall -pedantic -Wno-unused-function -std=gnu11 -O1 -I../../../libsgx/include -I../../../libsgx/musl-libc/include -I. -fno-stack-protector -fvisibility=hidden s_server.o net_b.o  debug.o		ssl_cache.o ssl_ciphersuites.o		ssl_cli.o ssl_cookie.o	ssl_srv.o	ssl_ticket.o ssl_tls.o certs.o		pkcs11.o	x509.o x509_create.o	x509_crl.o	x509_crt.o x509_csr.o	x509write_crt.o	x509write_csr.o aes.o		aesni.o		arc4.o asn1parse.o	asn1write.o	base64.o bignum.o	blowfish.o	camellia.o ccm.o		cipher.o	cipher_wrap.o ctr_drbg.o	des.o		dhm.o ecdh.o		ecdsa.o		ecjpake.o ecp.o ecp_curves.o	entropy.o	entropy_poll.o error.o		gcm.o		havege.o hmac_drbg.o	md.o		md2.o md4.o		md5.o		md_wrap.o memory_buffer_alloc.o		oid.o padlock.o	pem.o		pk.o pk_wrap.o	pkcs12.o	pkcs5.o pkparse.o	pkwrite.o	platform.o ripemd160.o	rsa.o		sha1.o sha256.o	sha512.o	threading.o timing.o	version.o version_features.o		xtea.o -o mbedtls -lm
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+clang-5.0: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mbedtls] Error 1

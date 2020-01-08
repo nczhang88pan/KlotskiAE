@@ -1,0 +1,5 @@
+the original cjpeg command is:
+    ./cjpeg -dct int -outfile testout.jpg ./testimg.ppm
+
+then it compare the result with the pre-generated testimg.jpg
+    cmp ./testimg.jpg  ./testout.jpg

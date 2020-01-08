@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.inc": "c",
+        "functional": "cpp",
+        "ratio": "cpp",
+        "type_traits": "cpp",
+        "array": "c",
+        "time.h": "c"
+    }
+}

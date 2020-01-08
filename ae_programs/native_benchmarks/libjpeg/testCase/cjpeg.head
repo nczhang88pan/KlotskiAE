@@ -1,0 +1,689 @@
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           Advanced Micro Devices X86-64
+  Version:                           0x1
+  Entry point address:               0x34823ee0
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          201824 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         4
+  Size of section headers:           64 (bytes)
+  Number of section headers:         12
+  Section header string table index: 9
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .text             PROGBITS         0000000034800120  00000120
+       000000000002d188  0000000000000000  AX       0     0     32
+  [ 2] .rodata           PROGBITS         000000003482d2b0  0002d2b0
+       0000000000003abc  0000000000000000   A       0     0     16
+  [ 3] .data.rel.ro      PROGBITS         0000000034a30f00  00030f00
+       00000000000000e8  0000000000000000  WA       0     0     8
+  [ 4] .got              PROGBITS         0000000034a30fe8  00030fe8
+       0000000000000018  0000000000000008  WA       0     0     8
+  [ 5] .got.plt          PROGBITS         0000000034a31000  00031000
+       0000000000000018  0000000000000008  WA       0     0     8
+  [ 6] .data             PROGBITS         0000000034a31020  00031020
+       00000000000003d0  0000000000000000  WA       0     0     16
+  [ 7] .bss              NOBITS           0000000034a313f0  000313f0
+       0000000000902a80  0000000000000000  WA       0     0     16
+  [ 8] .comment          PROGBITS         0000000000000000  000313f0
+       0000000000000015  0000000000000001  MS       0     0     1
+  [ 9] .shstrtab         STRTAB           0000000000000000  00031405
+       0000000000000058  0000000000000000           0     0     1
+  [10] .symtab           SYMTAB           0000000000000000  00031760
+       00000000000038b8  0000000000000018          11   302     8
+  [11] .strtab           STRTAB           0000000000000000  00035018
+       0000000000002265  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), l (large)
+  I (info), L (link order), G (group), T (TLS), E (exclude), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+
+There are no section groups in this file.
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  LOAD           0x0000000000000000 0x0000000034800000 0x0000000034800000
+                 0x0000000000030d6c 0x0000000000030d6c  R E    200000
+  LOAD           0x0000000000030f00 0x0000000034a30f00 0x0000000034a30f00
+                 0x00000000000004f0 0x0000000000902f70  RW     200000
+  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000000  RWE    10
+  GNU_RELRO      0x0000000000030f00 0x0000000034a30f00 0x0000000034a30f00
+                 0x0000000000000100 0x0000000000000100  R      1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .text .rodata 
+   01     .data.rel.ro .got .got.plt .data .bss 
+   02     
+   03     .data.rel.ro .got 
+
+There is no dynamic section in this file.
+
+There are no relocations in this file.
+
+The decoding of unwind sections for machine type Advanced Micro Devices X86-64 is not currently supported.
+
+Symbol table '.symtab' contains 605 entries:
+   Num:    Value          Size Type    Bind   Vis      Ndx Name
+     0: 0000000000000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 0000000034800120     0 SECTION LOCAL  DEFAULT    1 
+     2: 000000003482d2b0     0 SECTION LOCAL  DEFAULT    2 
+     3: 0000000034a30f00     0 SECTION LOCAL  DEFAULT    3 
+     4: 0000000034a30fe8     0 SECTION LOCAL  DEFAULT    4 
+     5: 0000000034a31000     0 SECTION LOCAL  DEFAULT    5 
+     6: 0000000034a31020     0 SECTION LOCAL  DEFAULT    6 
+     7: 0000000034a313f0     0 SECTION LOCAL  DEFAULT    7 
+     8: 0000000000000000     0 SECTION LOCAL  DEFAULT    8 
+     9: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS cjpeg_my.c
+    10: 000000003482d840   360 OBJECT  LOCAL  DEFAULT    2 cdjpeg_message_table
+    11: 00000000348003a0    21 FUNC    LOCAL  DEFAULT    1 parse_switches
+    12: 0000000034a31400     8 OBJECT  LOCAL  DEFAULT    7 progname
+    13: 00000000348003c0     5 FUNC    LOCAL  DEFAULT    1 select_file_type
+    14: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS ../rdppm.c
+    15: 00000000348008e0     1 FUNC    LOCAL  DEFAULT    1 finish_input_ppm
+    16: 0000000034800bc0    71 FUNC    LOCAL  DEFAULT    1 get_raw_row
+    17: 0000000034800c10   236 FUNC    LOCAL  DEFAULT    1 get_scaled_gray_row
+    18: 0000000034800dc0   276 FUNC    LOCAL  DEFAULT    1 get_scaled_rgb_row
+    19: 00000000348009c0   106 FUNC    LOCAL  DEFAULT    1 get_text_gray_row
+    20: 0000000034800a30   158 FUNC    LOCAL  DEFAULT    1 get_text_rgb_row
+    21: 0000000034800ad0   234 FUNC    LOCAL  DEFAULT    1 get_word_gray_row
+    22: 0000000034800d00   192 FUNC    LOCAL  DEFAULT    1 get_word_rgb_row
+    23: 0000000034800ee0    60 FUNC    LOCAL  DEFAULT    1 pbm_getc
+    24: 00000000348008f0   196 FUNC    LOCAL  DEFAULT    1 read_pbm_integer
+    25: 0000000034800400  1237 FUNC    LOCAL  DEFAULT    1 start_input_ppm
+    26: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcapimin.c
+    27: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcapistd.c
+    28: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcinit.c
+    29: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcmainct.c
+    30: 0000000034801d80   443 FUNC    LOCAL  DEFAULT    1 process_data_simple_main
+    31: 0000000034801cf0   133 FUNC    LOCAL  DEFAULT    1 start_pass_main
+    32: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcmarker.c
+    33: 0000000034802880    57 FUNC    LOCAL  DEFAULT    1 emit_2bytes
+    34: 0000000034802710   251 FUNC    LOCAL  DEFAULT    1 emit_adobe_app14
+    35: 0000000034802810   111 FUNC    LOCAL  DEFAULT    1 emit_byte
+    36: 0000000034802d70   516 FUNC    LOCAL  DEFAULT    1 emit_dac
+    37: 0000000034802f80   437 FUNC    LOCAL  DEFAULT    1 emit_dht
+    38: 00000000348028c0   468 FUNC    LOCAL  DEFAULT    1 emit_dqt
+    39: 0000000034803140    57 FUNC    LOCAL  DEFAULT    1 emit_dri
+    40: 0000000034802630   211 FUNC    LOCAL  DEFAULT    1 emit_jfif_app0
+    41: 0000000034802be0   304 FUNC    LOCAL  DEFAULT    1 emit_lse_ict
+    42: 0000000034802600    45 FUNC    LOCAL  DEFAULT    1 emit_marker
+    43: 0000000034802d10    96 FUNC    LOCAL  DEFAULT    1 emit_pseudo_sos
+    44: 0000000034802aa0   317 FUNC    LOCAL  DEFAULT    1 emit_sof
+    45: 0000000034803180   363 FUNC    LOCAL  DEFAULT    1 emit_sos
+    46: 0000000034801fe0   102 FUNC    LOCAL  DEFAULT    1 write_file_header
+    47: 0000000034802480    16 FUNC    LOCAL  DEFAULT    1 write_file_trailer
+    48: 0000000034802050   722 FUNC    LOCAL  DEFAULT    1 write_frame_header
+    49: 00000000348025f0    11 FUNC    LOCAL  DEFAULT    1 write_marker_byte
+    50: 0000000034802590    88 FUNC    LOCAL  DEFAULT    1 write_marker_header
+    51: 0000000034802330   332 FUNC    LOCAL  DEFAULT    1 write_scan_header
+    52: 0000000034802490   252 FUNC    LOCAL  DEFAULT    1 write_tables_only
+    53: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcmaster.c
+    54: 0000000034803f40   230 FUNC    LOCAL  DEFAULT    1 finish_pass_master
+    55: 0000000034804030  1983 FUNC    LOCAL  DEFAULT    1 initial_setup
+    56: 0000000034805770   136 FUNC    LOCAL  DEFAULT    1 jpeg_calc_trans_dimension
+    57: 0000000034803ef0    67 FUNC    LOCAL  DEFAULT    1 pass_startup
+    58: 00000000348054e0   649 FUNC    LOCAL  DEFAULT    1 per_scan_setup
+    59: 0000000034803c10   729 FUNC    LOCAL  DEFAULT    1 prepare_for_pass
+    60: 00000000348051a0   281 FUNC    LOCAL  DEFAULT    1 reduce_script
+    61: 00000000348052c0   531 FUNC    LOCAL  DEFAULT    1 select_scan_parameters
+    62: 00000000348047f0  2474 FUNC    LOCAL  DEFAULT    1 validate_script
+    63: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcomapi.c
+    64: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcparam.c
+    65: 0000000034806d60   247 FUNC    LOCAL  DEFAULT    1 add_huff_table
+    66: 0000000034806cb0    36 FUNC    LOCAL  DEFAULT    1 fill_a_scan
+    67: 0000000034806c00   169 FUNC    LOCAL  DEFAULT    1 fill_dc_scans
+    68: 0000000034806ce0   127 FUNC    LOCAL  DEFAULT    1 fill_scans
+    69: 000000003482dab0   256 OBJECT  LOCAL  DEFAULT    2 std_chrominance_quant_tbl
+    70: 0000000034805e10   181 FUNC    LOCAL  DEFAULT    1 std_huff_tables
+    71: 000000003482dcc0    17 OBJECT  LOCAL  DEFAULT    2 std_huff_tables.bits_ac_c
+    72: 000000003482dbf0    17 OBJECT  LOCAL  DEFAULT    2 std_huff_tables.bits_ac_l
+    73: 000000003482dbd0    17 OBJECT  LOCAL  DEFAULT    2 std_huff_tables.bits_dc_c
+    74: 000000003482dbb0    17 OBJECT  LOCAL  DEFAULT    2 std_huff_tables.bits_dc_l
+    75: 000000003482dce0   162 OBJECT  LOCAL  DEFAULT    2 std_huff_tables.val_ac_ch
+    76: 000000003482dc10   162 OBJECT  LOCAL  DEFAULT    2 std_huff_tables.val_ac_lu
+    77: 000000003482dbe1    12 OBJECT  LOCAL  DEFAULT    2 std_huff_tables.val_dc_ch
+    78: 000000003482dbc1    12 OBJECT  LOCAL  DEFAULT    2 std_huff_tables.val_dc_lu
+    79: 000000003482d9b0   256 OBJECT  LOCAL  DEFAULT    2 std_luminance_quant_tbl
+    80: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcprepct.c
+    81: 00000000348074f0   641 FUNC    LOCAL  DEFAULT    1 create_context_buffer
+    82: 0000000034807ad0    95 FUNC    LOCAL  DEFAULT    1 expand_bottom_edge
+    83: 00000000348070a0  1098 FUNC    LOCAL  DEFAULT    1 pre_process_context
+    84: 0000000034807780   844 FUNC    LOCAL  DEFAULT    1 pre_process_data
+    85: 0000000034807030   103 FUNC    LOCAL  DEFAULT    1 start_pass_prep
+    86: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcsample.c
+    87: 0000000034808e40   180 FUNC    LOCAL  DEFAULT    1 expand_right_edge
+    88: 0000000034808430    89 FUNC    LOCAL  DEFAULT    1 fullsize_downsample
+    89: 0000000034808130   760 FUNC    LOCAL  DEFAULT    1 fullsize_smooth_downsampl
+    90: 0000000034808490   273 FUNC    LOCAL  DEFAULT    1 h2v1_downsample
+    91: 0000000034808a30   358 FUNC    LOCAL  DEFAULT    1 h2v2_downsample
+    92: 00000000348085b0  1151 FUNC    LOCAL  DEFAULT    1 h2v2_smooth_downsample
+    93: 0000000034808ba0   671 FUNC    LOCAL  DEFAULT    1 int_downsample
+    94: 0000000034808060   208 FUNC    LOCAL  DEFAULT    1 sep_downsample
+    95: 0000000034808050    10 FUNC    LOCAL  DEFAULT    1 start_pass_downsample
+    96: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jdatadst.c
+    97: 00000000348092a0   240 FUNC    LOCAL  DEFAULT    1 empty_mem_output_buffer
+    98: 0000000034808fd0   134 FUNC    LOCAL  DEFAULT    1 empty_output_buffer
+    99: 0000000034808f90    63 FUNC    LOCAL  DEFAULT    1 init_destination
+   100: 0000000034809290    10 FUNC    LOCAL  DEFAULT    1 init_mem_destination
+   101: 0000000034809060   164 FUNC    LOCAL  DEFAULT    1 term_destination
+   102: 0000000034809390    36 FUNC    LOCAL  DEFAULT    1 term_mem_destination
+   103: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jerror.c
+   104: 00000000348094a0   140 FUNC    LOCAL  DEFAULT    1 emit_message
+   105: 0000000034809470    37 FUNC    LOCAL  DEFAULT    1 error_exit
+   106: 0000000034809590   499 FUNC    LOCAL  DEFAULT    1 format_message
+   107: 0000000034809530    84 FUNC    LOCAL  DEFAULT    1 output_message
+   108: 0000000034809790    30 FUNC    LOCAL  DEFAULT    1 reset_error_mgr
+   109: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jutils.c
+   110: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jmemmgr.c
+   111: 000000003480ab20   668 FUNC    LOCAL  DEFAULT    1 access_virt_barray
+   112: 000000003480a880   664 FUNC    LOCAL  DEFAULT    1 access_virt_sarray
+   113: 000000003480a070   376 FUNC    LOCAL  DEFAULT    1 alloc_barray
+   114: 0000000034809dd0   280 FUNC    LOCAL  DEFAULT    1 alloc_large
+   115: 0000000034809ef0   376 FUNC    LOCAL  DEFAULT    1 alloc_sarray
+   116: 0000000034809b30   671 FUNC    LOCAL  DEFAULT    1 alloc_small
+   117: 000000003480b320   510 FUNC    LOCAL  DEFAULT    1 do_barray_io
+   118: 000000003480b120   503 FUNC    LOCAL  DEFAULT    1 do_sarray_io
+   119: 000000003482f900    16 OBJECT  LOCAL  DEFAULT    2 extra_pool_slop
+   120: 000000003482f8f0    16 OBJECT  LOCAL  DEFAULT    2 first_pool_slop
+   121: 000000003480adc0   701 FUNC    LOCAL  DEFAULT    1 free_pool
+   122: 000000003480b100    27 FUNC    LOCAL  DEFAULT    1 out_of_memory
+   123: 000000003480a350  1324 FUNC    LOCAL  DEFAULT    1 realize_virt_arrays
+   124: 000000003480a2a0   172 FUNC    LOCAL  DEFAULT    1 request_virt_barray
+   125: 000000003480a1f0   172 FUNC    LOCAL  DEFAULT    1 request_virt_sarray
+   126: 000000003480b080   115 FUNC    LOCAL  DEFAULT    1 self_destruct
+   127: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jmemnobs.c
+   128: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcarith.c
+   129: 000000003480da20  1071 FUNC    LOCAL  DEFAULT    1 arith_encode
+   130: 000000003480de50   111 FUNC    LOCAL  DEFAULT    1 emit_byte
+   131: 000000003480d8a0   369 FUNC    LOCAL  DEFAULT    1 emit_restart
+   132: 000000003480cf00  2461 FUNC    LOCAL  DEFAULT    1 encode_mcu
+   133: 000000003480c2a0  1544 FUNC    LOCAL  DEFAULT    1 encode_mcu_AC_first
+   134: 000000003480c9c0  1332 FUNC    LOCAL  DEFAULT    1 encode_mcu_AC_refine
+   135: 000000003480bdc0  1243 FUNC    LOCAL  DEFAULT    1 encode_mcu_DC_first
+   136: 000000003480c8b0   269 FUNC    LOCAL  DEFAULT    1 encode_mcu_DC_refine
+   137: 000000003480ba90   807 FUNC    LOCAL  DEFAULT    1 finish_pass
+   138: 000000003480b6d0   957 FUNC    LOCAL  DEFAULT    1 start_pass
+   139: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jccoefct.c
+   140: 000000003480e230  1258 FUNC    LOCAL  DEFAULT    1 compress_data
+   141: 000000003480e720  1390 FUNC    LOCAL  DEFAULT    1 compress_first_pass
+   142: 000000003480ec90  1030 FUNC    LOCAL  DEFAULT    1 compress_output
+   143: 000000003480e1b0   115 FUNC    LOCAL  DEFAULT    1 start_iMCU_row
+   144: 000000003480e070   314 FUNC    LOCAL  DEFAULT    1 start_pass_coef
+   145: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jccolor.c
+   146: 0000000034810140   616 FUNC    LOCAL  DEFAULT    1 cmyk_ycck_convert
+   147: 000000003480f850   228 FUNC    LOCAL  DEFAULT    1 grayscale_convert
+   148: 0000000034810020   285 FUNC    LOCAL  DEFAULT    1 null_convert
+   149: 000000003480f840    10 FUNC    LOCAL  DEFAULT    1 null_method
+   150: 000000003480fb60   319 FUNC    LOCAL  DEFAULT    1 rgb_convert
+   151: 000000003480fa40   286 FUNC    LOCAL  DEFAULT    1 rgb_gray_convert
+   152: 000000003480fca0   340 FUNC    LOCAL  DEFAULT    1 rgb_rgb1_convert
+   153: 000000003480fe00   530 FUNC    LOCAL  DEFAULT    1 rgb_ycc_convert
+   154: 000000003480f940   241 FUNC    LOCAL  DEFAULT    1 rgb_ycc_start
+   155: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jcdctmgr.c
+   156: 00000000348112e0   568 FUNC    LOCAL  DEFAULT    1 forward_DCT
+   157: 0000000034811520   398 FUNC    LOCAL  DEFAULT    1 forward_DCT_float
+   158: 0000000034810480  3668 FUNC    LOCAL  DEFAULT    1 start_pass_fdctmgr
+   159: 000000003482f9b0    64 OBJECT  LOCAL  DEFAULT    2 start_pass_fdctmgr.aansca
+   160: 000000003482f930   128 OBJECT  LOCAL  DEFAULT    2 start_pass_fdctmgr.aansca
+   161: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jchuff.c
+   162: 0000000034814280   121 FUNC    LOCAL  DEFAULT    1 dump_buffer_e
+   163: 0000000034814540    83 FUNC    LOCAL  DEFAULT    1 dump_buffer_s
+   164: 0000000034813fd0   119 FUNC    LOCAL  DEFAULT    1 emit_ac_symbol
+   165: 0000000034814050   422 FUNC    LOCAL  DEFAULT    1 emit_bits_e
+   166: 0000000034814390   420 FUNC    LOCAL  DEFAULT    1 emit_bits_s
+   167: 0000000034814200   118 FUNC    LOCAL  DEFAULT    1 emit_buffered_bits
+   168: 00000000348146f0   119 FUNC    LOCAL  DEFAULT    1 emit_dc_symbol
+   169: 0000000034813840   255 FUNC    LOCAL  DEFAULT    1 emit_eobrun
+   170: 00000000348145a0   334 FUNC    LOCAL  DEFAULT    1 emit_restart_e
+   171: 00000000348149b0   275 FUNC    LOCAL  DEFAULT    1 emit_restart_s
+   172: 0000000034812330  1044 FUNC    LOCAL  DEFAULT    1 encode_mcu_AC_first
+   173: 00000000348128e0  1601 FUNC    LOCAL  DEFAULT    1 encode_mcu_AC_refine
+   174: 00000000348120c0   609 FUNC    LOCAL  DEFAULT    1 encode_mcu_DC_first
+   175: 0000000034812750   386 FUNC    LOCAL  DEFAULT    1 encode_mcu_DC_refine
+   176: 0000000034812f30   351 FUNC    LOCAL  DEFAULT    1 encode_mcu_gather
+   177: 0000000034813090   641 FUNC    LOCAL  DEFAULT    1 encode_mcu_huff
+   178: 0000000034814ad0   921 FUNC    LOCAL  DEFAULT    1 encode_one_block
+   179: 0000000034811cb0   643 FUNC    LOCAL  DEFAULT    1 finish_pass_gather
+   180: 0000000034811f40   369 FUNC    LOCAL  DEFAULT    1 finish_pass_huff
+   181: 0000000034814300    52 FUNC    LOCAL  DEFAULT    1 flush_bits_e
+   182: 0000000034814340    77 FUNC    LOCAL  DEFAULT    1 flush_bits_s
+   183: 0000000034814770   565 FUNC    LOCAL  DEFAULT    1 htest_one_block
+   184: 0000000034813940  1665 FUNC    LOCAL  DEFAULT    1 jpeg_gen_optimal_table
+   185: 0000000034813320  1311 FUNC    LOCAL  DEFAULT    1 jpeg_make_c_derived_tbl
+   186: 00000000348117a0  1285 FUNC    LOCAL  DEFAULT    1 start_pass_huff
+   187: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jfdctflt.c
+   188: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jfdctfst.c
+   189: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jfdctint.c
+   190: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS jaricom.c
+   191: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/fclose.c
+   192: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/ferror.c
+   193: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/fflush.c
+   194: 000000003481f1f0    94 FUNC    LOCAL  DEFAULT    1 __fflush_unlocked
+   195: 0000000034a31408     8 OBJECT  LOCAL  DEFAULT    7 dummy
+   196: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/fopen.c
+   197: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/fprintf.c
+   198: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/fread.c
+   199: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/fwrite.c
+   200: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/getc.c
+   201: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/internal/libc.c
+   202: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS malloc/malloc.c
+   203: 0000000034a314d0 0x300000 OBJECT  LOCAL  DEFAULT    7 _heap_chk0
+   204: 0000000034d314d0 0x300000 OBJECT  LOCAL  DEFAULT    7 _heap_chk1
+   205: 00000000350314d0 0x300000 OBJECT  LOCAL  DEFAULT    7 _heap_chk2
+   206: 0000000034a31490     8 OBJECT  LOCAL  DEFAULT    7 _ms
+   207: 0000000034a31498     8 OBJECT  LOCAL  DEFAULT    7 _ms_8k
+   208: 0000000034a314a0     8 OBJECT  LOCAL  DEFAULT    7 _ms_large
+   209: 0000000034a314b8     8 OBJECT  LOCAL  DEFAULT    7 calloc.ms
+   210: 0000000034823590  1733 FUNC    LOCAL  DEFAULT    1 dispose_chunk
+   211: 0000000034a314b0     8 OBJECT  LOCAL  DEFAULT    7 free.ms
+   212: 0000000034821c90  1566 FUNC    LOCAL  DEFAULT    1 ialloc
+   213: 0000000034a314a8     8 OBJECT  LOCAL  DEFAULT    7 malloc.ms
+   214: 0000000034a31420    48 OBJECT  LOCAL  DEFAULT    7 mparams
+   215: 0000000034a314c0     8 OBJECT  LOCAL  DEFAULT    7 realloc.ms
+   216: 0000000034a314c8     8 OBJECT  LOCAL  DEFAULT    7 realloc.new_ms
+   217: 0000000034821600  1056 FUNC    LOCAL  DEFAULT    1 try_realloc_chunk
+   218: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/printf.c
+   219: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/sprintf.c
+   220: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/sscanf.c
+   221: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/stderr.c
+   222: 00000000353318d0     8 OBJECT  LOCAL  DEFAULT    7 buf
+   223: 0000000034a31040   208 OBJECT  LOCAL  DEFAULT    6 f
+   224: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/stdin.c
+   225: 00000000353318e0  1032 OBJECT  LOCAL  DEFAULT    7 buf
+   226: 0000000034a31118   208 OBJECT  LOCAL  DEFAULT    6 f
+   227: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/stdout.c
+   228: 0000000035331cf0  1032 OBJECT  LOCAL  DEFAULT    7 buf
+   229: 0000000034a311f0   208 OBJECT  LOCAL  DEFAULT    6 f
+   230: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/string/strchr.c
+   231: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/string/strchrnul.c
+   232: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/string/strlen.c
+   233: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/conf/sysconf.c
+   234: 000000003482feb0   498 OBJECT  LOCAL  DEFAULT    2 sysconf.values
+   235: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/vfprintf.c
+   236: 0000000034828010   566 FUNC    LOCAL  DEFAULT    1 pop_arg
+   237: 00000000348249b0 13913 FUNC    LOCAL  DEFAULT    1 printf_core
+   238: 0000000034830140   464 OBJECT  LOCAL  DEFAULT    2 states
+   239: 0000000034830110    16 OBJECT  LOCAL  DEFAULT    2 xdigits
+   240: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/vsprintf.c
+   241: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/vsscanf.c
+   242: 0000000034828300     5 FUNC    LOCAL  DEFAULT    1 do_read
+   243: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/multibyte/wctomb.c
+   244: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/errno/__errno_locatio
+   245: 00000000353320f8     4 OBJECT  LOCAL  DEFAULT    7 __errno_location.e
+   246: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__fdopen.c
+   247: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__fmodeflags.c
+   248: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/math/__fpclassifyl.c
+   249: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/thread/__lock.c
+   250: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__lockfile.c
+   251: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/math/__signbitl.c
+   252: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__stdio_close.c
+   253: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__stdio_read.c
+   254: 0000000034828830    20 FUNC    LOCAL  DEFAULT    1 cleanup
+   255: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__stdio_seek.c
+   256: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__stdio_write.c
+   257: 0000000034828b50    20 FUNC    LOCAL  DEFAULT    1 cleanup
+   258: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__stdout_write.
+   259: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__string_read.c
+   260: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__toread.c
+   261: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__towrite.c
+   262: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__uflow.c
+   263: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/thread/__wait.c
+   264: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/thread/cancel_dummy.c
+   265: 0000000034828e30     1 FUNC    LOCAL  DEFAULT    1 dummy
+   266: 0000000034828e10    19 FUNC    LOCAL  DEFAULT    1 sccp
+   267: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/thread/cancellation.c
+   268: 0000000034828e40     1 FUNC    LOCAL  DEFAULT    1 dummy
+   269: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/math/frexpl.c
+   270: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/string/memchr.c
+   271: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/unistd/nosgx.c
+   272: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/errno/strerror.c
+   273: 0000000034830360    88 OBJECT  LOCAL  DEFAULT    2 errid
+   274: 00000000348303c0  1804 OBJECT  LOCAL  DEFAULT    2 errmsg
+   275: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/internal/syscall_ret.
+   276: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/vfscanf.c
+   277: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/vsnprintf.c
+   278: 000000003482a370    53 FUNC    LOCAL  DEFAULT    1 sn_write
+   279: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/multibyte/wcrtomb.c
+   280: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__overflow.c
+   281: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/__stdio_exit.c
+   282: 0000000035332120     8 OBJECT  LOCAL  DEFAULT    7 dummy_file
+   283: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/internal/floatscan.c
+   284: 0000000034830b20    32 OBJECT  LOCAL  DEFAULT    2 decfloat.p10s
+   285: 000000003482c220   596 FUNC    LOCAL  DEFAULT    1 scanexp
+   286: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/math/fmodl.c
+   287: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/stdio/fputs.c
+   288: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/internal/intscan.c
+   289: 0000000034830b60   257 OBJECT  LOCAL  DEFAULT    2 table
+   290: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/ctype/isspace.c
+   291: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/multibyte/mbrtowc.c
+   292: 0000000035332128     4 OBJECT  LOCAL  DEFAULT    7 mbrtowc.internal_state
+   293: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/multibyte/mbsinit.c
+   294: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/math/scalbn.c
+   295: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/math/scalbnl.c
+   296: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/internal/shgetc.c
+   297: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/math/copysignl.c
+   298: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/math/fabs.c
+   299: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS src/multibyte/internal.c
+   300: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS 
+   301: 0000000034a31000     0 OBJECT  LOCAL  DEFAULT    5 _GLOBAL_OFFSET_TABLE_
+   302: 000000003482f620   208 OBJECT  GLOBAL DEFAULT    2 jpeg_natural_order6
+   303: 0000000034815fa0   660 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_5x5
+   304: 00000000348292da     0 FUNC    GLOBAL HIDDEN     1 __syscall
+   305: 000000003482d2a0     8 FUNC    GLOBAL DEFAULT    1 fabs
+   306: 0000000034817b30  2152 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_12x12
+   307: 0000000034806e60   461 FUNC    GLOBAL DEFAULT    1 jinit_c_prep_controller
+   308: 00000000348222b0    13 FUNC    GLOBAL HIDDEN     1 mspace_independent_comall
+   309: 0000000034830ca0   204 OBJECT  GLOBAL HIDDEN     2 __fsmu8
+   310: 0000000034a312c0     8 OBJECT  GLOBAL DEFAULT    6 __stdout_used
+   311: 00000000348240a0   421 FUNC    GLOBAL DEFAULT    1 sysconf
+   312: 0000000034823d00   175 FUNC    GLOBAL DEFAULT    1 printf
+   313: 0000000034a30f10     8 OBJECT  GLOBAL DEFAULT    3 stdout
+   314: 0000000034828250    22 FUNC    GLOBAL DEFAULT    1 vsprintf
+   315: 00000000348244c0     0 FUNC    GLOBAL DEFAULT    1 recv
+   316: 0000000034824420     0 FUNC    GLOBAL DEFAULT    1 connect
+   317: 00000000348222c0   396 FUNC    GLOBAL HIDDEN     1 mspace_bulk_free
+   318: 0000000034816240   481 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_4x4
+   319: 0000000034805b00    84 FUNC    GLOBAL DEFAULT    1 jpeg_default_qtables
+   320: 0000000034829300    38 FUNC    GLOBAL HIDDEN     1 __syscall_ret
+   321: 0000000034a31470    24 OBJECT  GLOBAL HIDDEN     7 heap_size
+   322: 000000003480b520    26 FUNC    GLOBAL DEFAULT    1 jpeg_get_small
+   323: 00000000348291e0   250 FUNC    GLOBAL DEFAULT    1 strerror
+   324: 0000000034828b70    91 FUNC    GLOBAL DEFAULT    1 __stdout_write
+   325: 0000000034806030  1989 FUNC    GLOBAL DEFAULT    1 jpeg_set_colorspace
+   326: 0000000034805bc0    79 FUNC    GLOBAL DEFAULT    1 jpeg_quality_scaling
+   327: 0000000034806800  1021 FUNC    GLOBAL DEFAULT    1 jpeg_simple_progression
+   328: 0000000034824720     0 FUNC    GLOBAL DEFAULT    1 mbedtls_net_accept
+   329: 00000000348151e0   676 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_ifast
+   330: 000000003482f6f0   164 OBJECT  GLOBAL DEFAULT    2 jpeg_natural_order5
+   331: 0000000034824780     0 FUNC    GLOBAL DEFAULT    1 mbedtls_net_free
+   332: 00000000348245e0     0 FUNC    GLOBAL DEFAULT    1 getprotobynumber
+   333: 0000000034824560     0 FUNC    GLOBAL DEFAULT    1 getenv
+   334: 0000000035332108     8 OBJECT  GLOBAL DEFAULT    7 _virtual_stack_save
+   335: 000000003480b610   184 FUNC    GLOBAL DEFAULT    1 jinit_arith_encoder
+   336: 000000003481c840   558 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_6x3
+   337: 00000000348286a0     1 FUNC    GLOBAL HIDDEN     1 __unlockfile
+   338: 0000000034821a90   468 FUNC    GLOBAL HIDDEN     1 mspace_memalign
+   339: 0000000035332170     8 OBJECT  GLOBAL DEFAULT    7 __hwcap
+   340: 0000000034828270   141 FUNC    GLOBAL DEFAULT    1 vsscanf
+   341: 00000000348288a0   674 FUNC    GLOBAL DEFAULT    1 __stdio_write
+   342: 00000000348285a0    82 FUNC    GLOBAL DEFAULT    1 __fpclassifyl
+   343: 000000003481cc80  2225 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_8x16
+   344: 0000000034a31032     0 FUNC    GLOBAL DEFAULT    6 __rbp_backup
+   345: 0000000034828ce0    69 FUNC    GLOBAL DEFAULT    1 __towrite
+   346: 0000000034828c60   109 FUNC    GLOBAL DEFAULT    1 __toread
+   347: 0000000034828e60    46 FUNC    GLOBAL DEFAULT    1 _pthread_cleanup_pop
+   348: 0000000034a31021     0 NOTYPE  GLOBAL DEFAULT    6 ocall.bdr
+   349: 000000003481f7c0   143 FUNC    GLOBAL DEFAULT    1 getc
+   350: 0000000034805b60    84 FUNC    GLOBAL DEFAULT    1 jpeg_set_linear_quality
+   351: 0000000034823c60     0 FUNC    GLOBAL DEFAULT    1 memcpy
+   352: 0000000034801560    16 FUNC    GLOBAL DEFAULT    1 jpeg_write_m_byte
+   353: 00000000348097d0    35 FUNC    GLOBAL DEFAULT    1 jround_up
+   354: 0000000034828660    41 FUNC    GLOBAL HIDDEN     1 __unlock
+   355: 0000000034a3102a     0 FUNC    GLOBAL DEFAULT    6 __stack_backup
+   356: 0000000034805c40   456 FUNC    GLOBAL DEFAULT    1 jpeg_set_defaults
+   357: 0000000034824320     0 FUNC    GLOBAL DEFAULT    1 puts
+   358: 000000003482a4a0   155 FUNC    GLOBAL PROTECTED    1 __overflow
+   359: 000000003482cea0   318 FUNC    GLOBAL DEFAULT    1 mbrtowc
+   360: 0000000034816690    86 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_1x1
+   361: 000000003482f7a0   128 OBJECT  GLOBAL DEFAULT    2 jpeg_natural_order4
+   362: 000000003480b5f0    12 FUNC    GLOBAL DEFAULT    1 jpeg_mem_init
+   363: 0000000034822b10   294 FUNC    GLOBAL HIDDEN     1 malloc
+   364: 00000000348097b0    21 FUNC    GLOBAL DEFAULT    1 jdiv_round_up
+   365: 0000000035332178    64 OBJECT  GLOBAL HIDDEN     7 __libc
+   366: 00000000348247a0     0 FUNC    GLOBAL DEFAULT    1 sgx_measure_start
+   367: 00000000348247cc     0 FUNC    GLOBAL DEFAULT    1 do_sgx_ocall
+   368: 000000003482a280   227 FUNC    GLOBAL DEFAULT    1 vsnprintf
+   369: 0000000034817230  2290 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_11x11
+   370: 0000000034824500     0 FUNC    GLOBAL DEFAULT    1 recvfrom
+   371: 00000000353314d0  1024 OBJECT  GLOBAL DEFAULT    7 buff
+   372: 0000000034822740   460 FUNC    GLOBAL HIDDEN     1 mspace_mallinfo
+   373: 000000003481ae40  1941 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_16x8
+   374: 0000000034828310    25 FUNC    GLOBAL DEFAULT    1 wctomb
+   375: 00000000348243e0     0 FUNC    GLOBAL DEFAULT    1 socket
+   376: 000000003480b5c0    37 FUNC    GLOBAL DEFAULT    1 jpeg_open_backing_store
+   377: 0000000034a311e8     8 OBJECT  GLOBAL DEFAULT    6 __stdin_used
+   378: 0000000034821400   125 FUNC    GLOBAL HIDDEN     1 mspace_calloc
+   379: 000000003482ce80    21 FUNC    GLOBAL DEFAULT    1 isspace
+   380: 0000000034828850    73 FUNC    GLOBAL DEFAULT    1 __stdio_seek
+   381: 000000003481f030   438 FUNC    GLOBAL DEFAULT    1 fflush
+   382: 0000000034820800     6 FUNC    GLOBAL HIDDEN     1 mspace_track_large_chunks
+   383: 0000000034a312d0   288 OBJECT  GLOBAL DEFAULT    6 ocall_table
+   384: 0000000034828690     3 FUNC    GLOBAL HIDDEN     1 __lockfile
+   385: 000000003480f0a0  1947 FUNC    GLOBAL DEFAULT    1 jinit_color_converter
+   386: 00000000348165e0   167 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_2x2
+   387: 00000000348243c0     0 FUNC    GLOBAL DEFAULT    1 lseek
+   388: 0000000034828da0   101 FUNC    GLOBAL DEFAULT    1 __wait
+   389: 00000000348058a0    80 FUNC    GLOBAL DEFAULT    1 jpeg_destroy
+   390: 000000003482fa10   912 OBJECT  GLOBAL DEFAULT    2 jpeg_aritab
+   391: 0000000034828d30     5 FUNC    GLOBAL DEFAULT    1 __towrite_needs_stdio_exi
+   392: 0000000034822910    58 FUNC    GLOBAL HIDDEN     1 mspace_usable_size
+   393: 0000000034809800   170 FUNC    GLOBAL DEFAULT    1 jcopy_sample_rows
+   394: 00000000348244a0     0 FUNC    GLOBAL DEFAULT    1 send
+   395: 0000000034805920    37 FUNC    GLOBAL DEFAULT    1 jpeg_alloc_huff_table
+   396: 0000000034a31450    24 OBJECT  GLOBAL HIDDEN     7 heap_start
+   397: 0000000034828e30     1 FUNC    WEAK   DEFAULT    1 __testcancel
+   398: 0000000034801bb0   310 FUNC    GLOBAL DEFAULT    1 jinit_c_main_controller
+   399: 0000000034818ed0  2500 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_14x14
+   400: 000000003482efd0  1024 OBJECT  GLOBAL DEFAULT    2 jpeg_std_message_table
+   401: 0000000034824460     0 FUNC    GLOBAL DEFAULT    1 accept
+   402: 000000003481ed10   368 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_2x4
+   403: 0000000034801400   222 FUNC    GLOBAL DEFAULT    1 jpeg_write_marker
+   404: 0000000034822da0   497 FUNC    GLOBAL HIDDEN     1 calloc
+   405: 000000003482c730  1861 FUNC    GLOBAL DEFAULT    1 __intscan
+   406: 0000000034823310   297 FUNC    GLOBAL HIDDEN     1 malloc_usable_size
+   407: 00000000348226e0     8 FUNC    GLOBAL HIDDEN     1 mspace_max_footprint
+   408: 00000000348243a0     0 FUNC    GLOBAL DEFAULT    1 write
+   409: 0000000034828cd0     5 FUNC    GLOBAL DEFAULT    1 __toread_needs_stdio_exit
+   410: 00000000348116b0   240 FUNC    GLOBAL DEFAULT    1 jinit_huff_encoder
+   411: 000000003481fb20  2054 FUNC    GLOBAL HIDDEN     1 mspace_free
+   412: 0000000034824480     0 FUNC    GLOBAL DEFAULT    1 fstat
+   413: 000000003481f2e0   144 FUNC    GLOBAL DEFAULT    1 fprintf
+   414: 000000003482c700    44 FUNC    WEAK   DEFAULT    1 fputs_unlocked
+   415: 0000000034814e70   872 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_float
+   416: 0000000034824400     0 FUNC    GLOBAL DEFAULT    1 bind
+   417: 0000000034824680     0 FUNC    GLOBAL DEFAULT    1 ntohl
+   418: 000000003481ee80   123 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_1x2
+   419: 00000000348093c0   161 FUNC    GLOBAL DEFAULT    1 jpeg_std_error
+   420: 000000003482d0b0   176 FUNC    GLOBAL DEFAULT    1 scalbnl
+   421: 000000003481e2d0  1240 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_5x10
+   422: 0000000035332100     8 OBJECT  GLOBAL DEFAULT    7 _loader_stack_save
+   423: 0000000034822950   220 FUNC    GLOBAL HIDDEN     1 mspace_mallopt
+   424: 00000000348286d0   339 FUNC    GLOBAL DEFAULT    1 __stdio_read
+   425: 0000000034821c70    26 FUNC    GLOBAL HIDDEN     1 mspace_independent_calloc
+   426: 000000003482f3d0   320 OBJECT  GLOBAL DEFAULT    2 jpeg_natural_order
+   427: 00000000353321c0  7340 OBJECT  GLOBAL DEFAULT    7 big
+   428: 0000000034824600     0 FUNC    GLOBAL DEFAULT    1 setsockopt
+   429: 000000003481dc90  1594 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_6x12
+   430: 000000003480b600    10 FUNC    GLOBAL DEFAULT    1 jpeg_mem_term
+   431: 0000000034823f10   253 FUNC    GLOBAL DEFAULT    1 __strchrnul
+   432: 0000000034828f40   258 FUNC    GLOBAL DEFAULT    1 memchr
+   433: 000000003481f940   480 FUNC    GLOBAL HIDDEN     1 mspace_init_pan
+   434: 0000000034a30f08     8 OBJECT  GLOBAL DEFAULT    3 stdin
+   435: 0000000034828e40     1 FUNC    WEAK   DEFAULT    1 __do_cleanup_push
+   436: 0000000034801f40   159 FUNC    GLOBAL DEFAULT    1 jinit_marker_writer
+   437: 0000000034a313f0     8 OBJECT  GLOBAL HIDDEN     7 infilename
+   438: 0000000034815490  1053 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_islow
+   439: 0000000034801850   411 FUNC    GLOBAL DEFAULT    1 jpeg_write_raw_data
+   440: 00000000348098e0   579 FUNC    GLOBAL DEFAULT    1 jinit_memory_mgr
+   441: 00000000348242e0     0 FUNC    GLOBAL DEFAULT    1 mktime
+   442: 0000000034a31410     8 OBJECT  GLOBAL DEFAULT    7 __progname
+   443: 00000000348158b0  1030 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_7x7
+   444: 0000000034823ee0     0 FUNC    GLOBAL DEFAULT    1 _start
+   445: 0000000034822a30   209 FUNC    GLOBAL HIDDEN     1 _malloc_init
+   446: 000000003481efd0    81 FUNC    GLOBAL DEFAULT    1 ferror
+   447: 0000000034821a20    97 FUNC    GLOBAL HIDDEN     1 mspace_realloc_in_place
+   448: 000000003482d270    44 FUNC    GLOBAL DEFAULT    1 copysignl
+   449: 00000000348246a0     0 FUNC    GLOBAL DEFAULT    1 signal
+   450: 0000000034824380     0 FUNC    GLOBAL DEFAULT    1 read
+   451: 0000000034820330  1226 FUNC    GLOBAL HIDDEN     1 create_mspace_with_base
+   452: 000000003480b5a0    21 FUNC    GLOBAL DEFAULT    1 jpeg_mem_available
+   453: 0000000034816430   423 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_3x3
+   454: 000000003481e7b0   759 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_4x8
+   455: 0000000034a31410     8 OBJECT  WEAK   DEFAULT    7 program_invocation_short_
+   456: 0000000034824640     0 FUNC    GLOBAL DEFAULT    1 htonl
+   457: 00000000348244e0     0 FUNC    GLOBAL DEFAULT    1 sendto
+   458: 0000000034822fa0   573 FUNC    GLOBAL HIDDEN     1 realloc
+   459: 0000000034820810    32 FUNC    GLOBAL HIDDEN     1 destroy_mspace
+   460: 0000000034824740     0 FUNC    GLOBAL DEFAULT    1 mbedtls_net_recv_timeout
+   461: 000000003481f7c0   143 FUNC    WEAK   DEFAULT    1 _IO_getc
+   462: 0000000034824440     0 FUNC    GLOBAL DEFAULT    1 listen
+   463: 0000000034829330  3906 FUNC    WEAK   DEFAULT    1 __isoc99_vfscanf
+   464: 0000000034828360   408 FUNC    WEAK   DEFAULT    1 fdopen
+   465: 0000000034823e40   144 FUNC    GLOBAL DEFAULT    1 sscanf
+   466: 0000000034801110   225 FUNC    GLOBAL DEFAULT    1 jpeg_suppress_tables
+   467: 0000000034822710    46 FUNC    GLOBAL HIDDEN     1 mspace_set_footprint_limi
+   468: 000000003481f370   349 FUNC    GLOBAL DEFAULT    1 fread
+   469: 0000000034a31022     0 FUNC    GLOBAL DEFAULT    6 __enclave_exit
+   470: 0000000034801100    11 FUNC    GLOBAL DEFAULT    1 jpeg_abort_compress
+   471: 00000000348247c0     0 FUNC    GLOBAL DEFAULT    1 sgx_measure_wait
+   472: 000000003481f4d0   283 FUNC    GLOBAL DEFAULT    1 __fwritex
+   473: 0000000034829100   203 FUNC    GLOBAL DEFAULT    1 puts_nosgx
+   474: 000000003481efd0    81 FUNC    WEAK   DEFAULT    1 _IO_ferror_unlocked
+   475: 0000000034824300     0 FUNC    GLOBAL DEFAULT    1 gettimeofday
+   476: 000000003481f250   140 FUNC    GLOBAL DEFAULT    1 fopen
+   477: 0000000034a313f0     0 NOTYPE  GLOBAL DEFAULT    7 __bss_start
+   478: 00000000348242a0     0 FUNC    GLOBAL DEFAULT    1 localtime
+   479: 0000000034823c97     0 FUNC    GLOBAL DEFAULT    1 memset
+   480: 000000003482a540   320 FUNC    GLOBAL DEFAULT    1 __stdio_exit
+   481: 0000000034805950   418 FUNC    GLOBAL DEFAULT    1 jpeg_add_quant_table
+   482: 0000000034805800   158 FUNC    GLOBAL DEFAULT    1 jpeg_abort
+   483: 0000000034828600    92 FUNC    GLOBAL HIDDEN     1 __lock
+   484: 0000000034801610   197 FUNC    GLOBAL DEFAULT    1 jpeg_start_compress
+   485: 000000003481ef00   199 FUNC    GLOBAL DEFAULT    1 fclose
+   486: 00000000348058f0    37 FUNC    GLOBAL DEFAULT    1 jpeg_alloc_quant_table
+   487: 0000000034824700     0 FUNC    GLOBAL DEFAULT    1 mbedtls_net_bind
+   488: 0000000034824660     0 FUNC    GLOBAL DEFAULT    1 ntohs
+   489: 00000000348010f0    11 FUNC    GLOBAL DEFAULT    1 jpeg_destroy_compress
+   490: 0000000034801570   146 FUNC    GLOBAL DEFAULT    1 jpeg_write_tables
+   491: 0000000034824280     0 FUNC    GLOBAL DEFAULT    1 time
+   492: 0000000034805ed0   351 FUNC    GLOBAL DEFAULT    1 jpeg_default_colorspace
+   493: 00000000348291d0    11 FUNC    GLOBAL DEFAULT    1 write_nosgx
+   494: 0000000034821510   234 FUNC    GLOBAL HIDDEN     1 mspace_realloc
+   495: 0000000034828d40    87 FUNC    GLOBAL PROTECTED    1 __uflow
+   496: 000000003480b560    26 FUNC    GLOBAL DEFAULT    1 jpeg_get_large
+   497: 000000003481ca70   386 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_4x2
+   498: 0000000034820830  3024 FUNC    GLOBAL HIDDEN     1 mspace_malloc
+   499: 00000000348286b0    10 FUNC    GLOBAL DEFAULT    1 __signbitl
+   500: 0000000035332118     8 OBJECT  GLOBAL DEFAULT    7 rax_backup
+   501: 0000000034828e10    19 FUNC    WEAK   HIDDEN     1 __syscall_cp
+   502: 000000003481f370   349 FUNC    WEAK   DEFAULT    1 fread_unlocked
+   503: 0000000034828e40     1 FUNC    WEAK   DEFAULT    1 __do_cleanup_pop
+   504: 0000000034800f20   454 FUNC    GLOBAL DEFAULT    1 jpeg_CreateCompress
+   505: 00000000348246c0     0 FUNC    GLOBAL DEFAULT    1 shutdown
+   506: 000000003481b5e0  1559 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_14x7
+   507: 0000000034822450   197 FUNC    GLOBAL HIDDEN     1 mspace_trim
+   508: 00000000348245c0     0 FUNC    GLOBAL DEFAULT    1 getservbyname
+   509: 0000000034824520     0 FUNC    GLOBAL DEFAULT    1 gethostname
+   510: 00000000348231e0   300 FUNC    GLOBAL HIDDEN     1 memalign
+   511: 0000000034823db0   144 FUNC    GLOBAL DEFAULT    1 sprintf
+   512: 000000003481eab0   603 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_3x6
+   513: 000000003482a680  7067 FUNC    GLOBAL DEFAULT    1 __floatscan
+   514: 0000000034815cc0   732 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_6x6
+   515: 000000003480b580    30 FUNC    GLOBAL DEFAULT    1 jpeg_free_large
+   516: 00000000348166f0  1324 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_9x9
+   517: 000000003482f820   100 OBJECT  GLOBAL DEFAULT    2 jpeg_natural_order3
+   518: 0000000034a30f00     8 OBJECT  GLOBAL DEFAULT    3 stderr
+   519: 0000000034809110   374 FUNC    GLOBAL DEFAULT    1 jpeg_mem_dest
+   520: 00000000348103b0   199 FUNC    GLOBAL DEFAULT    1 jinit_forward_dct
+   521: 000000003482d000   173 FUNC    GLOBAL DEFAULT    1 scalbn
+   522: 000000003482c480   630 FUNC    GLOBAL DEFAULT    1 fmodl
+   523: 0000000034822520   419 FUNC    GLOBAL HIDDEN     1 mspace_malloc_stats
+   524: 0000000034a313f8     8 OBJECT  GLOBAL HIDDEN     7 outfilename
+   525: 0000000035332130    64 OBJECT  GLOBAL HIDDEN     7 buf
+   526: 00000000348019f0   433 FUNC    GLOBAL DEFAULT    1 jinit_compress_master
+   527: 00000000348032f0  1904 FUNC    GLOBAL DEFAULT    1 jpeg_calc_jpeg_dimensions
+   528: 0000000034828270   141 FUNC    WEAK   DEFAULT    1 __isoc99_vsscanf
+   529: 000000003481f850    19 FUNC    GLOBAL HIDDEN     1 morecore
+   530: 000000003482f510   260 OBJECT  GLOBAL DEFAULT    2 jpeg_natural_order7
+   531: 000000003481c110  1009 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_10x5
+   532: 0000000034828e50    12 FUNC    GLOBAL DEFAULT    1 _pthread_cleanup_push
+   533: 00000000348245a0     0 FUNC    GLOBAL DEFAULT    1 getsockopt
+   534: 0000000034829050   168 FUNC    GLOBAL DEFAULT    1 clock_nosgx
+   535: 0000000034824540     0 FUNC    GLOBAL DEFAULT    1 getaddrinfo
+   536: 000000003481f1f0    94 FUNC    WEAK   DEFAULT    1 fflush_unlocked
+   537: 000000003481bc00  1285 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_12x6
+   538: 0000000034801200   508 FUNC    GLOBAL DEFAULT    1 jpeg_finish_compress
+   539: 0000000034800120   630 FUNC    GLOBAL HIDDEN     1 enclave_main
+   540: 000000003481f870   114 FUNC    GLOBAL HIDDEN     1 create_mspace
+   541: 000000003481f5f0   456 FUNC    WEAK   DEFAULT    1 fwrite_unlocked
+   542: 0000000034821480   142 FUNC    GLOBAL HIDDEN     1 mspace_realloc_pan
+   543: 00000000348247f0     0 FUNC    GLOBAL DEFAULT    1 secureCopy
+   544: 000000003481f5f0   456 FUNC    GLOBAL DEFAULT    1 fwrite
+   545: 0000000034a313f0     0 NOTYPE  GLOBAL DEFAULT    6 _edata
+   546: 000000003481cc00   121 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_2x1
+   547: 0000000035333e70     0 NOTYPE  GLOBAL DEFAULT    7 _end
+   548: 0000000034824620     0 FUNC    GLOBAL DEFAULT    1 htons
+   549: 00000000348286c0     8 FUNC    GLOBAL DEFAULT    1 __stdio_close
+   550: 0000000034829330  3906 FUNC    GLOBAL DEFAULT    1 vfscanf
+   551: 0000000034828330    36 FUNC    GLOBAL DEFAULT    1 __errno_location
+   552: 00000000348246e0     0 FUNC    GLOBAL DEFAULT    1 exit
+   553: 0000000034a31110     8 OBJECT  GLOBAL DEFAULT    6 __stderr_used
+   554: 000000003481d540  1872 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_7x14
+   555: 000000003481a2d0  2928 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_16x16
+   556: 00000000348014e0   113 FUNC    GLOBAL DEFAULT    1 jpeg_write_m_header
+   557: 000000003482a540   320 FUNC    WEAK   DEFAULT    1 __stdio_exit_needed
+   558: 00000000348183a0  2856 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_13x13
+   559: 0000000034828e90   161 FUNC    GLOBAL DEFAULT    1 frexpl
+   560: 0000000034824760     0 FUNC    GLOBAL DEFAULT    1 mbedtls_net_send
+   561: 0000000034807b30  1297 FUNC    GLOBAL DEFAULT    1 jinit_downsampler
+   562: 0000000035332110     8 OBJECT  GLOBAL DEFAULT    7 _virtual_stack_r13
+   563: 000000003481efd0    81 FUNC    WEAK   DEFAULT    1 ferror_unlocked
+   564: 0000000034805c10    42 FUNC    GLOBAL DEFAULT    1 jpeg_set_quality
+   565: 0000000034808f00   141 FUNC    GLOBAL DEFAULT    1 jpeg_stdio_dest
+   566: 0000000034828360   408 FUNC    GLOBAL DEFAULT    1 __fdopen
+   567: 00000000348003d0    34 FUNC    GLOBAL HIDDEN     1 jinit_read_ppm
+   568: 00000000348226d0     8 FUNC    GLOBAL HIDDEN     1 mspace_footprint
+   569: 00000000348242c0     0 FUNC    GLOBAL DEFAULT    1 gmtime
+   570: 0000000034a31488     4 OBJECT  GLOBAL HIDDEN     7 is_inited
+   571: 0000000034824010   130 FUNC    GLOBAL DEFAULT    1 strlen
+   572: 0000000034824340     0 FUNC    GLOBAL DEFAULT    1 open
+   573: 00000000348016e0   365 FUNC    GLOBAL DEFAULT    1 jpeg_write_scanlines
+   574: 0000000034a31418     8 OBJECT  WEAK   DEFAULT    7 program_invocation_name
+   575: 0000000034823e40   144 FUNC    WEAK   DEFAULT    1 __isoc99_sscanf
+   576: 000000003482d160    53 FUNC    GLOBAL DEFAULT    1 __shlim
+   577: 0000000034824260     0 FUNC    GLOBAL DEFAULT    1 clock
+   578: 00000000348098b0    41 FUNC    GLOBAL DEFAULT    1 jcopy_block_row
+   579: 00000000348198a0  2597 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_15x15
+   580: 0000000034828500   154 FUNC    GLOBAL DEFAULT    1 __fmodeflags
+   581: 0000000034823ef0    18 FUNC    GLOBAL DEFAULT    1 strchr
+   582: 000000003482c700    44 FUNC    GLOBAL DEFAULT    1 fputs
+   583: 0000000034a31020     0 NOTYPE  GLOBAL DEFAULT    6 dep.bdr
+   584: 000000003480b540    30 FUNC    GLOBAL DEFAULT    1 jpeg_free_small
+   585: 0000000034816c20  1544 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_10x10
+   586: 0000000034803a60   432 FUNC    GLOBAL DEFAULT    1 jinit_c_master_control
+   587: 0000000034823f10   253 FUNC    WEAK   DEFAULT    1 strchrnul
+   588: 0000000034828bd0   134 FUNC    GLOBAL DEFAULT    1 __string_read
+   589: 000000003481f8f0    66 FUNC    GLOBAL HIDDEN     1 mspace_malloc_init_pan
+   590: 000000003480dec0   429 FUNC    GLOBAL DEFAULT    1 jinit_c_coef_controller
+   591: 0000000034823440   327 FUNC    GLOBAL HIDDEN     1 posix_memalign
+   592: 000000003482a3b0   233 FUNC    GLOBAL DEFAULT    1 wcrtomb
+   593: 00000000353321b8     8 OBJECT  GLOBAL DEFAULT    7 __sysinfo
+   594: 0000000034824360     0 FUNC    GLOBAL DEFAULT    1 close
+   595: 000000003482f890    80 OBJECT  GLOBAL DEFAULT    2 jpeg_natural_order2
+   596: 000000003482d1a0   197 FUNC    GLOBAL DEFAULT    1 __shgetc
+   597: 0000000034824800   417 FUNC    GLOBAL DEFAULT    1 vfprintf
+   598: 00000000348226f0    18 FUNC    GLOBAL HIDDEN     1 mspace_footprint_limit
+   599: 0000000034a31418     8 OBJECT  GLOBAL DEFAULT    7 __progname_full
+   600: 000000003481c510   816 FUNC    GLOBAL DEFAULT    1 jpeg_fdct_8x4
+   601: 0000000034822c40   351 FUNC    GLOBAL HIDDEN     1 free
+   602: 000000003482cfe0    24 FUNC    GLOBAL DEFAULT    1 mbsinit
+   603: 0000000034824580     0 FUNC    GLOBAL DEFAULT    1 getsockname
+   604: 000000003481f250   140 FUNC    WEAK   DEFAULT    1 fopen64
+
+No version information found in this file.

@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "array": "c",
+        "initializer_list": "c",
+        "measurement.h": "c",
+        "stdint.h": "c",
+        "stat.h": "c",
+        "ioctl.h": "c",
+        "iterator": "cpp"
+    }
+}
